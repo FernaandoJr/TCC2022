@@ -1,0 +1,12 @@
+Marrom claro: #d3a66b
+
+Sombra do marrom claro: #c59461
+
+Marrom escuro: #8d6b38
+
+Marrom mais escuro: 84663c
+
+Bege claro: #f6f2ec
+
+Sombra do bege claro: #e9dccb
+

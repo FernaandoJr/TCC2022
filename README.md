@@ -1,1 +1,1 @@
-TCC - Jesua, Fernando, Murilo, Rafael Cardoso e Carlos.
+<h1 align="center"> TCC </h1>

@@ -90,7 +90,7 @@
     transition: all .3s ease-out;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 900px){
     .nav-container{
         position: relative;
     }

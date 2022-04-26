@@ -1,6 +1,8 @@
 :root{
     --logo-dark-brown: #8d6b38;
     --background: #111418;
+    --background-transparent: #111418a8;
+
 }
 
 * {
@@ -17,8 +19,9 @@
   
 
 .nav-container{
+    position: absolute;
     width: 100%;
-    background-color: var(--background);
+    background-color: var(--background-transparent);
 }
 
 .navbar{
@@ -92,7 +95,7 @@
 
 @media screen and (max-width: 900px){
     .nav-container{
-        position: relative;
+        position: absolute;
     }
 
     .nav-menu{
@@ -111,7 +114,7 @@
         margin-left: 20px;
     }
     .nav-menu.active{
-        background-color: var(--background);
+        background-color: var(--background-transparent);
         left: 0;
         opacity: 1;
         transition: all .5s ease;
@@ -135,7 +138,7 @@
     .nav-links-btn{
         padding: 0;
         border-radius: 0;
-        background-color: var(--background);
+        background-color: var(--background-transparent);
         color: white;
         transform: all .4s ease-out;
     }

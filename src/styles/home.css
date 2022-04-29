@@ -19,7 +19,8 @@
     transform: translateX(-50%);
 }
 .container-subtitle{
-    font-family: 'Poppins', ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     max-width: 40%;
     color: white;

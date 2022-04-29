@@ -1,5 +1,5 @@
 .div-imagem-home{
-    background: url(/src/img/exemplo3.jpg) no-repeat;
+    background: url(/src/img/exemplo2.webp) no-repeat;
     background-size: cover;
     max-height: 100%;
     max-width: 100%;
@@ -7,11 +7,25 @@
     overflow: hidden;
 }
 
-.texto-home{
+.container-texto-principal{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    max-width: 40%;
     color: white;
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container-subtitle{
+    font-family: 'Poppins', ;
+    font-size: 14px;
+    max-width: 40%;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 33%;
     left: 50%;
     transform: translateX(-50%);
 }

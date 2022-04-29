@@ -9,7 +9,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .nav-text{
@@ -25,10 +24,11 @@
 }
 
 .navbar{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: .2fr auto 1fr;
     align-items: center;
-    height: 8vh;
+    height: 7vh;
     width: 95%;
     max-width: 1720px;
     margin: 0 auto;
@@ -48,9 +48,9 @@
 }
 
 .logo-fluid{
-    margin-top: 3px;
+    margin-top: 6px;
     list-style: none;
-    height: 7vh;
+    height: 5vh;
     overflow: hidden;
   }
 

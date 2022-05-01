@@ -1,4 +1,4 @@
-.div-imagem-home{
+.home-img-div{
     background: url(/src/img/exemplo2.webp) no-repeat;
     background-size: cover;
     max-height: 100%;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.container-texto-principal{
+.home-img-title-div{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     max-width: 40%;
@@ -18,7 +18,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.container-subtitle{
+.home-img-subtitle-div{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 900px){
-    .div-imagem-home{
+    .home-img-div{
         height: 100vh;
         background-position: center;
     }

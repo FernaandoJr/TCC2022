@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+:root{
+    --logo-dark-brown: #8d6b38;
+    --background: #111418;
+    --background-transparent: #111418c9;
+
+}
+
 .home-img-div{
     background: url(/src/img/exemplo2.webp) no-repeat;
     background-size: cover;
@@ -8,33 +17,71 @@
 }
 
 .home-img-title-div{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
     max-width: 40%;
-    color: white;
-    text-align: center;
     position: relative;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
 }
-.home-img-subtitle-div{
+.home-img-title-h1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    max-width: 40%;
+    font-size: 36px;
     color: white;
     text-align: center;
+}
+
+.home-img-subtitle-div{
+    max-width: 40%;
     position: relative;
-    top: 33%;
+    top: 23%;
     left: 50%;
     transform: translateX(-50%);
+}
+.home-img-subtitle-h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+.home-btn-div{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    width: 200px;
+    top: 28%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.home-btn-a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: black;
+    text-decoration: none;
+    
+}
+.home-btn-div:hover{
+    background-color: #6a502a;
+    transition: all .2s ease-out;
+    
 }
 
 @media screen and (max-width: 900px){
     .home-img-div{
-        height: 100vh;
+        height: 82vh;
         background-position: center;
     }
-
+    .home-img-title-div{
+        display: inline-block;
+        font-size: 13px;
+        top: 15%;
+        height: 20vh;
+        max-width: 100%;
+        width: 70%;
+    }
+    .home-img-subtitle-div{
+        opacity: 0%;
+    }
 }

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
 :root{
     --logo-dark-brown: #8d6b38;
     --background: #111418;
-    --background-transparent: #111418a8;
+    --background-transparent: #111418c9;
 
 }
 
@@ -18,7 +20,8 @@
   
 
 .nav-container{
-    position: absolute;
+    position: fixed;
+    z-index: 10000;
     width: 100%;
     background-color: var(--background-transparent);
 }
@@ -95,7 +98,8 @@
 
 @media screen and (max-width: 900px){
     .nav-container{
-        position: absolute;
+        z-index: 10000;
+        position: fixed;
     }
 
     .nav-menu{
@@ -114,6 +118,8 @@
         margin-left: 20px;
     }
     .nav-menu.active{
+        z-index: 10000;
+        position: fixed;
         background-color: var(--background-transparent);
         left: 0;
         opacity: 1;

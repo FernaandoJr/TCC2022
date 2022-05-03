@@ -69,15 +69,15 @@
 }
 
 .home-img-gradient-effect{
-    max-width: 100%;
     width: 100%;
-    height: 10%;
-    margin-top: 52.75vh;
+    height: 80px;
+    position: absolute;
+    bottom: 15vh;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 850px){
     .home-img-div{
         height: 82vh;
         background-position: center;
@@ -91,6 +91,37 @@
         width: 70%;
     }
     .home-img-subtitle-div{
-        opacity: 0%;
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .home-btn-div{
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:500px){
+    .home-img-title-h1{
+        font-size: 28px;
+    }
+    .home-btn-a{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .home-img-title-h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .home-img-title-h1{
+        font-size: 20px;
     }
 }

@@ -1,0 +1,35 @@
+
+
+We are trying to blur the background image, but when we use "backdrop-filter: blur" at both classes at the same time, just one of them gets blurried
+
+Here are the code:
+```
+.nav-container{
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background-color: var(--background-tp);
+}
+
+.nav-menu{
+        backdrop-filter: blur(5px);
+        display: grid;
+        grid-template-columns: auto;
+        background-color: black;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 7vh;
+        left: -100%;
+        opacity: 0;
+        transition: all .5s ease;
+    }
+```
+
+When we remove "backdrop-filter: blur" from nav-container, the filter gets apllied only at the mobile menu. We are trying to make both navbar and mobile menu blurs the background at the same time.
+
+Images: [We cannot put here because we don't have 10 reputation :( ]
+
+https://imgur.com/IKXwwWX <br>
+https://imgur.com/wIXhfwO

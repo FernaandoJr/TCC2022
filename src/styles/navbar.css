@@ -20,6 +20,7 @@
   
 
 .nav-container{
+    backdrop-filter: blur(5px);
     position: fixed;
     z-index: 10000;
     width: 100%;
@@ -103,7 +104,6 @@
     }
 
     .nav-menu{
-        -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
         display: grid;
         grid-template-columns: auto;

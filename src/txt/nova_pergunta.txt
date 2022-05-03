@@ -1,0 +1,32 @@
+When I put a backdrop-filter atribute in 2 separate containers just the first one get applied
+
+Like this: <br>
+[Just mobile-menu blurried][1] <br>
+[Just navbar blurried][2]
+
+And i want to apply on both containers at the same time, i tried everything and i cant find a solution for it
+
+i guess its something in my code that dont allow to make it
+
+```
+.nav-container{
+    backdrop-filter: blur(7px);
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background-color: var(--background-tp);
+}
+.nav-menu{
+        grid-template-columns: auto;
+        width: 100%;
+        top: 7vh;
+        left: -100%;
+        opacity: 0;
+        transition: all .5s ease;
+    }
+
+```
+
+
+  [1]: https://i.stack.imgur.com/HpHnz.png
+  [2]: https://i.stack.imgur.com/Cas62.png

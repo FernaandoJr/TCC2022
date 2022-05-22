@@ -3,25 +3,33 @@
 :root{
     --logo-dark-brown: #8d6b38;
     --background: #111418;
-    --background-tp: #111418b9;
-
+    --background-tp: #111418de;
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
 .nav-text{
     text-decoration: none;
     transition: 0.3s;
   }
-  
+
+.nav-menu{
+    
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+    text-align: right;
+    width: 60%;
+    justify-self: end;
+  }
+
 .nav-container{
     position: fixed;
-    z-index: 10000;
+    z-index: 1;
     width: 100%;
     background-color: var(--background-tp);
 }
@@ -47,7 +55,6 @@
 .navbar-logo:hover{
     opacity: 0.7;
     transition: all .2s ease-out;
-    
 }
 
 .logo-img{
@@ -57,15 +64,6 @@
     overflow: hidden;
   }
 
-  .nav-menu{
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    list-style: none;
-    text-align: right;
-    width: 60%;
-    justify-self: end;
-  }
 
 .nav-links{
     color: white;
@@ -99,24 +97,19 @@
 
 @media screen and (max-width: 900px){
     .nav-container{
-        z-index: 10000;
         position: fixed;
     }
 
     .nav-menu{
-        backdrop-filter: blur(7px);
         grid-template-columns: auto;
         width: 100%;
         top: 7vh;
-        left: -100%;
+        left: -110%;
         opacity: 0;
         transition: all .5s ease;
     }
-    .navbar-logo{
-        margin-left: 20px;
-    }
     .nav-menu.active{
-        z-index: 10000;
+        z-index: 1;
         position: fixed;
         background-color: var(--background-tp);
         left: 0;
@@ -149,7 +142,7 @@
 
     #mobile-menu{
         position: absolute;
-        top: .7vh;
+        top: 0.7px;
         right: 5%;
         transform: translate(5%, 1vh);
     }

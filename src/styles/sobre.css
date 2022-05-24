@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+:root{
+    --logo-dark-brown: #8d6b38;
+    --background: #111418;
+    --background-transparent: #111418c9;
+
+}
+
+.home-img-div{
+    background: url(/src/img/exemplo_ps.png) no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.home-img-gradient-effect{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 35vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
+}
+
+.logo-sobre-img{
+    width: 500px;
+    height: 133px;
+}
+
+
+.logo-sobre-div{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sobre-card-title1-p{
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sobre-card-img1-div{
+    margin-left: 20px;
+    width: 50%;
+}
+/* .linha-teste{
+    margin: 1;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+} */
+.sobre-card-img {
+    border-radius: 12px;
+    height: 50vh;
+    background: rgb(46, 44, 44);
+    transition: all 300ms;
+   }
+   
+   .sobre-card-img:hover {
+    transform: scale(1.02);
+   }
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px){
+    .home-img-div{
+        height: 90vh;
+        background-position: center;
+    }
+}

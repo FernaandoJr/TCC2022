@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/sobre.css">
     <title>Hívena Del Pintor</title>
 </head>
 <body>
@@ -26,6 +26,20 @@
         </nav>
     </div>
     <script src="./js/navbar.js"></script>
+
+    <div class="home-img-div">
+        <div class="home-img-gradient-effect"></div>
+        <div class="logo-sobre-div">
+            <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
+        </div>
+    </div>
+        
+    <div class="sobre-card-img1-div">
+        <!-- <span class="linha-teste"></span> -->
+    <p class="sobre-card-title1-p">Sobre Nós</p>
+        <div class="sobre-card-img"></div>
+    </div>
+    
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>

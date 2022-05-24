@@ -33,13 +33,31 @@
             <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
         </div>
     </div>
-        
-    <div class="sobre-card-img1-div">
-        <!-- <span class="linha-teste"></span> -->
-    <p class="sobre-card-title1-p">Sobre Nós</p>
-        <div class="sobre-card-img"></div>
+
+    <br><br><br>
+    <div class="txt-sobre-nos">
+        <p class="sobre-card-title1-p">Sobre Nós</p>
     </div>
-    
+<div class="sobre-grid">
+    <div class="sobre-card-img1-div">
+        <img src="/src/img/exemplo3_ps.png" alt="" class="img-card-1"> 
+    </div>
+        <div class="sobre-card-txt1-div">
+            <p class="sobre-card-img1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis fermentum tincidunt. 
+                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis, quis tristique orci. 
+                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed, facilisis lacus. Curabitur vel lectus diam. 
+                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien, fermentum non ante sed, commodo vestibulum augue.</p>
+        </div>
+            <div class="sobre-card-txt2-div">
+                <p class="sobre-card-img2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis fermentum tincidunt. 
+                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis, quis tristique orci. 
+                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed, facilisis lacus. Curabitur vel lectus diam. 
+                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien, fermentum non ante sed, commodo vestibulum augue.</p> 
+            </div>
+                <div class="sobre-card-img2-div">
+                    <img src="/src/img/exemplo4_ps.png" alt="" class="img-card-2">
+                </div>
+</div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>

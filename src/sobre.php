@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="./styles/sobre.css">
     <title>Hívena Del Pintor</title>
 </head>
+
 <body>
+    <!--  ↓ NAVBAR E IMAGEM DA HOME ↓ -->
     <div class="nav-container">
         <nav class="navbar">
             <a class="navbar-logo" href="/src/index.php"><img src="./img/logo_branco.png" class="logo-img"></a>
@@ -26,38 +29,49 @@
         </nav>
     </div>
     <script src="./js/navbar.js"></script>
-
     <div class="home-img-div">
         <div class="home-img-gradient-effect"></div>
         <div class="logo-sobre-div">
             <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
         </div>
     </div>
-
-    <br><br><br>
-    <div class="txt-sobre-nos">
+    <!-- ↑ NAVBAR E IMAGEM DA HOME ↑ -->
+    <!-- ↓ CARDS E TEXTOS SOBRE NÓS ↓ -->
+    <div class="blank-div"></div>
+    <div class="sobre-card-title-div">
         <p class="sobre-card-title1-p">Sobre Nós</p>
+        <div class="blank-div blank-div2"></div>
     </div>
-<div class="sobre-grid">
-    <div class="sobre-card-img1-div">
-        <img src="/src/img/exemplo3_ps.png" alt="" class="img-card-1"> 
-    </div>
-        <div class="sobre-card-txt1-div">
-            <p class="sobre-card-img1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis fermentum tincidunt. 
-                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis, quis tristique orci. 
-                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed, facilisis lacus. Curabitur vel lectus diam. 
-                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien, fermentum non ante sed, commodo vestibulum augue.</p>
+    <div class="sobre-grid">
+        <div class="sobre-card-img1-div">
+            <img src="/src/img/exemplo2_ps.png" alt="" class="sobre-card-img1"> <!-- ← 1° IMAGEM ← -->
         </div>
-            <div class="sobre-card-txt2-div">
-                <p class="sobre-card-img2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis fermentum tincidunt. 
-                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis, quis tristique orci. 
-                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed, facilisis lacus. Curabitur vel lectus diam. 
-                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien, fermentum non ante sed, commodo vestibulum augue.</p> 
-            </div>
-                <div class="sobre-card-img2-div">
-                    <img src="/src/img/exemplo4_ps.png" alt="" class="img-card-2">
-                </div>
-</div>
+        <div class="sobre-card-txt1-div">
+            <p class="sobre-card-txt1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
+                fermentum tincidunt.
+                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis,
+                quis tristique orci.
+                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed,
+                facilisis lacus. Curabitur vel lectus diam.
+                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien,
+                fermentum non ante sed, commodo vestibulum augue.</p>
+        </div>
+        <div class="sobre-card-txt2-div">
+            <p class="sobre-card-txt2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
+                fermentum tincidunt.
+                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis,
+                quis tristique orci.
+                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed,
+                facilisis lacus. Curabitur vel lectus diam.
+                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien,
+                fermentum non ante sed, commodo vestibulum augue.</p>
+        </div>
+        <div class="sobre-card-img2-div">
+            <img src="/src/img/exemplo4_ps.png" alt="" class="sobre-card-img2"> <!-- ← 2° IMAGEM ← -->
+        </div>
+    </div>
+    <!-- ↑ CARDS E TEXTOS SOBRE NÓS ↑ -->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
+
 </html>

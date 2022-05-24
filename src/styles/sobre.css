@@ -30,7 +30,6 @@
     height: 133px;
 }
 
-
 .logo-sobre-div{
     width: fit-content;
     height: fit-content;
@@ -40,88 +39,62 @@
     transform: translateX(-50%);
 }
 
-.txt-sobre-nos{
-    width: 49%;
-}
+.sobre-card-title-div{ width: 49%; }
 
 .sobre-card-title1-p{
     text-align: right;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
-.sobre-card-txt1-div{
-    grid-area: 1 / 2 / 2 / 3;  
-}
+.sobre-card-txt1-div{ grid-area: 1 / 2 / 2 / 3; }
 
-.sobre-card-txt2-div{
-    grid-area: 2 / 1 / 3 / 2; 
-}
+.sobre-card-txt2-div{ grid-area: 2 / 1 / 3 / 2; }
 
 .sobre-card-img1-div {
     grid-area: 1 / 1 / 2 / 2;
     max-width: 100%;
-    margin-left: 2.1%;
+    display: flex;
+    margin-left: 4%;
     border-radius: 12px;
     overflow: hidden;
     height: fit-content;
     transition: all 300ms;
    }
 
-.sobre-card-img1-div:hover {
-    transform: scale(1.02);
-   }
+.sobre-card-img1-div:hover, .sobre-card-img2-div:hover { transform: scale(1.02); }
+
 .sobre-card-img2-div {
-    margin-right: 4%;
-    overflow: hidden;
     grid-area: 2 / 2 / 3 / 3; 
-    border-radius: 12px;
     max-width: 100%;
+    display: flex;
+    margin-right: 4%;
+    border-radius: 12px;
+    overflow: hidden;
     height: fit-content;
     transition: all 300ms;
    }
-.sobre-card-img2-div:hover {
-    transform: scale(1.01);
-   }
 
-.img-card-1{
+.sobre-card-img1, .sobre-card-img2{
     width: 100%;
     height: auto;
 }
 
+.sobre-card-txt1-div, .sobre-card-txt2-div{ margin: auto; }
 
-.img-card-2{
-    width: 100%;
-    height: auto;
-}
-
-
-.sobre-card-txt1-div{
-    margin: auto;
-}
-
-.sobre-card-img1-p{
-    width: 90%;
+.sobre-card-txt1-p{
     text-align: justify;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
 
-.sobre-card-img2-p{
+.sobre-card-txt2-p{
     text-align: justify;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
 
-.sobre-card-txt2-div{
-    margin: auto;
-}
-
-.sobre-card-txt1-div{
-    margin-right: 4%;
-}
-.sobre-card-txt2-div{
-    margin-left: 2.1%;
-}
+.sobre-card-txt1-div{ margin-right: 4%; }
+.sobre-card-txt2-div{ margin-left: 4%; }
 
 .sobre-grid {
     display: grid;
@@ -129,8 +102,21 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 50px;
-    }
+}
     
+.blank-div{
+    width: 100%;
+    max-width: 100%;
+    height: 10vh;
+}
+
+.blank-div2{
+    width: 100%;
+    max-width: 100%;
+    height: 1vh;
+}
+
+
 
 @media screen and (max-width: 850px){
     .home-img-div{

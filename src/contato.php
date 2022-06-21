@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/contato.css">
     <title>Hívena Del Pintor</title>
 </head>
 
@@ -27,8 +28,18 @@
             </ul>
         </nav>
     </div>
+    <div class="contato-img-div">
+        <div class="contato-img-gradient-effect"></div>
+        <div class="contato-logo-div">
+            <img src="./img/logo_branco.png" class="contato-sobre-img" alt="Logo">
+        </div>
+    </div>
     <script src="./js/navbar.js"></script>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="blank-div"></div>
+    <div class="contato-form-div">
+        <div class="contato-card-div"><img src="/src/img/exemplo4_ps.png" alt="" class="contato-card-img"></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
 </body>
 
 </html>

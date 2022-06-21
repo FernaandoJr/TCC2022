@@ -1,0 +1,100 @@
+.contato-img-div{
+    background: url(/src/img/exemplo_ps.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 100%;
+    max-width: 100%;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.contato-img-gradient-effect{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 35vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
+}
+
+.contato-sobre-img{
+    width: 500px;
+    height: 133px;
+}
+
+.contato-logo-div{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contato-form-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 95%;
+    height: fit-content;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contato-card-div {
+    overflow: hidden;
+    width: 85%;
+    height: 800px;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 20px #bebebe;
+    transition: all 300ms;
+   }
+   
+.contato-card-div:hover {transform: scale(1.01);}
+
+.contato-card-img{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .blank-div{
+    width: 100%;
+    max-width: 100%;
+    height: 10vh;
+}

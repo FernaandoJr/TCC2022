@@ -10,6 +10,7 @@
 .home-img-div{
     background: url(/src/img/exemplo_ps.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     max-height: 100%;
     max-width: 100%;
     height: 65vh;

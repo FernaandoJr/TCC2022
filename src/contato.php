@@ -31,15 +31,29 @@
     <div class="contato-img-div">
         <div class="contato-img-gradient-effect"></div>
         <div class="contato-logo-div">
-            <img src="./img/logo_branco.png" class="contato-sobre-img" alt="Logo">
+            <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
         </div>
     </div>
     <script src="./js/navbar.js"></script>
     <div class="blank-div"></div>
-    <div class="contato-form-div">
-        <div class="contato-card-div"><img src="/src/img/exemplo4_ps.png" alt="" class="contato-card-img"></div>
+    <div class="contato-form-grid">
+        <!-- ↓ COLUNA 1 ↓ -->
+        <div class="contato-card-img-div"><img src="./img/vertical2.jpg" alt="Imagem" class="contato-card-img"></div>
+        <div class="contato-form-text">
+            <div class="form-grid">
+                <div class="nome-completo"> </div>
+                <div class="telefone"> </div>
+                <div class="email"> </div>
+                <div class="mensagem"> </div>
+                <div class="recaptcha"> </div>
+                <div class="button"> </div>
+            </div>
+        </div>
+
     </div>
     <br><br><br><br><br><br><br><br><br><br>
+
+
 </body>
 
 </html>

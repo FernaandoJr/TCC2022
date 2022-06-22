@@ -17,8 +17,8 @@
     background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
 }
 
-.contato-sobre-img{
-    width: 500px;
+.logo-sobre-img{
+    width: 100%;
     height: 133px;
 }
 
@@ -31,7 +31,7 @@
     transform: translateX(-50%);
 }
 
-.contato-form-div{
+.contato-form-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -45,23 +45,77 @@
     transform: translateX(-50%);
 }
 
-.contato-card-div {
+.contato-card-img-div {
+    grid-area: 1 / 1 / 2 / 2; 
+    max-width: 100%;
+    display: flex;
+    width: 95%;
+    height: fit-content;
     overflow: hidden;
-    width: 85%;
-    height: 800px;
     border-radius: 20px;
     background: #e0e0e0;
     box-shadow: 5px 5px 20px #bebebe;
     transition: all 300ms;
    }
    
-.contato-card-div:hover {transform: scale(1.01);}
+.contato-card-img-div:hover {transform: scale(1.01);}
 
 .contato-card-img{
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
+.contato-form-text { 
+    grid-area: 1 / 2 / 2 / 3; 
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
 
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .nome-completo { 
+        grid-area: 1 / 1 / 2 / 3; 
+        background-color: black;
+        width: 100%;
+        height: 100px;
+    }
+    .telefone { 
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: burlywood;
+        width: 100%;
+        height: 100px;
+     }
+    .email { 
+        grid-area: 2 / 2 / 3 / 3; 
+        background-color: darkmagenta;
+        width: 100%;
+        height: 100px;
+    }
+    .mensagem { 
+        grid-area: 3 / 1 / 4 / 3; 
+        background-color: #bebebe;
+        width: 100%;
+        height: 100px;
+    }
+    .recaptcha { 
+        grid-area: 4 / 1 / 5 / 2; 
+        background-color: blue;
+        width: 100%;
+        height: 100px;
+    }
+    .button { 
+        grid-area: 5 / 1 / 6 / 2; 
+        background-color: darkgreen;
+        width: 100%;
+        height: 100px;
+    }
 
 
 

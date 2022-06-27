@@ -41,16 +41,35 @@
         <div class="contato-card-img-div"><img src="./img/vertical2.jpg" alt="Imagem" class="contato-card-img"></div>
         <div class="contato-form-text">
             <div class="form-grid">
-                <div class="nome-completo"> </div>
-                <div class="telefone"> </div>
-                <div class="email"> </div>
-                <div class="mensagem"> </div>
-                <div class="recaptcha"> </div>
-                <div class="button"> </div>
+                <div class="nome-completo">
+                    <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">First Name</label>
+                    </div>
+                </div>
+                <div class="telefone">
+                    <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input">
+                        <label class="user-label">Tel</label>
+                    </div>
+                </div>
+                <div class="email">
+
+                </div>
+                <div class="mensagem">
+
+                </div>
+                <div class="recaptcha">
+
+                </div>
+                <div class="button">
+
+                </div>
             </div>
         </div>
 
     </div>
+    <script src="./js/input.js"></script>
     <br><br><br><br><br><br><br><br><br><br>
 
 

@@ -26,6 +26,13 @@
     background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
 }
 
+img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
 .logo-sobre-img{
     width: 500px;
     height: 133px;

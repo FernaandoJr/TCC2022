@@ -11,3 +11,11 @@ https://onebitcode.com/12-bibliotecas-do-react-que-voce-deveria-conhecer/
 // Input Google 
 https://dev.to/murtuzaalisurti/how-to-create-google-s-material-design-text-input-field-animation-38n
 https://uiverse.io/detail/alexruix/slippery-snail-18
+
+// Resize Div Textarea
+https://www.youtube.com/watch?v=We-Og5peS3Y
+https://www.youtube.com/watch?v=LUMFITn510U
+https://www.youtube.com/watch?v=GTMEuHxh8aQ
+
+//not draggin image
+https://stackoverflow.com/questions/4211909/disable-dragging-an-image-from-an-html-page

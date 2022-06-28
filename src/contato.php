@@ -43,21 +43,27 @@
             <div class="form-grid">
                 <div class="nome-completo">
                     <div class="input-group">
-                        <input required="" type="text" name="text" autocomplete="off" class="input">
-                        <label class="user-label">First Name</label>
+                        <input required="" type="text" name="text" autocomplete="off" class="input-name">
+                        <label class="user-label">Nome Completo</label>
                     </div>
                 </div>
                 <div class="telefone">
                     <div class="input-group">
-                        <input required="" type="text" name="text" autocomplete="off" class="input">
-                        <label class="user-label">Tel</label>
+                        <input required="" type="text" name="text" autocomplete="off" class="input-tel">
+                        <label class="user-label">Telefone</label>
                     </div>
                 </div>
                 <div class="email">
-
+                <div class="input-group">
+                        <input required="" type="text" name="text" autocomplete="off" class="input-email">
+                        <label class="user-label">E-mail</label>
+                    </div>
                 </div>
                 <div class="mensagem">
-
+                <div class="input-group">
+                        <textarea required="" type="text" name="text" autocomplete="off" class="input-msg"></textarea>
+                        <label class="user-label">Mensagem</label>
+                    </div>
                 </div>
                 <div class="recaptcha">
 

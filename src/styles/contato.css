@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+:root{
+    --logo-dark-brown: #8d6b38;
+    --background: #111418;
+    --background-transparent: #111418c9;
+
+}
+
 .contato-img-div{
     background: url(/src/img/exemplo_ps.png) no-repeat;
     background-size: cover;
@@ -72,58 +81,88 @@
 }
 
 .form-grid {
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 10px;
     grid-row-gap: 0px;
     }
     
     .nome-completo { 
         grid-area: 1 / 1 / 2 / 3; 
         width: 100%;
+        max-width: 100%;
         height: 100px;
+        background-color: honeydew;
     }
     .telefone { 
         grid-area: 2 / 1 / 3 / 2;
-
         width: 100%;
         height: 100px;
+        background-color: red;
      }
     .email { 
-        grid-area: 2 / 2 / 3 / 3; 
-        background-color: darkmagenta;
+        grid-area: 2 / 2 / 3 / 3;
         width: 100%;
         height: 100px;
+        background-color: var(--logo-dark-brown);
     }
     .mensagem { 
         grid-area: 3 / 1 / 4 / 3; 
-        background-color: #bebebe;
         width: 100%;
         height: 100px;
+        background-color: violet;
     }
     .recaptcha { 
         grid-area: 4 / 1 / 5 / 2; 
-        background-color: blue;
         width: 100%;
         height: 100px;
+        background-color: darkblue;
     }
     .button { 
         grid-area: 5 / 1 / 6 / 2; 
-        background-color: darkgreen;
         width: 100%;
         height: 100px;
+        background-color: darkgreen;
     }
 
 
 /* From uiverse.io by @alexruix */
-.input-group {
-    position: relative;
-   }
+.input-group { position: relative; }
    
-   .input {
+   .input-name {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
     border: solid 1.5px #9e9e9e;
-    border-radius: 1rem;
+    border-radius: 10px;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+
+   .input-tel {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 10px;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+
+   .input-email {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 10px;
     background: none;
     padding: 1rem;
     font-size: 1rem;
@@ -131,25 +170,67 @@
     transition: border 150ms cubic-bezier(0.4,0,0.2,1);
    }
    
+   .input-msg {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 1px;
+    resize: vertical;
+    max-width: 100%;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 10px;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+
+   
    .user-label {
     position: absolute;
     left: 15px;
-    color: #4e4e4e;
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
     pointer-events: none;
     transform: translateY(1rem);
     transition: 150ms cubic-bezier(0.4,0,0.2,1);
    }
    
-   .input:focus, input:valid {
-    outline: none;
-    border: 1.5px solid #1a73e8;
-   }
+   .input-name:focus, input:valid { outline: none; border: 1.5px solid var(--logo-dark-brown); }
+   .input-tel:focus, input:valid { outline: none; border: 1.5px solid var(--logo-dark-brown); }
+   .input-email:focus, input:valid { outline: none; border: 1.5px solid var(--logo-dark-brown); }
+   .input-msg:focus, input:valid { outline: none; border: 1.5px solid var(--logo-dark-brown); }
    
-   .input:focus ~ label, input:valid ~ label {
+   .input-name:focus ~ label, input:valid ~ label {
     transform: translateY(-50%) scale(0.8);
     background-color: #ffffff;
     padding: 0 .2em;
-    color: #2196f3;
+    left: 5px;
+    color: var(--logo-dark-brown);
+   }
+
+   .input-tel:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #ffffff;
+    padding: 0 .2em;
+    left: 5px;
+    color: var(--logo-dark-brown);
+   }
+
+   .input-email:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #ffffff;
+    padding: 0 .2em;
+    left: 5px;
+    color: var(--logo-dark-brown);
+   }
+
+   .input-msg:focus ~ label, textarea:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #ffffff;
+    padding: 0 .2em;
+    left: 5px;
+    color: var(--logo-dark-brown);
    }
 
 

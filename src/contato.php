@@ -38,7 +38,7 @@
     <div class="blank-div"></div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
-        <div class="contato-card-img-div"><img src="./img/vertical2.jpg" alt="Imagem" class="contato-card-img"></div>
+        <div class="contato-card-img-div"><img src="./img/vertical5.jpg" alt="Imagem" class="contato-card-img"></div>
         <div class="contato-form-text">
             <div class="form-grid">
                 <div class="nome-completo">
@@ -54,22 +54,19 @@
                     </div>
                 </div>
                 <div class="email">
-                <div class="input-group">
+                    <div class="input-group">
                         <input required="" type="text" name="text" autocomplete="off" class="input-email">
                         <label class="user-label">E-mail</label>
                     </div>
                 </div>
                 <div class="mensagem">
-                <div class="input-group">
+                    <div class="input-group">
                         <textarea required="" type="text" name="text" autocomplete="off" class="input-msg"></textarea>
                         <label class="user-label">Mensagem</label>
                     </div>
                 </div>
-                <div class="recaptcha">
-
-                </div>
                 <div class="button">
-                <button> Enviar </button>
+                    <button> Enviar </button>
                 </div>
             </div>
         </div>

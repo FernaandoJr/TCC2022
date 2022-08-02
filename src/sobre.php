@@ -44,7 +44,7 @@
     </div>
     <div class="sobre-grid">
         <div class="sobre-card-img1-div">
-            <img src="/src/img/exemplo2_ps.png" alt="" class="sobre-card-img1"> <!-- ← 1° IMAGEM ← -->
+            <img src="/src/img/exemplo2_fade.png" alt="" class="sobre-card-img1"> <!-- ← 1° IMAGEM ← -->
         </div>
         <div class="sobre-card-txt1-div">
             <p class="sobre-card-txt1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
@@ -67,7 +67,7 @@
                 fermentum non ante sed, commodo vestibulum augue.</p>
         </div>
         <div class="sobre-card-img2-div">
-            <img src="/src/img/exemplo4_ps.png" alt="" class="sobre-card-img2"> <!-- ← 2° IMAGEM ← -->
+            <img src="/src/img/exemplo4_fade.png" alt="" class="sobre-card-img2"> <!-- ← 2° IMAGEM ← -->
         </div>
     </div>
     <!-- ↑ CARDS E TEXTOS SOBRE NÓS ↑ -->

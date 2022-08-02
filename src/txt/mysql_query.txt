@@ -1,0 +1,11 @@
+create database hivena_db;
+CREATE TABLE `cadastro` (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome varchar(50) not null,
+  tel bigint not null,
+  email varchar(40) NOT NULL,
+  msg varchar(200) not null,
+  PRIMARY KEY (id));
+
+select * from cadastro;
+drop table cadastro;

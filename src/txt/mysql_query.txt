@@ -1,4 +1,5 @@
 create database hivena_db;
+
 CREATE TABLE `cadastro` (
   id INT NOT NULL AUTO_INCREMENT,
   nome varchar(50) not null,

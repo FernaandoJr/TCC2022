@@ -13,17 +13,8 @@
     background-attachment: fixed;
     max-height: 100%;
     max-width: 100%;
-    height: 65vh;
+    height: 90vh;
     overflow: hidden;
-}
-
-.contato-img-gradient-effect{
-    width: 100%;
-    height: 90px;
-    position: absolute;
-    bottom: 35vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
 }
 
 .logo-sobre-img{
@@ -83,6 +74,15 @@ img{
     height: 100vh;
 }
 
+.sobre-card-title-div{ width: 100%; }
+
+.sobre-card-title1-p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .contato-form-text { 
     position: relative;
     grid-area: 1 / 2 / 2 / 3; 
@@ -124,7 +124,7 @@ img{
         width: 100%;
         height: auto;
     }
-    .button { 
+    .home-btn-a { 
         grid-area: 4 / 1 / 5 / 2; 
         width: 100%;
         height: fit-content;
@@ -276,5 +276,5 @@ button {
    .blank-div{
     width: 100%;
     max-width: 100%;
-    height: 10vh;
+    height: 3vh;
 }

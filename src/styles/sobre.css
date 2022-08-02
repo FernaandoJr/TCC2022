@@ -13,17 +13,8 @@
     background-attachment: fixed;
     max-height: 100%;
     max-width: 100%;
-    height: 65vh;
+    height: 90vh;
     overflow: hidden;
-}
-
-.home-img-gradient-effect{
-    width: 100%;
-    height: 90px;
-    position: absolute;
-    bottom: 35vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 36%, rgba(253,187,45,0) 100%);    
 }
 
 img{

@@ -36,6 +36,10 @@
     </div>
     <script src="./js/navbar.js"></script>
     <div class="blank-div"></div>
+    <div class="sobre-card-title-div">
+        <p class="sobre-card-title1-p">Entre em contato conosco</p>
+        <div class="blank-div"></div>
+    </div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
         <div class="contato-card-img-div"><img src="./img/vertical5.jpg" alt="Imagem" class="contato-card-img"></div>
@@ -75,6 +79,7 @@
     </div>
     </form>
     <script src="./js/input.js"></script>
+
     <br><br><br><br><br><br><br><br><br><br>
 
 

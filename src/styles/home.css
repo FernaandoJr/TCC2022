@@ -133,7 +133,7 @@ img{
 
 /* From uiverse.io by @alexruix */
 .home-card-sobre {
-    width: 800px;
+    width: 700px;
     height: 600px;
     border-radius: 1em;
     overflow: hidden;
@@ -310,4 +310,10 @@ img{
     width: 100%;
     max-width: 100%;
     height: 5vh;
+}
+
+.blank-div2{
+    width: 100%;
+    max-width: 100%;
+    height: 1vh;
 }

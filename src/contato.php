@@ -47,26 +47,30 @@
             <div class="form-grid">
                 <div class="nome-completo">
                     <form action="./php/add.php" method="post">
-                    <div class="input-group">
-                        <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50" class="input-name">
-                        <label class="user-label">Nome Completo</label>
-                    </div>
+                        <div class="input-group">
+                            <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50"
+                                class="input-name">
+                            <label class="user-label">Nome Completo</label>
+                        </div>
                 </div>
                 <div class="telefone">
                     <div class="input-group">
-                        <input required="" type="text" name="tel" id="tel" autocomplete="off" maxlength="12" class="input-tel">
+                        <input required="" type="text" name="tel" id="tel" autocomplete="off" maxlength="12"
+                            class="input-tel">
                         <label class="user-label">Telefone</label>
                     </div>
                 </div>
                 <div class="email">
                     <div class="input-group">
-                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="40" class="input-email">
+                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="40"
+                            class="input-email">
                         <label class="user-label">E-mail</label>
                     </div>
                 </div>
                 <div class="mensagem">
                     <div class="input-group">
-                        <textarea required="" type="text" name="msg" id="msg" autocomplete="off" maxlength="200" class="input-msg"></textarea>
+                        <textarea required="" type="text" name="msg" id="msg" autocomplete="off" maxlength="200"
+                            class="input-msg"></textarea>
                         <label class="user-label">Mensagem</label>
                     </div>
                 </div>

@@ -30,6 +30,7 @@
     </div>
     <script src="./js/navbar.js"></script>
     <div class="home-img-div">
+    <div class="home-img-fade">
         <div class="home-general">
             <div class="home-img-title-div">
                 <h1 class="home-img-title-h1">Especializados em reformas e design de interiores residenciais</h1>
@@ -43,6 +44,7 @@
             </div>
 
         </div>
+    </div>
     </div>
     <div class="blank-div"></div>
     <div class="home-card-sobre-title-div">

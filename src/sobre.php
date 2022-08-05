@@ -29,11 +29,12 @@
         </nav>
     </div>
     <script src="./js/navbar.js"></script>
-    <div class="home-img-div">
-        <div class="home-img-gradient-effect"></div>
+    <div class="sobre-img-div">
+        <div class="sobre-img-fade">
         <div class="logo-sobre-div">
             <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
         </div>
+    </div>
     </div>
     <!-- ↑ NAVBAR E IMAGEM DA HOME ↑ -->
     <!-- ↓ CARDS E TEXTOS SOBRE NÓS ↓ -->
@@ -44,7 +45,7 @@
     </div>
     <div class="sobre-grid">
         <div class="sobre-card-img1-div">
-            <img src="/src/img/exemplo2_fade.png" alt="" class="sobre-card-img1"> <!-- ← 1° IMAGEM ← -->
+            <img src="/src/img/exemplo2.png" alt="" class="sobre-card-img1"> <!-- ← 1° IMAGEM ← -->
         </div>
         <div class="sobre-card-txt1-div">
             <p class="sobre-card-txt1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
@@ -67,7 +68,7 @@
                 fermentum non ante sed, commodo vestibulum augue.</p>
         </div>
         <div class="sobre-card-img2-div">
-            <img src="/src/img/exemplo4_fade.png" alt="" class="sobre-card-img2"> <!-- ← 2° IMAGEM ← -->
+            <img src="/src/img/exemplo5.jpg" alt="" class="sobre-card-img2"> <!-- ← 2° IMAGEM ← -->
         </div>
     </div>
     <!-- ↑ CARDS E TEXTOS SOBRE NÓS ↑ -->

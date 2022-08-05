@@ -7,8 +7,17 @@
 
 }
 
+.home-img-fade{
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 90vh;
+}
+
 .home-img-div{
-    background: url(/src/img/exemplo14_fade.jpg) no-repeat;
+    background: url(/src/img/exemplo14.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     max-height: 100%;
@@ -133,8 +142,8 @@ img{
 
 /* From uiverse.io by @alexruix */
 .home-card-sobre {
-    width: 700px;
-    height: 600px;
+    width: 40vw;
+    height: 60vh;
     border-radius: 1em;
     overflow: hidden;
     border-collapse: collapse;
@@ -155,7 +164,7 @@ img{
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(238, 116, 116, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 2;
     transition: 0.5s;
    }
@@ -202,12 +211,13 @@ img{
    /*Image*/
    .home-card-sobre-img {
     width: 100%;
-    height: 100%;
+    height: 100%;   
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-    background: #ee9ca7;
-    background: linear-gradient(to bottom, #e7aeae, #ee9ca7);
+    background: url(/src/img/exemplo21.jpg) no-repeat;
+    background-size: cover;
    }
    
    /*Hover*/

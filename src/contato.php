@@ -29,20 +29,21 @@
         </nav>
     </div>
     <div class="contato-img-div">
-        <div class="contato-img-gradient-effect"></div>
+        <div class="contato-img-fade">
         <div class="contato-logo-div">
             <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
         </div>
     </div>
+    </div>
     <script src="./js/navbar.js"></script>
     <div class="blank-div"></div>
-    <div class="sobre-card-title-div">
-        <p class="sobre-card-title1-p">Entre em contato conosco</p>
+    <div class="contato-card-title-div">
+        <p class="contato-card-title1-p">Entre em contato conosco</p>
         <div class="blank-div"></div>
     </div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
-        <div class="contato-card-img-div"><img src="./img/vertical5.jpg" alt="Imagem" class="contato-card-img"></div>
+        <div class="contato-card-img-div"><img src="./img/exemplo17.jpg" alt="Imagem" class="contato-card-img"></div>
         <div class="contato-form-text">
             <div class="form-grid">
                 <div class="nome-completo">

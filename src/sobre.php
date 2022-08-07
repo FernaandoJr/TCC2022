@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/sobre.css">
+    <link rel="stylesheet" href="./styles/blank.css">
     <title>Hívena Del Pintor</title>
 </head>
 
@@ -31,21 +32,21 @@
     <script src="./js/navbar.js"></script>
     <div class="sobre-img-div">
         <div class="sobre-img-fade">
-        <div class="logo-sobre-div">
-            <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
+            <div class="logo-sobre-div">
+                <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
+            </div>
         </div>
-    </div>
     </div>
     <!-- ↑ NAVBAR E IMAGEM DA HOME ↑ -->
     <!-- ↓ CARDS E TEXTOS SOBRE NÓS ↓ -->
-    <div class="blank-div"></div>
+    <div class="blank-large"></div>
     <div class="sobre-card-title-div">
         <p class="sobre-card-title1-p">Sobre Nós</p>
-        <div class="blank-div blank-div2"></div>
+        <div class="blank-small"></div>
     </div>
     <div class="sobre-grid">
         <div class="sobre-card-img1-div">
-            <img src="/src/img/exemplo2.png" alt="" class="sobre-card-img1"> <!-- ← 1° IMAGEM ← -->
+            <div class="sobre-card-img1"></div>
         </div>
         <div class="sobre-card-txt1-div">
             <p class="sobre-card-txt1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
@@ -68,7 +69,7 @@
                 fermentum non ante sed, commodo vestibulum augue.</p>
         </div>
         <div class="sobre-card-img2-div">
-            <img src="/src/img/exemplo5.jpg" alt="" class="sobre-card-img2"> <!-- ← 2° IMAGEM ← -->
+            <div class="sobre-card-img2"></div> <!-- ← 2° IMAGEM ← -->
         </div>
     </div>
     <!-- ↑ CARDS E TEXTOS SOBRE NÓS ↑ -->

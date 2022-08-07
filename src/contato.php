@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/contato.css">
+    <link rel="stylesheet" href="./styles/blank.css">
     <title>Hívena Del Pintor</title>
 </head>
 
@@ -30,16 +31,16 @@
     </div>
     <div class="contato-img-div">
         <div class="contato-img-fade">
-        <div class="contato-logo-div">
-            <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
+            <div class="contato-logo-div">
+                <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
+            </div>
         </div>
     </div>
-    </div>
     <script src="./js/navbar.js"></script>
-    <div class="blank-div"></div>
+    <div class="blank-large"></div>
     <div class="contato-card-title-div">
         <p class="contato-card-title1-p">Entre em contato conosco</p>
-        <div class="blank-div"></div>
+        <div class="blank-medium"></div>
     </div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
@@ -49,29 +50,25 @@
                 <div class="nome-completo">
                     <form action="./php/add.php" method="post">
                         <div class="input-group">
-                            <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50"
-                                class="input-name">
+                            <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50" class="input-name">
                             <label class="user-label">Nome Completo</label>
                         </div>
                 </div>
                 <div class="telefone">
                     <div class="input-group">
-                        <input required="" type="text" name="tel" id="tel" autocomplete="off" maxlength="12"
-                            class="input-tel">
+                        <input required="" type="text" name="tel" id="tel" autocomplete="off" maxlength="12" class="input-tel">
                         <label class="user-label">Telefone</label>
                     </div>
                 </div>
                 <div class="email">
                     <div class="input-group">
-                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="40"
-                            class="input-email">
+                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="40" class="input-email">
                         <label class="user-label">E-mail</label>
                     </div>
                 </div>
                 <div class="mensagem">
                     <div class="input-group">
-                        <textarea required="" type="text" name="msg" id="msg" autocomplete="off" maxlength="200"
-                            class="input-msg"></textarea>
+                        <textarea required="" type="text" name="msg" id="msg" autocomplete="off" maxlength="200" class="input-msg"></textarea>
                         <label class="user-label">Mensagem</label>
                     </div>
                 </div>

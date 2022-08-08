@@ -19,3 +19,11 @@ https://www.youtube.com/watch?v=GTMEuHxh8aQ
 
 //not draggin image
 https://stackoverflow.com/questions/4211909/disable-dragging-an-image-from-an-html-page
+
+//navbar
+
+https://www.youtube.com/watch?v=CX81A39RqLs
+
+
+//submit button
+https://codepen.io/sumeet1610/pen/abJeZXq

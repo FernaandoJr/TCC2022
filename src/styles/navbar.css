@@ -39,7 +39,7 @@
   grid-template-columns: 0.2fr auto 1fr;
   align-items: center;
   height: 7vh;
-  width: 95%;
+  width: 100%;
   max-width: 1720px;
   margin: 0 auto;
 }

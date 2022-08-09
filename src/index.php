@@ -47,9 +47,9 @@
     </div>
     <div class="blank-large"></div>
     <div class="home-card-sobre-title-div">
-        <p class="home-card-sobre-title-p">O que temos a oferecer?</p>
+        <p class="home-card-sobre-title-p">• Garantimos</p>
     </div>
-    <div class="blank-small"></div>
+    <div class="blank-medium"></div>
 
     <!-- <div class="home-card-sobre-img-div">
         <div class="home-card-sobre">
@@ -67,7 +67,7 @@
         </div>
     </div> -->
 
-    <br><br><br>
+
 
     <div class="row1-container">
     <div class="card1">
@@ -99,18 +99,10 @@ molestiae quas vel sint quaerat, um molestias eos </p>
     </div>
   </div>
   </div>
-<br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
 
 
-
-
-
-
-
-
-
-
-    <br><br><br><br><br>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>

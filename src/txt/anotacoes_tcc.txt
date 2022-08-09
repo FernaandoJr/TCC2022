@@ -27,3 +27,7 @@ https://www.youtube.com/watch?v=CX81A39RqLs
 
 //submit button
 https://codepen.io/sumeet1610/pen/abJeZXq
+
+//navbar
+https://www.youtube.com/watch?v=CX81A39RqLs&ab_channel=Ayprojex
+https://ionic.io/ionicons/v4

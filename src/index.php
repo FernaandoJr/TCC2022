@@ -51,7 +51,7 @@
     </div>
     <div class="blank-small"></div>
 
-    <div class="home-card-sobre-img-div">
+    <!-- <div class="home-card-sobre-img-div">
         <div class="home-card-sobre">
             <div class="home-card-sobre-img"></div>
             <div class="card-sobre-info">
@@ -65,7 +65,51 @@
                 <button class="card-sobre-btn">Read More</button>
             </div>
         </div>
+    </div> -->
+
+    <br><br><br>
+
+    <div class="row1-container">
+    <div class="card1">
+        <div class="box red">
+      <h2>Confiança</h2>
+      <br>
+      <p>Scans our talei mollitia maiores labore 
+suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+modi minima sunt esse temporibus sint culpa, recusandae alto create the optimal team for your project</p>
+      <img class="img-card-teste" src="./img/icon/honesty.png" alt="">
     </div>
+  </div>
+  <div class="card2">
+        <div class="box blue">
+      <h2>Profissionalismo</h2>
+      <br>
+      <p>pat, nisi at euismod tristique, nisl enim suscipit tortor, 
+ac laoreet nisl ante a metus. Proin ac ahe optimal team for your project</p>
+      <img class="img-card-teste" src="./img/icon/suitcase.png" alt="">
+    </div>
+  </div>
+  <div class="card3">
+        <div class="box green">
+      <h2>Rapidez</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint quaerat, um molestias eos </p>
+      <img class="img-card-teste" src="./img/icon/fast-time.png" alt="">
+    </div>
+  </div>
+  </div>
+<br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
     <br><br><br><br><br>
 </body>
 

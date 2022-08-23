@@ -34,3 +34,9 @@ https://ionic.io/ionicons/v4
 
 // CORES HOMO (PASTEL)
 https://maketintsandshades.com/
+
+
+//CENTRALIZAR A BOSTA DO ELEMENTO EM UMA DIV
+display: flex;
+justify-content: center;
+align-items: center;

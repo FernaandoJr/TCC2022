@@ -99,6 +99,26 @@ molestiae quas vel sint quaerat, um molestias eos </p>
     </div>
   </div>
   </div>
+  <div class="blank-large"></div>
+  <div class="blank-medium"></div>
+<div class="projeto-background-div">
+    <h1>Conheça alguns dos nossos projetos</h1>
+</div>
+<div class="blank-medium parent2"></div>
+<div class="parent2">
+<div class="parent">
+<div class="div1"> <img src="./img/exemplo22.jpg" alt=""></div>
+<div class="div2"> <img src="./img/exemplo21.jpg" alt=""></div>
+<div class="div3"> <img src="./img/exemplo23.jpg" alt=""></div>
+<div class="div4"> <img src="./img/exemplo10.jpg" alt=""></div>
+<div class="div5"> <img src="./img/exemplo9.jpg" alt=""></div>
+<div class="div6"> <img src="./img/exemplo17.jpg" alt=""></div>
+<div class="div7"> <img src="./img/exemplo24.jpg" alt=""></div>
+<div class="div8"> <img src="./img/exemplo15.jpg" alt=""></div>
+<div class="div9"> <img src="./img/exemplo14.jpg" alt=""></div>
+<div class="div10"> <img src="./img/exemplo13.jpg" alt=""></div>
+</div>
+</div>
   <br><br><br><br><br><br><br><br>
 
 

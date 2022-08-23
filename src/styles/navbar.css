@@ -77,7 +77,7 @@
   color: white;
   background-color: var(--logo-dark-brown);
   padding: 6px 16px;
-  border-radius: 5px;
+  border-radius: 12px;
 }
 
 .nav-links-btn:hover {

@@ -72,9 +72,12 @@
                         <label class="user-label">Mensagem</label>
                     </div>
                 </div>
-                <div class="button">
-                    <button>Enviar</button>
-                </div>
+                <button class="contato-btn-submit">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="contato-btn-text">Enviar</span>
+                    </button>
             </div>
         </div>
 

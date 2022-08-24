@@ -70,59 +70,60 @@
 
 
     <div class="row1-container">
-    <div class="card1">
-        <div class="box red">
-      <h2>Confiança</h2>
-      <br>
-      <p>Scans our talei mollitia maiores labore 
-suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-modi minima sunt esse temporibus sint culpa, recusandae alto create the optimal team for your project</p>
-      <img class="img-card-teste" src="./img/icon/honesty.png" alt="">
+        <div class="card1">
+            <div class="box red">
+                <h2>Confiança</h2>
+                <br>
+                <p>Scans our talei mollitia maiores labore
+                    suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+                    modi minima sunt esse temporibus sint culpa, recusandae alto create the optimal team for your project</p>
+                <img class="img-card-teste" src="./img/icon/honesty.png" alt="">
+            </div>
+        </div>
+        <div class="card2">
+            <div class="box blue">
+                <h2>Profissionalismo</h2>
+                <br>
+                <p>pat, nisi at euismod tristique, nisl enim suscipit tortor,
+                    ac laoreet nisl ante a metus. Proin ac ahe optimal team for your project</p>
+                <img class="img-card-teste" src="./img/icon/suitcase.png" alt="">
+            </div>
+        </div>
+        <div class="card3">
+            <div class="box green">
+                <h2>Rapidez</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint quaerat, um molestias eos </p>
+                <img class="img-card-teste" src="./img/icon/fast-time.png" alt="">
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="card2">
-        <div class="box blue">
-      <h2>Profissionalismo</h2>
-      <br>
-      <p>pat, nisi at euismod tristique, nisl enim suscipit tortor, 
-ac laoreet nisl ante a metus. Proin ac ahe optimal team for your project</p>
-      <img class="img-card-teste" src="./img/icon/suitcase.png" alt="">
+    <div class="blank-large"></div>
+    <div class="blank-medium"></div>
+    <div class="projeto-background-div">
+        <h1>Conheça alguns dos nossos projetos</h1>
     </div>
-  </div>
-  <div class="card3">
-        <div class="box green">
-      <h2>Rapidez</h2>
-      <br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint quaerat, um molestias eos </p>
-      <img class="img-card-teste" src="./img/icon/fast-time.png" alt="">
+    <div class="blank-medium parent2"></div>
+    <div class="parent2">
+        <div class="parent">
+            <div class="div1"> <img src="./img/exemplo22.jpg" alt=""></div>
+            <div class="div2"> <img src="./img/exemplo21.jpg" alt=""></div>
+            <div class="div3"> <img src="./img/exemplo23.jpg" alt=""></div>
+            <div class="div4"> <img src="./img/exemplo10.jpg" alt=""></div>
+            <div class="div5"> <img src="./img/exemplo9.jpg" alt=""></div>
+            <div class="div6"> <img src="./img/exemplo17.jpg" alt=""></div>
+            <div class="div7"> <img src="./img/exemplo24.jpg" alt=""></div>
+            <div class="div8"> <img src="./img/exemplo15.jpg" alt=""></div>
+            <div class="div9"> <img src="./img/exemplo14.jpg" alt=""></div>
+            <div class="div10"> <img src="./img/exemplo13.jpg" alt=""></div>
+        </div>
     </div>
-  </div>
-  </div>
-  <div class="blank-large"></div>
-  <div class="blank-medium"></div>
-<div class="projeto-background-div">
-    <h1>Conheça alguns dos nossos projetos</h1>
-</div>
-<div class="blank-medium parent2"></div>
-<div class="parent2">
-<div class="parent">
-<div class="div1"> <img src="./img/exemplo22.jpg" alt=""></div>
-<div class="div2"> <img src="./img/exemplo21.jpg" alt=""></div>
-<div class="div3"> <img src="./img/exemplo23.jpg" alt=""></div>
-<div class="div4"> <img src="./img/exemplo10.jpg" alt=""></div>
-<div class="div5"> <img src="./img/exemplo9.jpg" alt=""></div>
-<div class="div6"> <img src="./img/exemplo17.jpg" alt=""></div>
-<div class="div7"> <img src="./img/exemplo24.jpg" alt=""></div>
-<div class="div8"> <img src="./img/exemplo15.jpg" alt=""></div>
-<div class="div9"> <img src="./img/exemplo14.jpg" alt=""></div>
-<div class="div10"> <img src="./img/exemplo13.jpg" alt=""></div>
-</div>
-</div>
-  <br><br><br><br><br><br><br><br>
+    <div class="blank-medium parent2"></div>
+    <br><br><br><br><br><br><br><br>
 
 
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>

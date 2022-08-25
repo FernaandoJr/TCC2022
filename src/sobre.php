@@ -39,10 +39,10 @@
     </div>
     <!-- ↑ NAVBAR E IMAGEM DA HOME ↑ -->
     <!-- ↓ CARDS E TEXTOS SOBRE NÓS ↓ -->
-    <div class="blank-large"></div>
+    <div class="blank5"></div>
     <div class="sobre-card-title-div">
         <p class="sobre-card-title1-p">Sobre Nós</p>
-        <div class="blank-small"></div>
+        <div class="blank1"></div>
     </div>
     <div class="sobre-grid">
         <div class="sobre-card-img1-div">

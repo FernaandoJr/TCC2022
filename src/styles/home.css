@@ -386,6 +386,9 @@ img {
 height: fit-content;
 }
 
+.prj-bg{
+  background-color: #ddd3c3;
+}
 .parent {
   width: fit-content;
   display: grid;
@@ -403,7 +406,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
 
 
@@ -414,7 +416,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
 }
 
 .div3 {
@@ -424,7 +425,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: fuchsia;
 }
 
 .div4 {
@@ -435,7 +435,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
 }
 
 .div5 {
@@ -445,7 +444,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: purple;
 }
 
 .div6 {
@@ -455,7 +453,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
 }
 
 .div7 {
@@ -466,7 +463,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: orange;
 }
 
 .div8 {
@@ -476,7 +472,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
 }
 
 .div9 {
@@ -486,7 +481,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkmagenta;
 }
 
 .div10 {
@@ -497,7 +491,6 @@ height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkblue;
 }
 
 .div1 img{

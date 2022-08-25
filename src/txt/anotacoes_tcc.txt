@@ -40,3 +40,6 @@ https://maketintsandshades.com/
 display: flex;
 justify-content: center;
 align-items: center;
+
+// EXEMPLOS PARA PEGAR IDEIAS
+https://www.campidellis.com.br/contato

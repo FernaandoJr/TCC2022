@@ -40,37 +40,27 @@
     <!-- ↑ NAVBAR E IMAGEM DA HOME ↑ -->
     <!-- ↓ CARDS E TEXTOS SOBRE NÓS ↓ -->
     <div class="blank5"></div>
-    <div class="sobre-card-title-div">
-        <p class="sobre-card-title1-p">Sobre Nós</p>
+    <div class="sobre-card-title">
+        <p>Sobre Nós</p>
         <div class="blank1"></div>
     </div>
     <div class="sobre-grid">
-        <div class="sobre-card-img1-div">
-            <div class="sobre-card-img1"></div>
+        <div class="sobre-card-img1-div"><img src="./img/exemplo15.jpg" alt="aa"></div>
+        <div class="sobre-card-txt1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Temporibus ducimus rem soluta, fuga voluptatem quis voluptate est facere,
+                 nulla suscipit blanditiis, a ipsa molestias assumenda totam id hic eaque 
+                 corporis! Incidunt, dolores eveniet et earum nam, voluptatem explicabo cum 
+                 quo quasi nulla fugiat cumque qui similique hic aperiam nesciunt maiores.</p>
         </div>
-        <div class="sobre-card-txt1-div">
-            <p class="sobre-card-txt1-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
-                fermentum tincidunt.
-                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis,
-                quis tristique orci.
-                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed,
-                facilisis lacus. Curabitur vel lectus diam.
-                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien,
-                fermentum non ante sed, commodo vestibulum augue.</p>
+        <div class="sobre-card-txt2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Temporibus ducimus rem soluta, fuga voluptatem quis voluptate est facere,
+                 nulla suscipit blanditiis, a ipsa molestias assumenda totam id hic eaque 
+                 corporis! Incidunt, dolores eveniet et earum nam, voluptatem explicabo cum 
+                 quo quasi nulla fugiat cumque qui similique hic aperiam nesciunt maiores.</p>
         </div>
-        <div class="sobre-card-txt2-div">
-            <p class="sobre-card-txt2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis
-                fermentum tincidunt.
-                Phasellus vitae felis eu nulla ultricies condimentum cursus nec turpis. Pellentesque eget dictum felis,
-                quis tristique orci.
-                Cras ultrices mauris eros, sed ultricies lorem lobortis a. Cras in elit feugiat, commodo diam sed,
-                facilisis lacus. Curabitur vel lectus diam.
-                Suspendisse ut fermentum tellus. Aliquam convallis pellentesque ex vitae euismod. Duis dolor sapien,
-                fermentum non ante sed, commodo vestibulum augue.</p>
-        </div>
-        <div class="sobre-card-img2-div">
-            <div class="sobre-card-img2"></div> <!-- ← 2° IMAGEM ← -->
-        </div>
+        <div class="sobre-card-img2-div"><img src="./img/exemplo15.jpg" alt="aa"></div>
     </div>
     <!-- ↑ CARDS E TEXTOS SOBRE NÓS ↑ -->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -43,9 +43,10 @@
                 <div class="home-btn-div">
                     <a href="contato.php" class="home-btn-a">Fale Conosco</a>
                 </div>
-            </div><!-- <div class="home-card-sobre-img-div">
+            </div>
+            <!-- <div class="home-sobre-card-col2-div">
         <div class="home-card-sobre">
-            <div class="home-card-sobre-img"></div>
+            <div class="home-sobre-card-col2"></div>
             <div class="card-sobre-info">
                 <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0h24v24H0z" fill="none"></path>
@@ -103,18 +104,18 @@
         <h1>Conheça alguns dos nossos projetos</h1>
     </div>
     <div class="blank3 prj-bg"></div>
-    <div class="parent2">
-        <div class="parent">
-            <div class="div1"> <img src="./img/exemplo22.jpg" alt=""></div>
-            <div class="div2"> <img src="./img/exemplo21.jpg" alt=""></div>
-            <div class="div3"> <img src="./img/exemplo23.jpg" alt=""></div>
-            <div class="div4"> <img src="./img/exemplo10.jpg" alt=""></div>
-            <div class="div5"> <img src="./img/exemplo9.jpg" alt=""></div>
-            <div class="div6"> <img src="./img/exemplo17.jpg" alt=""></div>
-            <div class="div7"> <img src="./img/exemplo24.jpg" alt=""></div>
-            <div class="div8"> <img src="./img/exemplo15.jpg" alt=""></div>
-            <div class="div9"> <img src="./img/exemplo14.jpg" alt=""></div>
-            <div class="div10"> <img src="./img/exemplo13.jpg" alt=""></div>
+    <div class="home-prj-card">
+        <div class="prj-card-grid">
+            <div class="prj-img1"> <img src="./img/exemplo22.jpg" alt=""></div>
+            <div class="prj-img2"> <img src="./img/exemplo21.jpg" alt=""></div>
+            <div class="prj-img3"> <img src="./img/exemplo23.jpg" alt=""></div>
+            <div class="prj-img4"> <img src="./img/exemplo10.jpg" alt=""></div>
+            <div class="prj-img5"> <img src="./img/exemplo9.jpg" alt=""></div>
+            <div class="prj-img6"> <img src="./img/exemplo17.jpg" alt=""></div>
+            <div class="prj-img7"> <img src="./img/exemplo24.jpg" alt=""></div>
+            <div class="prj-img8"> <img src="./img/exemplo15.jpg" alt=""></div>
+            <div class="prj-img9"> <img src="./img/exemplo14.jpg" alt=""></div>
+            <div class="prj-img10"> <img src="./img/exemplo13.jpg" alt=""></div>
         </div>
     </div>
     <div class="blank4 prj-bg"></div>
@@ -122,17 +123,16 @@
         <h1>Saiba um pouco mais sobre nós</h1>
     </div>
     <div class="blank4 prj-bg"></div>
-<div class="sobre-card1 prj-bg">
-    <div class="sobre__card">
-        <div class="card-branco-dentro"></div>
-        <div class="card-sobre-img">
-            <img src="./img/exemplo21.jpg" alt="">
+    <div class="home-sobre-card prj-bg">
+        <div class="sobre-card-grid">
+            <div class="sobre-card-col1"></div>
+            <div class="sobre-card-col2">
+                <img src="./img/exemplo21.jpg" alt="">
+            </div>
         </div>
     </div>
-</div>
-<div class="blank4 prj-bg"></div>
-
-<div class="blank15"></div>
+    <div class="blank4 prj-bg"></div>
+    <div class="blank15"></div>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 

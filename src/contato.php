@@ -38,13 +38,13 @@
     </div>
     <script src="./js/navbar.js"></script>
     <div class="blank5"></div>
-    <div class="contato-card-title-div">
-        <p class="contato-card-title1-p">Entre em contato conosco</p>
+    <div class="contato-card-title">
+        <p>Entre em contato conosco</p>
         <div class="blank3"></div>
     </div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
-        <div class="contato-card-img-div"><img src="./img/exemplo17.jpg" alt="Imagem" class="contato-card-img"></div>
+        <div class="contato-card-img"><img src="./img/exemplo17.jpg" alt="Imagem"></div>
         <div class="contato-form-text">
             <div class="form-grid">
                 <div class="nome-completo">

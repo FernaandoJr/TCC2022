@@ -100,11 +100,11 @@
     <div class="blank5"></div>
     <div class="blank3"></div>
     <!-- CARD PROJETOS -->
-    <div class="projeto-background-div">
+    <div class="projeto-background-div prj-bg-marker">
         <h1>Conheça alguns dos nossos projetos</h1>
     </div>
     <div class="blank3 prj-bg"></div>
-    <div class="home-prj-card">
+    <div class="home-prj-card prj-bg">
         <div class="prj-card-grid">
             <div class="prj-img1"> <img src="./img/exemplo22.jpg" alt=""></div>
             <div class="prj-img2"> <img src="./img/exemplo21.jpg" alt=""></div>
@@ -120,18 +120,26 @@
     </div>
     <div class="blank4 prj-bg"></div>
     <div class="projeto-background-div">
-        <h1>Saiba um pouco mais sobre nós</h1>
+        <h1 class="sobre-title">Saiba um pouco mais sobre nós</h1>
     </div>
-    <div class="blank4 prj-bg"></div>
-    <div class="home-sobre-card prj-bg">
+    <div class="home-sobre-card">
         <div class="sobre-card-grid">
-            <div class="sobre-card-col1"></div>
+            <div class="sobre-card-col1">
+                <h1>Sobre Nós</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Inventore consequuntur ea minus. Cum perspiciatis corrupti
+                    incidunt culpa rerum numquam sit eos aliquid rem, quod sunt
+                    voluptatibus, laudantium quidem temporibus excepturi?</p>
+                <a href="./sobre.php">
+                    <button class="btn">Sobre nós</button>
+                </a>
+            </div>
             <div class="sobre-card-col2">
                 <img src="./img/exemplo21.jpg" alt="">
             </div>
         </div>
     </div>
-    <div class="blank4 prj-bg"></div>
+    <div class="blank4"></div>
     <div class="blank15"></div>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>

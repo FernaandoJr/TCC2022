@@ -1,7 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
 
 :root {
-  --logo-dark-brown: #8d6b38;
+  --logo-blue: #4d8ec9;
+  --logo-dark-blue-10: #4580b5;
+  --logo-dark-blue-20: #3e72a1;
+  --logo-dark-blue-30: #36638d;
+  --logo-dark-blue-40: #2e5579;
+  --logo-dark-blue-50: #274765;
+  --logo-dark-blue-60: #1f3950;
+  --logo-dark-blue-70: #172b3c;
+  --logo-dark-blue-80: #0f1c28;
+  --logo-light-blue-10: #5f99ce;
+  --logo-light-blue-20: #71a5d4;
+  --logo-light-blue-30: #82b0d9;
+  --logo-light-blue-40: #94bbdf;
+  --logo-light-blue-50: #a6c7e4;
+  --logo-light-blue-60: #b8d2e9;
+  --logo-light-blue-70: #caddef;
+  --logo-light-blue-80: #dbe8f4;
+  --logo-light-blue-90: #edf4fa;
   --background: #111418;
   --background-tp: #111418de;
 }
@@ -75,13 +92,13 @@
 
 .nav-links-btn {
   color: white;
-  background-color: var(--logo-dark-brown);
+  background-color: var(--logo-blue);
   padding: 6px 16px;
   border-radius: 12px;
 }
 
 .nav-links-btn:hover {
-  background-color: #6a502a;
+  background-color: var(--logo-dark-blue-20);
   color: white;
 }
 
@@ -106,6 +123,7 @@
     opacity: 0;
     transition: all 0.5s ease;
   }
+
   .nav-menu.active {
     z-index: 1;
     position: fixed;
@@ -133,6 +151,7 @@
     color: white;
     transform: all 0.4s ease-out;
   }
+
   .nav-links-btn:hover {
     color: white;
     transform: all 0.4s ease-out;
@@ -153,6 +172,7 @@
   .menu-toggle:hover {
     cursor: pointer;
   }
+
   #mobile-menu.is-active .bar:nth-child(2) {
     opacity: 0;
   }

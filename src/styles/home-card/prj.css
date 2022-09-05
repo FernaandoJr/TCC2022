@@ -1,0 +1,139 @@
+.projeto-background-div {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prj-bg-marker {
+    background-color: var(--logo-light-blue-50);
+  }
+  
+  .projeto-background-div h1 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .projeto-background-div h1.sobre-title {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 300;
+  }
+  
+  .home-prj-card {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .prj-bg {
+    background-color: var(--logo-light-blue-70);
+  }
+  
+  .prj-card-grid {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    grid-template-rows: repeat(4, 350px);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+  }
+  
+  .prj-img1 {
+    grid-area: 1 / 1 / 3 / 3;
+    border-radius: 20px 0px 0px 0px;
+  }
+  
+  .prj-img2 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  
+  .prj-img3 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  
+  .prj-img4 {
+    grid-area: 1 / 4 / 2 / 5;
+    border-radius: 0px 20px 0px 0px;
+  }
+  
+  .prj-img5 {
+    grid-area: 2 / 4 / 3 / 5;
+  }
+  
+  .prj-img6 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  
+  .prj-img7 {
+    border-radius: 0px 0px 0px 20px;
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  
+  .prj-img8 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+  
+  .prj-img9 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  
+  .prj-img10 {
+    border-radius: 0px 0px 20px 0px;
+    grid-area: 3 / 3 / 5 / 5;
+  }
+  
+  .prj-img1,
+  .prj-img2,
+  .prj-img3,
+  .prj-img4,
+  .prj-img5,
+  .prj-img6,
+  .prj-img7,
+  .prj-img8,
+  .prj-img9,
+  .prj-img10 {
+    transition: all 300ms;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prj-img1 img,
+  .prj-img2 img,
+  .prj-img3 img,
+  .prj-img4 img,
+  .prj-img5 img,
+  .prj-img6 img,
+  .prj-img7 img,
+  .prj-img8 img,
+  .prj-img9 img,
+  .prj-img10 img {
+    height: 100%;
+  }
+  
+  .prj-img1:hover,
+  .prj-img10:hover {
+    transform: scale(1.0185);
+    filter: brightness(85%);
+  }
+  
+  .prj-img2:hover,
+  .prj-img3:hover,
+  .prj-img4:hover,
+  .prj-img5:hover,
+  .prj-img6:hover,
+  .prj-img7:hover,
+  .prj-img8:hover,
+  .prj-img9:hover {
+    transform: scale(1.0375);
+    filter: brightness(85%);
+  }

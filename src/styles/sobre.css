@@ -1,7 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
 
 :root {
-  --logo-dark-brown: #8d6b38;
+  --logo-blue: #4d8ec9;
+  --logo-dark-blue-10: #4580b5;
+  --logo-dark-blue-20: #3e72a1;
+  --logo-dark-blue-30: #36638d;
+  --logo-dark-blue-40: #2e5579;
+  --logo-dark-blue-50: #274765;
+  --logo-dark-blue-60: #1f3950;
+  --logo-dark-blue-70: #172b3c;
+  --logo-dark-blue-80: #0f1c28;
+  --logo-light-blue-10: #5f99ce;
+  --logo-light-blue-20: #71a5d4;
+  --logo-light-blue-30: #82b0d9;
+  --logo-light-blue-40: #94bbdf;
+  --logo-light-blue-50: #a6c7e4;
+  --logo-light-blue-60: #b8d2e9;
+  --logo-light-blue-70: #caddef;
+  --logo-light-blue-80: #dbe8f4;
+  --logo-light-blue-90: #edf4fa;
   --background: #111418;
   --background-transparent: #111418c9;
 }
@@ -23,6 +40,9 @@
   max-width: 100%;
   width: 100%;
   height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -33,17 +53,13 @@ img {
 }
 
 .logo-sobre-img {
-  width: 500px;
-  height: 133px;
+  width: 100%;
+  height: 300px;
 }
 
 .logo-sobre-div {
   width: fit-content;
   height: fit-content;
-  position: relative;
-  top: 37%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .sobre-grid {
@@ -62,6 +78,7 @@ img {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
 }
+
 .sobre-card-txt1 {
   grid-area: 1 / 2 / 2 / 3;
 }
@@ -86,6 +103,7 @@ img {
 .sobre-card-img2-div img {
   height: 100%;
 }
+
 .sobre-card-img1-div:hover,
 .sobre-card-img2-div:hover {
   transform: scale(1.007);

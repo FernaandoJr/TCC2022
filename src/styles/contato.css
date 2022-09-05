@@ -1,8 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
 
 :root {
-  --logo-dark-brown: #8d6b38;
-  --background: #111418;
+  --logo-blue: #4d8ec9;
+  --logo-dark-blue-10: #4580b5;
+  --logo-dark-blue-20: #3e72a1;
+  --logo-dark-blue-30: #36638d;
+  --logo-dark-blue-40: #2e5579;
+  --logo-dark-blue-50: #274765;
+  --logo-dark-blue-60: #1f3950;
+  --logo-dark-blue-70: #172b3c;
+  --logo-dark-blue-80: #0f1c28;
+  --logo-light-blue-10: #5f99ce;
+  --logo-light-blue-20: #71a5d4;
+  --logo-light-blue-30: #82b0d9;
+  --logo-light-blue-40: #94bbdf;
+  --logo-light-blue-50: #a6c7e4;
+  --logo-light-blue-60: #b8d2e9;
+  --logo-light-blue-70: #caddef;
+  --logo-light-blue-80: #dbe8f4;
+  --logo-light-blue-90: #edf4fa;
   --background-transparent: #111418c9;
 }
 
@@ -23,11 +39,14 @@
   max-width: 100%;
   width: 100%;
   height: 90vh;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .logo-sobre-img {
   width: 100%;
-  height: 133px;
+  height: 300px;
 }
 
 img {
@@ -40,10 +59,6 @@ img {
 .contato-logo-div {
   width: fit-content;
   height: fit-content;
-  position: relative;
-  top: 37%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .contato-form-grid {
@@ -123,21 +138,25 @@ img {
   max-width: 100%;
   height: fit-content;
 }
+
 .telefone {
   grid-area: 2 / 1 / 3 / 2;
   width: 100%;
   height: fit-content;
 }
+
 .email {
   grid-area: 2 / 2 / 3 / 3;
   width: 100%;
   height: fit-content;
 }
+
 .mensagem {
   grid-area: 3 / 1 / 4 / 3;
   width: 100%;
   height: auto;
 }
+
 .home-btn-a {
   grid-area: 4 / 1 / 5 / 2;
   width: 100%;
@@ -218,58 +237,61 @@ img {
 .input-name:focus,
 input:valid {
   outline: none;
-  border: 1.5px solid var(--logo-dark-brown);
+  border: 1.5px solid var(--logo-blue);
 }
+
 .input-tel:focus,
 input:valid {
   outline: none;
-  border: 1.5px solid var(--logo-dark-brown);
+  border: 1.5px solid var(--logo-blue);
 }
+
 .input-email:focus,
 input:valid {
   outline: none;
-  border: 1.5px solid var(--logo-dark-brown);
+  border: 1.5px solid var(--logo-blue);
 }
+
 .input-msg:focus,
 input:valid {
   outline: none;
-  border: 1.5px solid var(--logo-dark-brown);
+  border: 1.5px solid var(--logo-blue);
 }
 
-.input-name:focus ~ label,
-input:valid ~ label {
+.input-name:focus~label,
+input:valid~label {
   transform: translateY(-50%) scale(0.8);
   background-color: #ffffff;
   padding: 0 0.2em;
   left: 0.4%;
-  color: var(--logo-dark-brown);
+  color: var(--logo-blue);
 }
 
-.input-tel:focus ~ label,
-input:valid ~ label {
+.input-tel:focus~label,
+input:valid~label {
   transform: translateY(-50%) scale(0.8);
   background-color: #ffffff;
   padding: 0 0.2em;
   left: 2%;
-  color: var(--logo-dark-brown);
+  color: var(--logo-blue);
 }
 
-.input-email:focus ~ label,
-input:valid ~ label {
+.input-email:focus~label,
+input:valid~label {
   transform: translateY(-50%) scale(0.8);
   background-color: #ffffff;
   padding: 0 0.2em;
   left: 2%;
-  color: var(--logo-dark-brown);
+  color: var(--logo-blue);
 }
 
-.input-msg:focus ~ label,
-textarea:valid ~ label {
+.input-msg:focus~label,
+textarea:valid~label {
   transform: translateY(-50%) scale(0.8);
   background-color: #ffffff;
   padding: 0 0.2em;
   left: 0.5%;
-  color: var(--logo-dark-brown);
+  color: var(--logo-blue);
 }
 
 /* From uiverse.io */
@@ -299,7 +321,7 @@ button.contato-btn-submit .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #7f6032;
+  background: var(--logo-light-blue-10);
   border-radius: 1.625rem;
 }
 

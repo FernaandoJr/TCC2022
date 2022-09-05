@@ -15,7 +15,7 @@
 <body>
     <div class="nav-container">
         <nav class="navbar">
-            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo_branco.png" class="logo-img"></a>
+            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo2.png" class="logo-img"></a>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -32,7 +32,7 @@
     <div class="contato-img-div">
         <div class="contato-img-fade">
             <div class="contato-logo-div">
-                <img src="./img/logo_branco.png" class="logo-sobre-img" alt="Logo">
+                <img src="./img/logo4.png" class="logo-sobre-img" alt="Logo">
             </div>
         </div>
     </div>

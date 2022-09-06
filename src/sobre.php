@@ -32,36 +32,15 @@
     <script src="./js/navbar.js"></script>
     <div class="sobre-img-div">
         <div class="sobre-img-fade">
-            <div class="logo-sobre-div">
-                <img src="./img/logo/logo4.png" class="logo-sobre-img" alt="Logo">
+            <div class="logo-sobre">
+                <img src="./img/logo/logo4.png" alt="Logo">
             </div>
         </div>
     </div>
     <!-- ↑ NAVBAR E IMAGEM DA HOME ↑ -->
     <!-- ↓ CARDS E TEXTOS SOBRE NÓS ↓ -->
-    <div class="blank5"></div>
-    <div class="sobre-card-title">
-        <p>Sobre Nós</p>
-        <div class="blank1"></div>
-    </div>
-    <div class="sobre-grid">
-        <div class="sobre-card-img1-div"><img src="./img/exemplo15.jpg" alt="aa"></div>
-        <div class="sobre-card-txt1">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Temporibus ducimus rem soluta, fuga voluptatem quis voluptate est facere,
-                 nulla suscipit blanditiis, a ipsa molestias assumenda totam id hic eaque 
-                 corporis! Incidunt, dolores eveniet et earum nam, voluptatem explicabo cum 
-                 quo quasi nulla fugiat cumque qui similique hic aperiam nesciunt maiores.</p>
-        </div>
-        <div class="sobre-card-txt2">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Temporibus ducimus rem soluta, fuga voluptatem quis voluptate est facere,
-                 nulla suscipit blanditiis, a ipsa molestias assumenda totam id hic eaque 
-                 corporis! Incidunt, dolores eveniet et earum nam, voluptatem explicabo cum 
-                 quo quasi nulla fugiat cumque qui similique hic aperiam nesciunt maiores.</p>
-        </div>
-        <div class="sobre-card-img2-div"><img src="./img/exemplo15.jpg" alt="aa"></div>
-    </div>
+
+    
     <!-- ↑ CARDS E TEXTOS SOBRE NÓS ↑ -->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>

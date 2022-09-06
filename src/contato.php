@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/contato.css">
     <link rel="stylesheet" href="./styles/blank.css">
     <title>Hívena Del Pintor</title>
@@ -31,8 +31,8 @@
     </div>
     <div class="contato-img-div">
         <div class="contato-img-fade">
-            <div class="contato-logo-div">
-                <img src="./img/logo/logo4.png" class="logo-sobre-img" alt="Logo">
+            <div class="contato-logo">
+                <img src="./img/logo/logo4.png" alt="Logo">
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@
     </div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
-        <div class="contato-card-img"><img src="./img/exemplo17.jpg" alt="Imagem"></div>
+        <div class="contato-card"><img src="./img/exemplo17.jpg" alt="Imagem"></div>
         <div class="contato-form-text">
             <div class="form-grid">
                 <div class="nome-completo">

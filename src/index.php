@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/home-card/prj.css">
     <link rel="stylesheet" href="./styles/home-card/sobre.css">
@@ -35,24 +35,24 @@
     <div class="home-img-div">
         <div class="home-img-fade">
             <div class="home-general">
-                <div class="home-img-title-div">
-                    <h1 class="home-img-title-h1">Especializados em reformas e design de interiores residenciais</h1>
+                <div class="home-img-title">
+                    <h1>Especializados em reformas e design de interiores residenciais</h1>
                 </div>
-                <div class="home-img-subtitle-div">
-                    <h1 class="home-img-subtitle-h1">Ambientes e decorações pensados para o bem-estar e conforto do
+                <div class="home-img-subtitle">
+                    <h1>Ambientes e decorações pensados para o bem-estar e conforto do
                         cliente
                     </h1>
                 </div>
-                <div class="home-btn-div">
-                    <a href="contato.php" class="home-btn-a">Fale Conosco</a>
+                <div class="home-btn">
+                    <a href="contato.php">Fale Conosco</a>
                 </div>
             </div>
 
         </div>
     </div>
     <div class="blank5"></div>
-    <div class="home-card-sobre-title-div">
-        <p class="home-card-sobre-title-p">• Garantimos</p>
+    <div class="home-card-info-title">
+        <p>• Garantimos</p>
     </div>
     <div class="blank3"></div>
     <div class="row1-container">

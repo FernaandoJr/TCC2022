@@ -15,7 +15,7 @@
     <!--  ↓ NAVBAR E IMAGEM DA HOME ↓ -->
     <div class="nav-container">
         <nav class="navbar">
-            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo2.png" class="logo-img"></a>
+            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo/logo2.png" class="logo-img"></a>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -33,7 +33,7 @@
     <div class="sobre-img-div">
         <div class="sobre-img-fade">
             <div class="logo-sobre-div">
-                <img src="./img/logo4.png" class="logo-sobre-img" alt="Logo">
+                <img src="./img/logo/logo4.png" class="logo-sobre-img" alt="Logo">
             </div>
         </div>
     </div>

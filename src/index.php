@@ -17,7 +17,7 @@
 <body>
     <div class="nav-container">
         <nav class="navbar">
-            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo2.png" class="logo-img"></a>
+            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo/logo2.png" class="logo-img"></a>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>

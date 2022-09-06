@@ -23,165 +23,103 @@
   --background-tp: #111418de;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.nav-text {
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.nav-menu {
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  list-style: none;
-  text-align: right;
-  width: 60%;
-  justify-self: end;
-}
-
-.nav-container {
-  position: fixed;
-  z-index: 5;
-  width: 100%;
-  background-color: var(--background-tp);
-}
-
-.navbar {
-  font-family: "Poppins", sans-serif;
-  display: grid;
-  grid-template-columns: 0.2fr auto 1fr;
-  align-items: center;
-  height: 7vh;
-  width: 100%;
-  max-width: 1720px;
-  margin: 0 auto;
-}
-
-.navbar-logo {
-  align-items: center;
-  justify-self: start;
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.navbar-logo:hover {
-  opacity: 0.7;
-  transition: all 0.2s ease-out;
-}
-
-.logo-img {
-  margin-top: 6px;
-  list-style: none;
-  height: 5vh;
-  overflow: hidden;
-}
-
-.nav-links {
-  color: white;
-  text-decoration: none;
-}
-
-.nav-links:hover {
-  color: #d3a66b;
-  transition: all 0.2s ease-out;
-}
-
-.nav-links-btn {
-  color: white;
-  background-color: var(--logo-blue);
-  padding: 6px 16px;
-  border-radius: 12px;
-}
-
-.nav-links-btn:hover {
-  background-color: var(--logo-dark-blue-20);
-  color: white;
-}
-
-.menu-toggle .bar {
-  width: 30px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: white;
-  transition: all 0.3s ease-out;
-}
-
-@media screen and (max-width: 900px) {
-  .nav-container {
-    position: fixed;
-  }
-
-  .nav-menu {
-    grid-template-columns: auto;
-    width: 100%;
-    top: 7vh;
-    left: -110%;
-    opacity: 0;
-    transition: all 0.5s ease;
-  }
-
-  .nav-menu.active {
-    z-index: 1;
-    position: fixed;
-    background-color: var(--background-tp);
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-
-  .nav-links {
-    text-align: center;
-    line-height: 60px;
-    width: 100%;
-    display: table;
-  }
-
-  .nav-links:hover {
-    color: white;
-    transform: all 0.4s ease-out;
-  }
-
-  .nav-links-btn {
+*{
+    margin: 0;
     padding: 0;
-    border-radius: 0;
+}
+
+.nav__link{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    padding: 10px;
     color: white;
-    transform: all 0.4s ease-out;
-  }
+    font-size: .9rem;
+    font-weight: 300;
+    border-radius: 5px;
+}
 
-  .nav-links-btn:hover {
-    color: white;
-    transform: all 0.4s ease-out;
-  }
+.nav__link:hover{
+    background-color: var(--logo-dark-blue-40);
+}
 
-  #mobile-menu {
-    position: absolute;
-    top: 0.7px;
-    right: 5%;
-    transform: translate(5%, 1vh);
-  }
+.nav__list{
+    list-style: none;
+    display: flex;
+     align-items: center;
+}
+.nav__item{
+    margin: 0 8px;
+}
 
-  .menu-toggle .bar {
-    display: block;
-    cursor: pointer;
-  }
+header{ 
+    display: flex;
+    background-color: var(--logo-dark-blue-70);
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
 
-  .menu-toggle:hover {
-    cursor: pointer;
-  }
+.logo{
+    display: flex;
+    align-items: center;   
+}
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+}
 
-  #mobile-menu.is-active .bar:nth-child(2) {
-    opacity: 0;
-  }
+.header__menu, .header__close{
+    display: none;
+}
 
-  #mobile-menu.is-active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
+@media screen and (max-width: 560px) {
+    header{
+        height: 48px;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+    .logo img{
+        cursor: pointer;
+        width: 30px;
+    }
+    .header__menu{
+        width: 30px;
+        cursor: pointer;
+        display: inline;
+        filter: brightness(0) invert(1);
+        font-size: 24px;
+    }
+    .nav{
+        position: fixed;
+        top: 48px;
+        right: -100%;
+        background-color:cadetblue;
+        color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 24px 0;
+        z-index: 5;
+        transition: .5s;
+    }
 
-  #mobile-menu.is-active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
+    .nav__link{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__item{
+        margin: 2rem 0;
+    }
+
+    .show{
+        right:  0;
+    }
+
+
 }

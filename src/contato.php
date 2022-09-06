@@ -13,22 +13,23 @@
 </head>
 
 <body>
-    <div class="nav-container">
-        <nav class="navbar">
-            <a class="navbar-logo" href="/src/index.php"><img src="./img/logo/logo2.png" class="logo-img"></a>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="./index.php" class="nav-links nav-text">Início</a></li>
-                <li><a href="./sobre.php" class="nav-links nav-text">Sobre</a></li>
-                <li><a href="./projetos.php" class="nav-links nav-text">Projetos</a></li>
-                <li><a href="./contato.php" class="nav-links nav-text nav-links-btn">Contato</a></li>
+<header>
+        <div class="logo">
+        <a href="./index.php"><img src="./img/logo/logo2.png" alt=""></a>
+        </div>
+        <nav class="nav" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./index.php" class="nav__link">Início</a></li>
+                <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
+                <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
+                <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
             </ul>
         </nav>
-    </div>
+        <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
+        
+    </header>
+
+    <script src="./js/navbar.js"></script>
     <div class="contato-img-div">
         <div class="contato-img-fade">
             <div class="contato-logo">

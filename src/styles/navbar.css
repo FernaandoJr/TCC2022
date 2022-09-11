@@ -51,11 +51,16 @@
     margin: 0 8px;
 }
 
+
+
 header{ 
+    width: 100%;
+    position: fixed;
+    z-index: 5;
     display: flex;
     background-color: var(--logo-dark-blue-70);
     justify-content: space-around;
-    padding: 1rem 0;
+    padding: .5rem 0;
     align-items: center;
 }
 
@@ -74,6 +79,9 @@ header{
 
 @media screen and (max-width: 560px) {
     header{
+        width: 100%;
+        position: fixed;
+        z-index: 5;
         height: 48px;
         justify-content: space-between;
         padding: 0 28px;
@@ -83,6 +91,7 @@ header{
         width: 30px;
     }
     .header__menu{
+        margin-right: 10%;
         width: 30px;
         cursor: pointer;
         display: inline;

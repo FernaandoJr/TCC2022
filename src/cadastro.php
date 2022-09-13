@@ -43,20 +43,12 @@
         <p>• Faça seu cadastro</p>
     </div>
     <div class="blank2"></div>
-    <div class="general">
-        <div class="card-form">
-            <div class="grid">
                     <form action="./php/cadastro.php" method="post">
                     <label for="email">Digite seu Email</label>
                     <input type="text" name="email" id="email">
                     <input type="text" name="senha" id="senha">
                     <input type="text" name="confirm_senha" id="confirm_senha">
                     <button type="submit">Enviar</button>
-            </div>
-        </div>
-    </div>
-
-
     </form>
 </body>
 

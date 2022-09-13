@@ -15,9 +15,9 @@
 </head>
 
 <body>
-<header>
+    <header>
         <div class="logo">
-        <a href="./index.php"><img src="./img/logo/logo2.png" alt=""></a>
+            <a href="./index.php"><img src="./img/logo/logo2.png" alt=""></a>
         </div>
         <nav class="nav" id="nav-menu">
             <ul class="nav__list">
@@ -25,7 +25,7 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./cadastro.php" class="nav__link">Cadastro</a></li>
+                <li class="nav__item"><a id="btn-cadastro" class="nav__link">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -128,8 +128,41 @@
             </div>
         </div>
     </div>
+
+    <div class="popup">
+        <div class="popup-content">
+            <div class="parent">
+                <div class="img-cadastro"><img src="./img/exemplo4.jpg" alt=""></div>
+                <div class="form-cadastro">
+                    <form action="./php/cadastro.php" method="post">
+
+                    <div class="cadastro-title">
+                        <p>Cadastre-se</p>
+                    </div>
+                        <div class="cadastro-email">
+                        <input type="text" name="email" id="email">
+                        </div>
+                        <div class="cadastro-senha">
+                            <input type="text" name="senha" id="senha">
+                        </div>
+                        <div class="cadastro-confirm-senha">
+                            <input type="text" name="confirm_senha" id="confirm_senha">
+                        </div>
+                        <div class="cadastro-btn">
+                            <button type="submit">Enviar</button>
+                        </div>
+                        <div class="cadastro-aviso">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="blank4"></div>
     <div class="blank15"></div>
+    <script src="./js/popup.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 

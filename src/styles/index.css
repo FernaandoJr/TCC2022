@@ -154,3 +154,70 @@ img {
 .home-btn a:hover:before {
   width: 100%;
 }
+
+.popup {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  height: 70vh;
+  width: 60vw;
+  background: white;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.img-cadastro {
+  grid-area: 1 / 1 / 2 / 2;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: red;
+}
+
+.form-cadastro {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.form-cadastro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+.cadastro-title p{
+  font-size: 30px;
+  
+}
+
+  .cadastro-email { grid-area: 1 / 1 / 2 / 2; }
+  .cadastro-senha { grid-area: 2 / 1 / 3 / 2; }
+  .cadastro-confirm-senha { grid-area: 3 / 1 / 4 / 2; }
+  .cadastro-btn { grid-area: 4 / 1 / 5 / 2; }
+  .cadastro-aviso { grid-area: 5 / 1 / 6 / 2; }
+
+
+.img-cadastro img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

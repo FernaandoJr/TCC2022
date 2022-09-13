@@ -11,7 +11,7 @@ $msg = htmlspecialchars(isset($_POST['msg']) ? $_POST['msg'] : null);
 
 // insere no banco
 $PDO = db_connect();
-$sql = "INSERT INTO cadastro(nome, tel, email, msg) VALUES(:nome, :tel, :email, :msg)";
+$sql = "INSERT INTO resposta_form(nome, tel, email, msg) VALUES(:nome, :tel, :email, :msg)";
 $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':nome', $nome);
 $stmt->bindParam(':tel', $tel);

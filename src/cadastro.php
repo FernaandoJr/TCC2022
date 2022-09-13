@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -9,7 +13,7 @@
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/cadastro.css">
-    <title>Hívena Del Pintor</title>
+    <title>Estudio ao Quadrado</title>
 </head>
 
 <body>
@@ -24,32 +28,92 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
+                <li class="nav__item"><a href="./cadastro.php" class="nav__link">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
-        
+
     </header>
 
     <script src="./js/navbar.js"></script>
-    <div class="sobre-img-div">
-        <div class="sobre-img-fade">
-            <div class="logo-sobre">
-                <img src="./img/logo/logo4.png" alt="Logo">
-            </div>
+    <div class="parent">
+        <div class="img-cadastro"><img src="./img/exemplo4.jpg" alt=""></div>
+        <div class="form-cadastro">
+
+            <form action="./php/cadastro.php" method="post" class="formulario-grid">
+                <div class="cadastro-title">
+                    <p>Cadastre-se</p>
+                </div>
+                <?php
+                if(isset($_SESSION['error_senha'])):
+                ?>
+                <div class="cadastro-error">
+                    <p>A senha deve conter ao menos 8 caracteres.</p>
+                </div>
+                <?php
+                endif;
+                unset($_SESSION['error_senha']);
+                ?>
+                <?php
+                if(isset($_SESSION['error_email'])):
+                ?>
+                <div class="cadastro-error">
+                    <p>O Email não é válido.</p>
+                </div>
+                <?php
+                endif;
+                unset($_SESSION['error_email']);
+                ?>
+                <?php
+                if(isset($_SESSION['error_confirm_senha'])):
+                ?>
+                <div class="cadastro-error">
+                    <p>As senhas não coincidem.</p>
+                </div>
+                <?php
+                endif;
+                unset($_SESSION['error_confirm_senha']);
+                ?>
+                <?php
+                if(isset($_SESSION['error_email_exists'])):
+                ?>
+                <div class="cadastro-error">
+                    <p>Este Email já está cadastrado.</p>
+                </div>
+                <?php
+                endif;
+                unset($_SESSION['error_email_exists']);
+                ?>
+                <div class="cadastro-email">
+                    <div class="input-group">
+                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50"
+                            class="input">
+                        <label class="user-label">Email</label>
+                    </div>
+                </div>
+                <div class="cadastro-senha">
+                    <div class="input-group">
+                        <input required="" type="password" name="senha" id="senha" autocomplete="off" maxlength="50"
+                            class="input">
+                        <label class="user-label">Senha</label>
+                    </div>
+                </div>
+                <div class="cadastro-confirm-senha">
+                    <div class="input-group">
+                        <input required="" type="password" name="confirm_senha" id="confirm_senha" autocomplete="off"
+                            maxlength="50" class="input">
+                        <label class="user-label">Confirmar Senha</label>
+                    </div>
+                </div>
+                <div class="cadastro-btn">
+                    <button type="submit" class="cadastro-btn-submit">Enviar</button>
+                </div>
+                <div class="cadastro-aviso">
+                    <p>Já tem uma conta? <a href="./login.php">Faça login.</a></p>
+                </div>
+            </form>
         </div>
     </div>
-    <div class="blank15"></div>
-    <div class="cadastro-title">
-        <p>• Faça seu cadastro</p>
-    </div>
-    <div class="blank2"></div>
-                    <form action="./php/cadastro.php" method="post">
-                    <label for="email">Digite seu Email</label>
-                    <input type="text" name="email" id="email">
-                    <input type="text" name="senha" id="senha">
-                    <input type="text" name="confirm_senha" id="confirm_senha">
-                    <button type="submit">Enviar</button>
-    </form>
 </body>
 
 </html>

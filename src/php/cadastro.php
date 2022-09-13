@@ -1,6 +1,6 @@
 <?php
 require_once 'init.php';
-
+session_start();
 // pega os dados do formuário
 $email = htmlspecialchars(isset($_POST['email']) ? $_POST['email'] : null);
 $senha = isset($_POST['senha']) ? $_POST['senha'] : null;
@@ -34,14 +34,21 @@ if (strlen(trim( $senha )) >= 8 and (filter_var($email, FILTER_VALIDATE_EMAIL)) 
         print_r($stmt->errorInfo());
     }
 } elseif(strlen(trim( $senha )) < 8){
-        $senha_err = "A senha deve conter 8 ou mais caracteres.";
-        echo $senha_err;
+        $_SESSION['error_senha'] = true;
+        header('Location: /src/cadastro.php');
+        exit();
     } elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-        $email_valid_err = "O email não é válido.";
+        $_SESSION['error_email'] = true;
+        header('Location: /src/cadastro.php');
+        exit();
     }elseif($senha != $confirm_senha){
-        $senha_confirm_err = "As senhas não coincidem.";
+        $_SESSION['error_confirm_senha'] = true;
+        header('Location: /src/cadastro.php');
+        exit();
     }else{
-        $email_exists_err= "Este email já está cadastrado.";
+        $_SESSION['error_email_exists'] = true;
+        header('Location: /src/cadastro.php');
+        exit();
     }
 
 ?>

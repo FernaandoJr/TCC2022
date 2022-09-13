@@ -78,7 +78,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 650px) {
     header{
         width: 100%;
         position: fixed;

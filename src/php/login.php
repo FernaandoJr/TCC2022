@@ -1,31 +1,23 @@
 <?php
 session_start();
-require_once 'init.php';
+include('init.php');
 
+if (empty($_POST['email']) || empty($_POST['senha'])) {
+    header('Location: /src/index.php');
+    exit();
+}
 
-$email = htmlspecialchars(isset($_POST['email']) ? $_POST['email'] : null);
-$senha = isset($_POST['senha']) ? $_POST['senha'] : null;
- 
-    if($email != null and $senha != null){
-        $PDO = db_connect();
-        $sql = $PDO->query("SELECT email, senha FROM cadastro WHERE email = $email and senha = md5($senha)");
-        if($sql->rowCount() == 1){
-            $usuario = $sql->fetchAll(PDO::FETCH_ASSOC);
-            if (!isset($_SESSION)) {
-                session_start();
-            }
-        }
-
-        $_SESSION['id'] = $usuario['id'];
-        $_SESSION['email'] = $usuario['email'];
-
-        header("Location: /src/php/painel.php");
-
-    } elseif($senha == null){
-            echo "Por favor, insira sua senha.";
-        } elseif($email == null){
-            echo "Por favor, insira seu email.";
-        }else{
-            echo "Email ou Senha incorretos.";
-        }
-
+$email = mysqli_real_escape_string($conexao, $_POST['email']);
+$senha = mysqli_real_escape_string($conexao, $_POST['senha']);
+$query = "select idcadastro, email from cadastro where email = '{$email}' and senha = md5('{$senha}')";
+$result = mysqli_query($conexao, $query);
+$row = mysqli_num_rows($result);
+if ($row == 1) {
+    $_SESSION['email'] = $email;
+    header('Location: /src/painel.php');
+    exit();
+} else {
+    $_SESSION['nao_autenticado'] = true;
+    header('Location : index.php');
+    exit();
+}

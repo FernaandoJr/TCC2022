@@ -37,6 +37,11 @@
     font-weight: 300;
     border-radius: 5px;
     cursor: pointer;
+    margin: 8px;
+}
+
+.nav__link-special{
+    background-color: var(--logo-dark-blue-50);
 }
 
 .nav__link:hover{
@@ -51,8 +56,6 @@
 .nav__item{
     margin: 0 8px;
 }
-
-
 
 header{ 
     width: 100%;
@@ -71,7 +74,6 @@ header{
 }
 .logo img{
     width: 50px;
-    margin-right: 10px;
 }
 
 .header__menu, .header__close{

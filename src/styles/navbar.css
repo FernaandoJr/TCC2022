@@ -36,6 +36,7 @@
     font-size: .9rem;
     font-weight: 300;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .nav__link:hover{

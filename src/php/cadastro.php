@@ -30,17 +30,18 @@ if (strlen(trim( $senha )) >= 8 and (filter_var($email, FILTER_VALIDATE_EMAIL)) 
     if ($stmt->execute()) {
         header('Location: /src/index.php');
     } else {
-        echo "Erro ao cadastrar";
+        $general_err = "Erro ao cadastrar.";
         print_r($stmt->errorInfo());
     }
 } elseif(strlen(trim( $senha )) < 8){
-        echo "A senha deve conter 8 ou mais caracteres";
+        $senha_err = "A senha deve conter 8 ou mais caracteres.";
+        echo $senha_err;
     } elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-        echo "O email não é válido";
+        $email_valid_err = "O email não é válido.";
     }elseif($senha != $confirm_senha){
-        echo "As senhas não coincidem.";
+        $senha_confirm_err = "As senhas não coincidem.";
     }else{
-        echo "Este email já está cadastrado.";
+        $email_exists_err= "Este email já está cadastrado.";
     }
 
 ?>

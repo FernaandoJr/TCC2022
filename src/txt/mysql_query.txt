@@ -1,6 +1,6 @@
-create database hivena_db;
+create database db;
 
-CREATE TABLE `cadastro` (
+CREATE TABLE `resposta_form` (
   id INT NOT NULL AUTO_INCREMENT,
   nome varchar(50) not null,
   tel bigint not null,
@@ -8,5 +8,9 @@ CREATE TABLE `cadastro` (
   msg varchar(200) not null,
   PRIMARY KEY (id));
 
-select * from cadastro;
-drop table cadastro;
+
+CREATE TABLE `db`.`cadastro` (
+  `idcadastro` INT NOT NULL AUTO_INCREMENT,
+  `email` VARCHAR(45) NOT NULL,
+  `senha` VARCHAR(32) NOT NULL,
+  PRIMARY KEY (`idcadastro`));

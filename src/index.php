@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/home-card/prj.css">
     <link rel="stylesheet" href="./styles/home-card/sobre.css">
     <link rel="stylesheet" href="./styles/home-card/info.css">
+    <link rel="stylesheet" href="./styles/popup.css">
     <title>Hívena Del Pintor</title>
 </head>
 
@@ -134,27 +135,42 @@
             <div class="parent">
                 <div class="img-cadastro"><img src="./img/exemplo4.jpg" alt=""></div>
                 <div class="form-cadastro">
-                    <form action="./php/cadastro.php" method="post">
 
-                    <div class="cadastro-title">
-                        <p>Cadastre-se</p>
-                    </div>
-                        <div class="cadastro-email">
-                        <input type="text" name="email" id="email">
-                        </div>
-                        <div class="cadastro-senha">
-                            <input type="text" name="senha" id="senha">
-                        </div>
-                        <div class="cadastro-confirm-senha">
-                            <input type="text" name="confirm_senha" id="confirm_senha">
-                        </div>
-                        <div class="cadastro-btn">
-                            <button type="submit">Enviar</button>
-                        </div>
-                        <div class="cadastro-aviso">
+                        <form action="./php/cadastro.php" method="post" class="formulario-grid">
+                            <div class="cadastro-title">
+                                <p>Cadastre-se</p>
+                            </div>
+                            <div class="cadastro-error">
 
-                        </div>
-                    </form>
+                            </div>
+                            <div class="cadastro-email">
+                                <div class="input-group">
+                                    <input required="" type="text" name="email" id="email" autocomplete="off"
+                                        maxlength="50" class="input">
+                                    <label class="user-label">Email</label>
+                                </div>
+                            </div>
+                            <div class="cadastro-senha">
+                                <div class="input-group">
+                                    <input required="" type="text" name="senha" id="senha" autocomplete="off"
+                                        maxlength="50" class="input">
+                                    <label class="user-label">Senha</label>
+                                </div>
+                            </div>
+                            <div class="cadastro-confirm-senha">
+                                <div class="input-group">
+                                    <input required="" type="text" name="confirm_senha" id="confirm_senha"
+                                        autocomplete="off" maxlength="50" class="input">
+                                    <label class="user-label">Confirmar Senha</label>
+                                </div>
+                            </div>
+                            <div class="cadastro-btn">
+                                <button type="submit" class="cadastro-btn-submit">Enviar</button>
+                            </div>
+                            <div class="cadastro-aviso">
+                                <p>Já tem uma conta? <a href="#">Faça login.</a></p>
+                            </div>
+                        </form>
                 </div>
             </div>
         </div>

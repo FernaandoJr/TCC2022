@@ -15,7 +15,7 @@
 <body>
 <header>
         <div class="logo">
-        <a href="./index.php"><img src="./img/logo/logo2.png" alt=""></a>
+        <a href="./index.php"><img src="./img/logo/LogoA_white.svg" alt=""></a>
         </div>
         <nav class="nav" id="nav-menu">
             <ul class="nav__list">
@@ -35,7 +35,7 @@
     <div class="contato-img-div">
         <div class="contato-img-fade">
             <div class="contato-logo">
-                <img src="./img/logo/logo4.png" alt="Logo">
+                <img src="./img/logo/full_logo_white.svg" alt="Logo">
             </div>
         </div>
     </div>

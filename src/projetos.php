@@ -14,7 +14,7 @@
 <body>
 <header>
         <div class="logo">
-        <a href="./index.php"><img src="./img/logo/logo2.png" alt=""></a>
+        <a href="./index.php"><img src="./img/logo/LogoA_white.svg" alt=""></a>
         </div>
         <nav class="nav" id="nav-menu">
             <ul class="nav__list">

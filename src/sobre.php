@@ -15,7 +15,7 @@
     <!--  ↓ NAVBAR E IMAGEM DA HOME ↓ -->
     <header>
         <div class="logo">
-            <a href="./index.php"><img src="./img/logo/logo2.png" alt=""></a>
+            <a href="./index.php"><img src="./img/logo/LogoA_white.svg" alt=""></a>
         </div>
         <nav class="nav" id="nav-menu">
             <ul class="nav__list">
@@ -35,7 +35,7 @@
     <div class="sobre-img-div">
         <div class="sobre-img-fade">
             <div class="logo-sobre">
-                <img src="./img/logo/logo4.png" alt="Logo">
+                <img src="./img/logo/full_logo_white.svg" alt="Logo">
             </div>
         </div>
     </div>

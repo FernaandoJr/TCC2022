@@ -13,6 +13,7 @@ session_start();
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/popup.css">
     <title>Estudio ao Quadrado</title>
 </head>
 
@@ -28,8 +29,8 @@ session_start();
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>                                             
-                 <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>                 
+                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>
+                <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -38,6 +39,22 @@ session_start();
 
     <script src="./js/navbar.js"></script>
     <div class="parent">
+        <?php
+                if(isset($_SESSION['nao_autenticado'])):
+                ?>
+        <script src="./js/popup.js"></script>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <h1>ERRO</h1>
+                    <p>Email ou Senha incorretos.</p>
+                </div>
+            </div>
+        </div>
+        <?php
+                endif;  
+                unset($_SESSION['nao_autenticado']);
+                ?>
         <div class="img-login">
             <img src="./img/exemplo24.jpg" alt="">
         </div>
@@ -47,16 +64,6 @@ session_start();
                 <div class="login-title">
                     <p>Login</p>
                 </div>
-                <?php
-                if(isset($_SESSION['nao_autenticado'])):
-                ?>
-                <div class="login-error">
-                <p>Usuário ou Senha incorretos.</p>
-                </div>
-                <?php
-                endif;  
-                unset($_SESSION['nao_autenticado']);
-                ?>
                 <div class="login-email">
                     <div class="input-group">
                         <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50"

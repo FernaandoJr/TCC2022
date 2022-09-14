@@ -13,6 +13,7 @@ session_start();
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/cadastro.css">
+    <link rel="stylesheet" href="./styles/popup.css">
     <title>Estudio ao Quadrado</title>
 </head>
 
@@ -28,8 +29,8 @@ session_start();
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>                                             
-                 <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>                 
+                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>
+                <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -38,6 +39,71 @@ session_start();
 
     <script src="./js/navbar.js"></script>
     <div class="parent">
+        <?php
+                if(isset($_SESSION['error_senha'])):
+                ?>
+        <script src="./js/popup.js"></script>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <h1>ERRO</h1>
+                    <p>A senha deve conter 8 ou mais digitos.</p>
+                </div>
+            </div>
+        </div>
+        <?php
+                endif;
+                unset($_SESSION['error_senha']);
+                ?>
+        <?php
+                if(isset($_SESSION['error_email'])):
+                ?>
+        <script src="./js/popup.js"></script>
+        <div class="popup">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <h1>ERRO</h1>
+                    <p>O email não é válido.</p>
+                </div>
+            </div>
+        </div>
+        <?php
+                endif;
+                unset($_SESSION['error_email']);
+                ?>
+        <?php
+                if(isset($_SESSION['error_confirm_senha'])):
+                ?>
+        <script src="./js/popup.js"></script>
+        <div class="popup">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <h1>ERRO</h1>
+                    <p>As senhas não coincidem.</p>
+                </div>
+            </div>
+        </div>
+        <?php
+                endif;
+                unset($_SESSION['error_confirm_senha']);
+                ?>
+        <?php
+                if(isset($_SESSION['error_email_exists'])):
+                ?>
+        <script src="./js/popup.js"></script>
+        <div class="popup">
+            <div class="popup-content">
+                <div class="popup-text">
+                    <h1>ERRO</h1>
+                    <p>Este email já está cadastrado.</p>
+                </div>
+            </div>
+        </div>
+        <?php
+                endif;
+                unset($_SESSION['error_email_exists']);
+                ?>
+
         <div class="img-cadastro"><img src="./img/exemplo4.jpg" alt=""></div>
         <div class="form-cadastro">
 
@@ -45,46 +111,6 @@ session_start();
                 <div class="cadastro-title">
                     <p>Cadastre-se</p>
                 </div>
-                <?php
-                if(isset($_SESSION['error_senha'])):
-                ?>
-                <div class="cadastro-error">
-                    <p>A senha deve conter ao menos 8 caracteres.</p>
-                </div>
-                <?php
-                endif;
-                unset($_SESSION['error_senha']);
-                ?>
-                <?php
-                if(isset($_SESSION['error_email'])):
-                ?>
-                <div class="cadastro-error">
-                    <p>O Email não é válido.</p>
-                </div>
-                <?php
-                endif;
-                unset($_SESSION['error_email']);
-                ?>
-                <?php
-                if(isset($_SESSION['error_confirm_senha'])):
-                ?>
-                <div class="cadastro-error">
-                    <p>As senhas não coincidem.</p>
-                </div>
-                <?php
-                endif;
-                unset($_SESSION['error_confirm_senha']);
-                ?>
-                <?php
-                if(isset($_SESSION['error_email_exists'])):
-                ?>
-                <div class="cadastro-error">
-                    <p>Este Email já está cadastrado.</p>
-                </div>
-                <?php
-                endif;
-                unset($_SESSION['error_email_exists']);
-                ?>
                 <div class="cadastro-email">
                     <div class="input-group">
                         <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50"

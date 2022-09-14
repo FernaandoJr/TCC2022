@@ -109,6 +109,7 @@ img {
   text-align: center;
   font-size: 35px;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 .contato-form-text {
@@ -163,6 +164,7 @@ img {
 }
 
 .input-name {
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
@@ -176,6 +178,7 @@ img {
 }
 
 .input-tel {
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
@@ -189,6 +192,7 @@ img {
 }
 
 .input-email {
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;

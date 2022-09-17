@@ -24,7 +24,17 @@
   }
 
 
+.bg{
+  background-image: linear-gradient(to right top, #172b3c, #203c54, #294e6d, #336188, #3e74a3, #4980b1, #558cc0, #6099cf, #6da1d3, #7aaad7, #87b2db, #94bbdf);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .parent {
+    width: 80%;
     display: grid;
     grid-template-columns: 55% 45%;
     grid-template-rows: 100%;
@@ -48,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: white;
   }
   
   .formulario-grid{

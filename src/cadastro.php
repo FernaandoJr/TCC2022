@@ -38,6 +38,7 @@ session_start();
     </header>
 
     <script src="./js/navbar.js"></script>
+    <div class="bg">
     <div class="parent">
         <?php
                 if(isset($_SESSION['error_senha'])):
@@ -140,6 +141,7 @@ session_start();
                 </div>
             </form>
         </div>
+    </div>
     </div>
 </body>
 

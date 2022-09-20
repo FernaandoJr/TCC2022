@@ -9,6 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo/logoA_blue.svg" type="image/svg">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/blank.css">
@@ -42,19 +43,19 @@ session_start();
         <div class="teste">
             <div class="parent">
                 <?php
-                if(isset($_SESSION['nao_autenticado'])):
+                if (isset($_SESSION['nao_autenticado'])) :
                 ?>
-                <script src="./js/popup.js"></script>
-                <div class="popup" id="popup">
-                    <div class="popup-content">
-                        <div class="popup-text">
-                            <h1>ERRO</h1>
-                            <p>Email ou Senha incorretos.</p>
+                    <script src="./js/popup.js"></script>
+                    <div class="popup" id="popup">
+                        <div class="popup-content">
+                            <div class="popup-text">
+                                <h1>ERRO</h1>
+                                <p>Email ou Senha incorretos.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <?php
-                endif;  
+                endif;
                 unset($_SESSION['nao_autenticado']);
                 ?>
                 <div class="img-login">
@@ -68,15 +69,13 @@ session_start();
                         </div>
                         <div class="login-email">
                             <div class="input-group">
-                                <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50"
-                                    class="input">
+                                <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50" class="input">
                                 <label class="user-label">Email</label>
                             </div>
                         </div>
                         <div class="login-senha">
                             <div class="input-group">
-                                <input required="" type="password" name="senha" id="senha" autocomplete="off"
-                                    maxlength="50" class="input">
+                                <input required="" type="password" name="senha" id="senha" autocomplete="off" maxlength="50" class="input">
                                 <label class="user-label">Senha</label>
                             </div>
                         </div>

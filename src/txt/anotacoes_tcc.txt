@@ -47,3 +47,14 @@ https://www.campidellis.com.br/contato
 
 //Background Gradient
 background-image: linear-gradient(to right top, #172b3c, #203c54, #294e6d, #336188, #3e74a3, #4980b1, #558cc0, #6099cf, #6da1d3, #7aaad7, #87b2db, #94bbdf);
+
+
+//MSG CURSO
+titulo da ideia: Site de arquitetura e design de interiores | (Studio Ao Quadrado)
+
+Sobre a Ideia: Site de arquitetura para um cliente conhecido que precisa de uma plataforma online que faça a ponte entre o cliente e o vendedor, focado em arquitetura e design de interiores.
+
+
+
+
+

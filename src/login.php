@@ -14,7 +14,7 @@ session_start();
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/login.css">
     <link rel="stylesheet" href="./styles/popup.css">
-    <title>Estudio ao Quadrado</title>
+    <title>Studio ao Quadrado</title>
 </head>
 
 <body>
@@ -38,53 +38,57 @@ session_start();
     </header>
 
     <script src="./js/navbar.js"></script>
-    <div class="parent">
-        <?php
+    <div class="bg">
+        <div class="teste">
+            <div class="parent">
+                <?php
                 if(isset($_SESSION['nao_autenticado'])):
                 ?>
-        <script src="./js/popup.js"></script>
-        <div class="popup" id="popup">
-            <div class="popup-content">
-                <div class="popup-text">
-                    <h1>ERRO</h1>
-                    <p>Email ou Senha incorretos.</p>
+                <script src="./js/popup.js"></script>
+                <div class="popup" id="popup">
+                    <div class="popup-content">
+                        <div class="popup-text">
+                            <h1>ERRO</h1>
+                            <p>Email ou Senha incorretos.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <?php
+                <?php
                 endif;  
                 unset($_SESSION['nao_autenticado']);
                 ?>
-        <div class="img-login">
-            <img src="./img/exemplo24.jpg" alt="">
-        </div>
-        <div class="form-login">
+                <div class="img-login">
+                    <img src="./img/exemplo4.jpg" alt="">
+                </div>
+                <div class="form-login">
 
-            <form action="./php/login.php" method="post" class="formulario-grid">
-                <div class="login-title">
-                    <p>Login</p>
+                    <form action="./php/login.php" method="post" class="formulario-grid">
+                        <div class="login-title">
+                            <p>Login</p>
+                        </div>
+                        <div class="login-email">
+                            <div class="input-group">
+                                <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50"
+                                    class="input">
+                                <label class="user-label">Email</label>
+                            </div>
+                        </div>
+                        <div class="login-senha">
+                            <div class="input-group">
+                                <input required="" type="password" name="senha" id="senha" autocomplete="off"
+                                    maxlength="50" class="input">
+                                <label class="user-label">Senha</label>
+                            </div>
+                        </div>
+                        <div class="login-btn">
+                            <button type="submit" class="login-btn-submit">Enviar</button>
+                        </div>
+                        <div class="login-aviso">
+                            <p>Ainda naõ tem uma conta? <a href="./cadastro.php">Cadastre-se.</a></p>
+                        </div>
+                    </form>
                 </div>
-                <div class="login-email">
-                    <div class="input-group">
-                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="50"
-                            class="input">
-                        <label class="user-label">Email</label>
-                    </div>
-                </div>
-                <div class="login-senha">
-                    <div class="input-group">
-                        <input required="" type="password" name="senha" id="senha" autocomplete="off" maxlength="50"
-                            class="input">
-                        <label class="user-label">Senha</label>
-                    </div>
-                </div>
-                <div class="login-btn">
-                    <button type="submit" class="login-btn-submit">Enviar</button>
-                </div>
-                <div class="login-aviso">
-                    <p>Ainda naõ tem uma conta? <a href="./cadastro.php">Cadastre-se.</a></p>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </body>

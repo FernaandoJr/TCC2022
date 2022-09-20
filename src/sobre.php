@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/blank.css">
-    <title>Estudio ao Quadrado</title>
+    <title>Studio ao Quadrado</title>
 </head>
 
 <body>

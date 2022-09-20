@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles/home-card/prj.css">
     <link rel="stylesheet" href="./styles/home-card/sobre.css">
     <link rel="stylesheet" href="./styles/home-card/info.css">
-    <title>Estudio ao Quadrado</title>
+    <title>Studio ao Quadrado</title>
 </head>
 
 <body>

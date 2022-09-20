@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/contato.css">
     <link rel="stylesheet" href="./styles/blank.css">
-    <title>Estudio ao Quadrado</title>
+    <title>Studio ao Quadrado</title>
 </head>
 
 <body>

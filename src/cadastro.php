@@ -14,7 +14,7 @@ session_start();
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/cadastro.css">
     <link rel="stylesheet" href="./styles/popup.css">
-    <title>Estudio ao Quadrado</title>
+    <title>Studio ao Quadrado</title>
 </head>
 
 <body>
@@ -39,6 +39,7 @@ session_start();
 
     <script src="./js/navbar.js"></script>
     <div class="bg">
+        <div class="teste">
     <div class="parent">
         <?php
                 if(isset($_SESSION['error_senha'])):
@@ -140,6 +141,7 @@ session_start();
                     <p>Já tem uma conta? <a href="./login.php">Faça login.</a></p>
                 </div>
             </form>
+        </div>
         </div>
     </div>
     </div>

@@ -39,24 +39,61 @@
 
   .popup-content {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 30vh;
-    width: 25vw;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
     background: white;
     border-radius: 12px;
     position: absolute;
-    overflow: hidden;
     z-index: 7;
-  }
-
-  .popup-content p h1{
-    display: block;
-  }
-
-  .popup-text{
-    font-family: "Poppins", sans-serif;
-    width: 100%;
-    height: 12vh;
     text-align: center;
+    padding-top: 20px;
+    vertical-align: top;
   }
+  
+
+  .popup-content img{
+    height: 70px;
+    padding-bottom: 55px;
+    vertical-align: top;
+  }
+
+
+.popup-content h2{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.popup-content p{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.btn-ok{
+  width: 85%;
+  background: linear-gradient(
+    60deg,
+    rgba(62, 114, 161, 1) 0%,
+    rgba(69, 128, 181, 1) 38%,
+    rgba(77, 142, 201, 1) 84%
+  );
+  height: 4vh;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-ok:active{
+  transform: scale(0.97);
+}

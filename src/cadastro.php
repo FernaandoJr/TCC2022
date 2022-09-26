@@ -48,10 +48,10 @@ session_start();
                     <script src="./js/popup.js"></script>
                     <div class="popup" id="popup">
                         <div class="popup-content">
-                            <div class="popup-text">
-                                <h1>ERRO</h1>
-                                <p>A senha deve conter 8 ou mais digitos.</p>
-                            </div>
+                            <img src="./img/icon/error.svg" alt="">
+                            <h2>Erro!</h2>
+                            <p>A senha deve conter 8 ou mais caracteres.</p>
+                            <button id="btn-ok" class=btn-ok>OK</button>
                         </div>
                     </div>
                 <?php
@@ -62,12 +62,12 @@ session_start();
                 if (isset($_SESSION['error_email'])) :
                 ?>
                     <script src="./js/popup.js"></script>
-                    <div class="popup">
+                    <div class="popup" id="popup">
                         <div class="popup-content">
-                            <div class="popup-text">
-                                <h1>ERRO</h1>
-                                <p>O email não é válido.</p>
-                            </div>
+                        <img src="./img/icon/error.svg" alt="">
+                            <h2>Erro!</h2>
+                            <p>O Email não é válido.</p>
+                            <button id="btn-ok" class=btn-ok>OK</button>
                         </div>
                     </div>
                 <?php
@@ -78,12 +78,12 @@ session_start();
                 if (isset($_SESSION['error_confirm_senha'])) :
                 ?>
                     <script src="./js/popup.js"></script>
-                    <div class="popup">
+                    <div class="popup" id="popup">
                         <div class="popup-content">
-                            <div class="popup-text">
-                                <h1>ERRO</h1>
-                                <p>As senhas não coincidem.</p>
-                            </div>
+                        <img src="./img/icon/error.svg" alt="">
+                            <h2>Erro!</h2>
+                            <p>As senhas não coincidem.</p>
+                            <button id="btn-ok" class=btn-ok>OK</button>
                         </div>
                     </div>
                 <?php
@@ -94,12 +94,12 @@ session_start();
                 if (isset($_SESSION['error_email_exists'])) :
                 ?>
                     <script src="./js/popup.js"></script>
-                    <div class="popup">
+                    <div class="popup" id="popup">
                         <div class="popup-content">
-                            <div class="popup-text">
-                                <h1>ERRO</h1>
-                                <p>Este email já está cadastrado.</p>
-                            </div>
+                        <img src="./img/icon/error.svg" alt="">
+                            <h2>Erro!</h2>
+                            <p>Este Email já está cadastrado.</p>
+                            <button id="btn-ok" class=btn-ok>OK</button>
                         </div>
                     </div>
                 <?php

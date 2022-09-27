@@ -48,10 +48,10 @@ session_start();
                     <script src="./js/popup.js"></script>
                     <div class="popup" id="popup">
                         <div class="popup-content">
-                            <div class="popup-text">
-                                <h1>ERRO</h1>
-                                <p>Email ou Senha incorretos.</p>
-                            </div>
+                            <img src="./img/icon/error.svg" alt="">
+                            <h2>Algo deu errado,</h2>
+                            <p>Email ou Senha incorretos.</p>
+                            <button class="btn-error" ><a href="./login.php">Tentar Novamente</a></button>
                         </div>
                     </div>
                 <?php

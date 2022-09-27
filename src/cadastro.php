@@ -49,9 +49,9 @@ session_start();
                     <div class="popup" id="popup">
                         <div class="popup-content">
                             <img src="./img/icon/error.svg" alt="">
-                            <h2>Erro!</h2>
+                            <h2>Algo deu errado,</h2>
                             <p>A senha deve conter 8 ou mais caracteres.</p>
-                            <button id="btn-ok" class=btn-ok>OK</button>
+                            <button class="btn-error" ><a href="./cadastro.php">Tentar Novamente</a></button>
                         </div>
                     </div>
                 <?php
@@ -64,10 +64,10 @@ session_start();
                     <script src="./js/popup.js"></script>
                     <div class="popup" id="popup">
                         <div class="popup-content">
-                        <img src="./img/icon/error.svg" alt="">
-                            <h2>Erro!</h2>
-                            <p>O Email não é válido.</p>
-                            <button id="btn-ok" class=btn-ok>OK</button>
+                            <img src="./img/icon/error.svg" alt="">
+                            <h2>Algo deu errado,</h2>
+                            <p>O email não é válido.</p>
+                            <button class="btn-error" ><a href="./cadastro.php">Tentar Novamente</a></button>
                         </div>
                     </div>
                 <?php
@@ -80,10 +80,10 @@ session_start();
                     <script src="./js/popup.js"></script>
                     <div class="popup" id="popup">
                         <div class="popup-content">
-                        <img src="./img/icon/error.svg" alt="">
-                            <h2>Erro!</h2>
+                            <img src="./img/icon/error.svg" alt="">
+                            <h2>Algo deu errado,</h2>
                             <p>As senhas não coincidem.</p>
-                            <button id="btn-ok" class=btn-ok>OK</button>
+                            <button class="btn-error" ><a href="./cadastro.php">Tentar Novamente</a></button>
                         </div>
                     </div>
                 <?php
@@ -96,10 +96,10 @@ session_start();
                     <script src="./js/popup.js"></script>
                     <div class="popup" id="popup">
                         <div class="popup-content">
-                        <img src="./img/icon/error.svg" alt="">
-                            <h2>Erro!</h2>
-                            <p>Este Email já está cadastrado.</p>
-                            <button id="btn-ok" class=btn-ok>OK</button>
+                            <img src="./img/icon/error.svg" alt="">
+                            <h2>Algo deu errado,</h2>
+                            <p>O email já está cadastrado.</p>
+                            <button class="btn-error" ><a href="./cadastro.php">Tentar Novamente</a></button>
                         </div>
                     </div>
                 <?php

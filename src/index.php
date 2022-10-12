@@ -26,8 +26,8 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>                                             
-                 <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>                 
+                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>
+                <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -91,25 +91,24 @@
     <div class="blank5"></div>
     <div class="blank3"></div>
     <!-- CARD PROJETOS -->
-    <div class="projeto-background-div prj-bg-marker">
-        <h1>Conheça alguns dos nossos projetos</h1>
-    </div>
-    <div class="blank3 prj-bg"></div>
-    <div class="home-prj-card prj-bg">
-        <div class="prj-card-grid">
-            <div class="prj-img1"> <img src="./img/exemplo22.jpg" alt=""></div>
-            <div class="prj-img2"> <img src="./img/exemplo21.jpg" alt=""></div>
-            <div class="prj-img3"> <img src="./img/exemplo23.jpg" alt=""></div>
-            <div class="prj-img4"> <img src="./img/exemplo10.jpg" alt=""></div>
-            <div class="prj-img5"> <img src="./img/exemplo9.jpg" alt=""></div>
-            <div class="prj-img6"> <img src="./img/exemplo17.jpg" alt=""></div>
-            <div class="prj-img7"> <img src="./img/exemplo24.jpg" alt=""></div>
-            <div class="prj-img8"> <img src="./img/exemplo15.jpg" alt=""></div>
-            <div class="prj-img9"> <img src="./img/exemplo14.jpg" alt=""></div>
-            <div class="prj-img10"> <img src="./img/exemplo13.jpg" alt=""></div>
+
+    <div class="slider-container">
+        <div id="slider">
+            <ul id="slideWrap">
+                <li><img src="./img/exemplo15.jpg" alt=""></li>
+                <li><img src="./img/exemplo17.jpg" alt=""></li>
+                <li><img src="./img/exemplo14.jpg" alt=""></li>
+                <li><img src="./img/exemplo9.jpg" alt=""></li>
+            </ul>
+            <a href="">
+                <img id="next" href src="./img/icon/next.svg" alt="">
+            </a>
+            <a href="">
+                <img id="prev" src="./img/icon/prev.svg" alt="">
+            </a>
         </div>
     </div>
-    <div class="blank4 prj-bg"></div>
+
     <div class="projeto-background-div">
         <h1 class="sobre-title">Saiba um pouco mais sobre nós</h1>
     </div>
@@ -132,7 +131,7 @@
     </div>
     <div class="blank4"></div>
     <div class="blank15"></div>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/img-slider.js"></script>
 </body>
 
 </html>

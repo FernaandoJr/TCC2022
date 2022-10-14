@@ -88,10 +88,11 @@
             </div>
         </div>
     </div>
-    <div class="blank5"></div>
     <div class="blank3"></div>
     <!-- CARD PROJETOS -->
-
+    <div class="projeto-background-div">
+        <h1 class="sobre-title">Conheça os nossos projetos</h1>
+    </div>
     <div class="slider-container">
         <div id="slider">
             <ul id="slideWrap">
@@ -99,15 +100,18 @@
                 <li><img src="./img/exemplo17.jpg" alt=""></li>
                 <li><img src="./img/exemplo14.jpg" alt=""></li>
                 <li><img src="./img/exemplo9.jpg" alt=""></li>
+                <li><img src="./img/exemplo10.jpg" alt=""></li>
+                <li><img src="./img/exemplo13.jpg" alt=""></li>
+                <li><img src="./img/exemplo20.jpg" alt=""></li>
+                <li><img src="./img/exemplo21.jpg" alt=""></li>
             </ul>
-            <a href="">
-                <img id="next" href src="./img/icon/next.svg" alt="">
-            </a>
-            <a href="">
-                <img id="prev" src="./img/icon/prev.svg" alt="">
-            </a>
+            <div class="svg">
+            <img id="prev" src="./img/icon/next.svg" alt="">
+            <img id="next" href src="./img/icon/prev.svg" alt="">
+        </div>
         </div>
     </div>
+    <script src="./js/img-slider.js"></script>
 
     <div class="projeto-background-div">
         <h1 class="sobre-title">Saiba um pouco mais sobre nós</h1>

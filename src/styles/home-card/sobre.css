@@ -7,7 +7,7 @@
   }
   
   .sobre-card-grid {
-    border-radius: 20px;
+    border-radius: 12px;
     box-shadow: 10px 10px 29px -3px rgba(0, 0, 0, 0.27);
     display: grid;
     grid-template-columns: 55% 45%;

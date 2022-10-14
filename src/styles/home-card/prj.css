@@ -1,3 +1,8 @@
+:root{
+  --height: 600px;
+  --width: 1000px;
+}
+
 .projeto-background-div {
   width: 100%;
   height: 10vh;
@@ -20,20 +25,19 @@
   font-weight: 300;
 }
 
-.slider-container {
+.slide-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #slider {
-  display: flex;
+  border-radius: 12px;
+  margin: auto;
+  overflow: hidden;
   align-items: center;
   position: relative;
-  width: 1000px;
-  height: 600px;
-  overflow: hidden;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  width: var(--width);
+  height: var(--height);
+  box-shadow: 10px 10px 10px 0px rgb(0 0 0 / 10%);
 }
 
 #slider ul {
@@ -44,7 +48,7 @@
   padding: 0;
   margin: 0;
   left: 0;
-  transition: all 750ms ease;
+  transition: all 500ms ease;
 }
 
 #slider ul li {
@@ -53,26 +57,34 @@
   float: left;
 }
 
-#slider ul li img {
-  width: 1000px;
-  height: 600px;
+#slider #slideWrap li img {
+  /* imagens exemplo */
+  width:var(--width);
+  height: var(--height);
 }
 
-#slider #next {
+.svg {
+  bottom: 325px;
   position: relative;
-  height: 40px;
-  z-index: 3;
-  right: 995px;
+  width: var(--width);
+  z-index: 2;
 }
 
-#slider #prev {
-  position: relative;
-  height: 40px;
-  z-index: 3;
-  left: -85px;
+.svg img {
+  cursor: pointer;
+  height: 50px;
+}
+#prev {
+  margin-left: 5px;
+  float: left;
+}
+#next {
+  margin-right: 5px;
+  float: right;
 }
 
-#prev, #next{
-  background-color: rgba(0, 0, 0, .3);
+#prev,
+#next {
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 9999px;
 }

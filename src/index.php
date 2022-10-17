@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/blank.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/home-card/prj.css">
     <link rel="stylesheet" href="./styles/home-card/sobre.css">
     <link rel="stylesheet" href="./styles/home-card/info.css">
@@ -106,9 +107,9 @@
                 <li><img src="./img/exemplo21.jpg" alt=""></li>
             </ul>
             <div class="svg">
-            <img id="prev" src="./img/icon/next.svg" alt="">
-            <img id="next" href src="./img/icon/prev.svg" alt="">
-        </div>
+                <img id="prev" src="./img/icon/next.svg" alt="">
+                <img id="next" href src="./img/icon/prev.svg" alt="">
+            </div>
         </div>
     </div>
     <script src="./js/img-slider.js"></script>
@@ -136,6 +137,44 @@
     <div class="blank4"></div>
     <div class="blank15"></div>
     <script src="./js/img-slider.js"></script>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>Sobre Nós</h2>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, laudantium pariatur, non beatae ea natus amet consectetur consequatur quis ducimus dolores cupiditate. Explicabo expedita commodi odit placeat ad repellendus saepe iste distinctio dolore. Accusamus architecto voluptas enim in eaque asperiores?</p>
+                    <div class="social">
+                        <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="#"><img src="./img/icon/logo-whatsapp.svg" alt=""></a>
+                        <a href="#"><img src="./img/icon/logo-whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Endereço</h2>
+                <div class="content">
+                    <div class="place">
+                        <img class="icon" src="./img/icon/location-outline.svg" alt="">
+                        <span class="text">Av. Brasil, Nova Capital</span>
+                    </div>
+                    <div class="phone">
+                        <img class="icon" src="./img/icon/location-outline.svg" alt="">
+                        <span class="text">+55 19 98985-7713</span>
+                    </div>
+                    <div class="email">
+                        <img class="icon" src="./img/icon/location-outline.svg" alt="">
+                        <span class="text">exemplo@empresa.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="center">
+                <span class="credit">Criado por <a href="">Studio Ao Quadrado</a></span>
+                <span class="copyright">2021 Todos os direitos reservados</span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

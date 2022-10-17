@@ -1,0 +1,126 @@
+footer{
+    color: white;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--logo-dark-blue-70);
+}
+
+footer .main-content{
+    display: flex;
+
+}
+
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.main-content .box h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main-content .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+    
+}
+
+.box .content:after{
+    position: absolute;
+    content: '';
+    width: 18%;
+    height: 2px;
+    background: var(--logo-blue);
+    top: -20px;
+}
+
+.box .content:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--logo-dark-blue-70);
+    top: -20px;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+
+.left .content .social a img{
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.left .content .social a img:hover{
+    
+}
+
+.left .content p{
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
+
+.center .content .icon{
+    height: 40px;
+
+    border-radius: 9999px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.center .content .icon:hover{
+
+}
+.center .content .text{
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+
+}
+.center .content .phone{
+    margin: 10px 0;
+}
+
+.bottom .center{
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    background: var(--logo-dark-blue-70);
+}
+
+.bottom .center span{
+    color: var(--logo-light-blue-70);
+}
+.bottom .center a{
+    color: var(--logo-blue);
+    text-decoration: none;
+}
+.bottom .center a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:900px){
+    footer{
+        position: relative;
+        bottom: 0px;
+
+    }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px 0;
+    }
+}

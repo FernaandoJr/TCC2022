@@ -145,8 +145,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, laudantium pariatur, non beatae ea natus amet consectetur consequatur quis ducimus dolores cupiditate. Explicabo expedita commodi odit placeat ad repellendus saepe iste distinctio dolore. Accusamus architecto voluptas enim in eaque asperiores?</p>
                     <div class="social">
                         <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
-                        <a href="#"><img src="./img/icon/logo-whatsapp.svg" alt=""></a>
-                        <a href="#"><img src="./img/icon/logo-whatsapp.svg" alt=""></a>
+                        <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -158,11 +158,11 @@
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
-                        <img class="icon" src="./img/icon/location-outline.svg" alt="">
+                        <img class="icon" src="./img/icon/call.svg" alt="">
                         <span class="text">+55 19 98985-7713</span>
                     </div>
                     <div class="email">
-                        <img class="icon" src="./img/icon/location-outline.svg" alt="">
+                        <img class="icon" src="./img/icon/mail-open.svg" alt="">
                         <span class="text">exemplo@empresa.com</span>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
         <div class="bottom">
             <div class="center">
                 <span class="credit">Criado por <a href="">Studio Ao Quadrado</a></span>
-                <span class="copyright">2021 Todos os direitos reservados</span>
+                <span class="copyright">© 2021 Todos os direitos reservados</span>
             </div>
         </div>
     </footer>

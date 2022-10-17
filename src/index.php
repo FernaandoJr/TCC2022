@@ -23,7 +23,7 @@
         </div>
         <nav class="nav" id="nav-menu">
             <ul class="nav__list">
-                <li class="nav__item"><a href="./index.php" class="nav__link">Início</a></li>
+                <li class="nav__item"><a href="./index.php" class="nav__link in">Início</a></li>
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>

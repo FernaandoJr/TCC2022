@@ -30,7 +30,7 @@ session_start();
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>
+                <li class="nav__item"><a href="./login.php" class="nav__link in">Login</a></li>
                 <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>
             </ul>
         </nav>
@@ -59,7 +59,7 @@ session_start();
                 unset($_SESSION['nao_autenticado']);
                 ?>
                 <div class="img-login">
-                    <img src="./img/exemplo4.jpg" alt="">
+                    <img src="./img/img1_169.png" alt="">
                 </div>
                 <div class="form-login">
 

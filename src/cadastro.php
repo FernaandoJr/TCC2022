@@ -31,7 +31,7 @@ session_start();
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
                 <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>
-                <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>
+                <li class="nav__item"><a href="./cadastro.php" class="nav__link in nav__link-special">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -107,7 +107,7 @@ session_start();
                 unset($_SESSION['error_email_exists']);
                 ?>
 
-                <div class="img-cadastro"><img src="./img/exemplo.jpg" alt=""></div>
+                <div class="img-cadastro"><img src="./img/img26_169.jpg" alt=""></div>
                 <div class="form-cadastro">
 
                     <form action="./php/cadastro.php" method="post" class="formulario-grid">

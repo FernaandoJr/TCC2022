@@ -23,7 +23,7 @@
                 <li class="nav__item"><a href="./index.php" class="nav__link">Início</a></li>
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
-                <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
+                <li class="nav__item"><a href="./contato.php" class="nav__link in">Contato</a></li>
                 <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>                                             
                  <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>                 
             </ul>
@@ -48,7 +48,7 @@
     </div>
     <div class="contato-form-grid">
         <!-- ↓ COLUNA 1 ↓ -->
-        <div class="contato-card"><img src="./img/exemplo17.jpg" alt="Imagem"></div>
+        <div class="contato-card"><img src="./img/img3_169.png" alt="Imagem"></div>
         <div class="contato-form-text">
             <div class="form-grid">
                 <div class="nome-completo">

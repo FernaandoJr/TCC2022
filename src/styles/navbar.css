@@ -40,7 +40,7 @@
     margin: 8px;
 }
 
-.nav__link-special{
+.in{
     background-color: var(--logo-dark-blue-50);
 }
 
@@ -105,7 +105,7 @@ header{
         position: fixed;
         top: 48px;
         right: -100%;
-        background-color:cadetblue;
+        background-color:var(--logo-dark-blue-70);
         color: white;
         width: 100%;
         height: fit-content;
@@ -126,7 +126,7 @@ header{
     }
 
     .nav__item{
-        margin: 2rem 0;
+        margin: 5px 0;
     }
 
     .show{

@@ -48,7 +48,7 @@
   padding: 0;
   margin: 0;
   left: 0;
-  transition: all 500ms ease;
+  transition: all 750ms ease;
 }
 
 #slider ul li {
@@ -59,6 +59,7 @@
 
 #slider #slideWrap li img {
   /* imagens exemplo */
+  aspect-ratio: 16/9;
   width:var(--width);
   height: var(--height);
 }

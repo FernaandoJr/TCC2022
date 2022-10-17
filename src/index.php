@@ -97,14 +97,21 @@
     <div class="slider-container">
         <div id="slider">
             <ul id="slideWrap">
-                <li><img src="./img/exemplo15.jpg" alt=""></li>
-                <li><img src="./img/exemplo17.jpg" alt=""></li>
-                <li><img src="./img/exemplo14.jpg" alt=""></li>
-                <li><img src="./img/exemplo9.jpg" alt=""></li>
-                <li><img src="./img/exemplo10.jpg" alt=""></li>
-                <li><img src="./img/exemplo13.jpg" alt=""></li>
-                <li><img src="./img/exemplo20.jpg" alt=""></li>
-                <li><img src="./img/exemplo21.jpg" alt=""></li>
+                <li><img src="./img/img1_169.png" alt=""></li>
+                <li><img src="./img/img2_169.png" alt=""></li>
+                <li><img src="./img/img3_169.png" alt=""></li>
+                <li><img src="./img/img5_169.png" alt=""></li>
+                <li><img src="./img/img7_169.png" alt=""></li>
+                <li><img src="./img/img8_169.png" alt=""></li>
+                <li><img src="./img/img9_169.png" alt=""></li>
+                <li><img src="./img/img23_169.png" alt=""></li>
+                <li><img src="./img/img24_169.png" alt=""></li>
+                <li><img src="./img/img26_169.jpg" alt=""></li>
+                <li><img src="./img/img12.jpg" alt=""></li>
+                <li><img src="./img/img13.jpg" alt=""></li>
+                <li><img src="./img/img14.jpg" alt=""></li>
+                <li><img src="./img/img15.jpg" alt=""></li>
+                <li><img src="./img/img16.jpg" alt=""></li>
             </ul>
             <div class="svg">
                 <img id="prev" src="./img/icon/next.svg" alt="">
@@ -123,14 +130,13 @@
                 <h1>Sobre Nós</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Inventore consequuntur ea minus. Cum perspiciatis corrupti
-                    incidunt culpa rerum numquam sit eos aliquid rem, quod sunt
-                    voluptatibus, laudantium quidem temporibus excepturi?</p>
+                    incidunt culpa rerum numquam sit eos </p>
                 <a href="./sobre.php">
                     <button class="btn">Sobre nós</button>
                 </a>
             </div>
             <div class="sobre-card-col2">
-                <img src="./img/exemplo21.jpg" alt="">
+                <img src="./img/img10.jpg" alt="">
             </div>
         </div>
     </div>
@@ -144,9 +150,7 @@
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, laudantium pariatur, non beatae ea natus amet consectetur consequatur quis ducimus dolores cupiditate. Explicabo expedita commodi odit placeat ad repellendus saepe iste distinctio dolore. Accusamus architecto voluptas enim in eaque asperiores?</p>
                     <div class="social">
-                        <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
-                        <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
-                        <a href="#"><img src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -154,7 +158,7 @@
                 <h2>Endereço</h2>
                 <div class="content">
                     <div class="place">
-                        <img class="icon" src="./img/icon/location-outline.svg" alt="">
+                        <img class="icon" src="./img/icon/location-sharp.svg" alt="">
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
@@ -170,7 +174,7 @@
         </div>
         <div class="bottom">
             <div class="center">
-                <span class="credit">Criado por <a href="">Studio Ao Quadrado</a></span>
+                <span class="credit">Criado por <a href="./equipe.php">Studio Ao Quadrado</a></span>
                 <span class="copyright">© 2021 Todos os direitos reservados</span>
             </div>
         </div>

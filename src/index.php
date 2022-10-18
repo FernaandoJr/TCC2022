@@ -27,8 +27,6 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>
-                <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -150,7 +148,7 @@
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, laudantium pariatur, non beatae ea natus amet consectetur consequatur quis ducimus dolores cupiditate. Explicabo expedita commodi odit placeat ad repellendus saepe iste distinctio dolore. Accusamus architecto voluptas enim in eaque asperiores?</p>
                     <div class="social">
-                        <a href="https://www.instagram.com/arq.studioaoquadrado/"><img src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>

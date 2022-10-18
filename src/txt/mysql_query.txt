@@ -7,10 +7,3 @@ CREATE TABLE `db`.`resposta_form` (
   email varchar(40) NOT NULL,
   msg varchar(200) not null,
   PRIMARY KEY (id));
-
-
-CREATE TABLE `db`.`cadastro` (
-  `idcadastro` INT NOT NULL AUTO_INCREMENT,
-  `email` VARCHAR(45) NOT NULL,
-  `senha` VARCHAR(32) NOT NULL,
-  PRIMARY KEY (`idcadastro`));

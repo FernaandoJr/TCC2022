@@ -23,8 +23,6 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link in">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./login.php" class="nav__link">Login</a></li>                                             
-                 <li class="nav__item"><a href="./cadastro.php" class="nav__link nav__link-special">Cadastro</a></li>                 
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">

@@ -56,35 +56,21 @@
         <p>• Garantimos</p>
     </div>
     <div class="blank3"></div>
-    <div class="row1-container">
-        <div class="card1">
-            <div class="box red">
-                <h2>Confiança</h2>
-                <br>
-                <p>Scans our talei mollitia maiores labore
-                    suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-                    modi minima sunt esse temporibus sint culpa, recusandae alto create the optimal team for your
-                    project</p>
-                <img class="img-card-teste" src="./img/icon/honesty.png" alt="">
-            </div>
+    <div class="info-container">
+        <div class="card-1">
+            <img src="./img/icon/cash.svg" alt="">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quibusdam eaque sunt commodi consectetur non amet? Eum delectus quo explicabo iste laudantium eos eius pariatur sunt impedit qui doloribus aperiam optio debitis sapiente cum vitae iure, deserunt quos nesciunt magnam.</p>
         </div>
-        <div class="card2">
-            <div class="box blue">
-                <h2>Profissionalismo</h2>
-                <br>
-                <p>pat, nisi at euismod tristique, nisl enim suscipit tortor,
-                    ac laoreet nisl ante a metus. Proin ac ahe optimal team for your project</p>
-                <img class="img-card-teste" src="./img/icon/suitcase.png" alt="">
-            </div>
+        <div class="card-2">
+            <img src="./img/icon/calendar.svg" alt="">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quibusdam eaque sunt commodi consectetur non amet? Eum delectus quo explicabo iste laudantium eos eius pariatur sunt impedit qui doloribus aperiam optio debitis sapiente cum vitae iure, deserunt quos nesciunt magnam.</p>
         </div>
-        <div class="card3">
-            <div class="box green">
-                <h2>Rapidez</h2>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                    molestiae quas vel sint quaerat, um molestias eos </p>
-                <img class="img-card-teste" src="./img/icon/fast-time.png" alt="">
-            </div>
+        <div class="card-3">
+            <img src="./img/icon/clock.svg" alt="">
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quibusdam eaque sunt commodi consectetur non amet? Eum delectus quo explicabo iste laudantium eos eius pariatur sunt impedit qui doloribus aperiam optio debitis sapiente cum vitae iure, deserunt quos nesciunt magnam.</p>
         </div>
     </div>
     <div class="blank3"></div>
@@ -104,7 +90,6 @@
                 <li><img src="./img/img9_169.png" alt=""></li>
                 <li><img src="./img/img23_169.png" alt=""></li>
                 <li><img src="./img/img24_169.png" alt=""></li>
-                <li><img src="./img/img26_169.jpg" alt=""></li>
                 <li><img src="./img/img12.jpg" alt=""></li>
                 <li><img src="./img/img13.jpg" alt=""></li>
                 <li><img src="./img/img14.jpg" alt=""></li>

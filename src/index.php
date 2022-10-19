@@ -111,9 +111,7 @@
         <div class="sobre-card-grid">
             <div class="sobre-card-col1">
                 <h1>Sobre Nós</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Inventore consequuntur ea minus. Cum perspiciatis corrupti
-                    incidunt culpa rerum numquam sit eos </p>
+                <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com mais complexidade.</p>
                 <a href="./sobre.php">
                     <button class="btn">Sobre nós</button>
                 </a>
@@ -131,7 +129,7 @@
             <div class="left box">
                 <h2>Sobre Nós</h2>
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, laudantium pariatur, non beatae ea natus amet consectetur consequatur quis ducimus dolores cupiditate. Explicabo expedita commodi odit placeat ad repellendus saepe iste distinctio dolore. Accusamus architecto voluptas enim in eaque asperiores?</p>
+                    <p>Criada e fundada em 2020, estavamos em um ano difícil com uma pequena cartela de clientes devido à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção e qualidade dos projetos que foram sendo desenvolvidos.</p>
                     <div class="social">
                         <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>

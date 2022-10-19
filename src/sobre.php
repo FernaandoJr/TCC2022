@@ -64,18 +64,18 @@
         <img src="./img/img7_169.png" alt="">
         <div class="text">
             <h1>Projetos maiores</h1>
-            <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com mais complexidade, focando e desenvolvendo formas de automatizar o processo de consultoria dos nossos clientes</p>
+            <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com mais complexidade, focando e desenvolvendo formas de automatizar o processo de consultoria dos nossos clientes.</p>
         </div>
     </div>
     <div class="container-5">
         <h2>Curiosidades sobre a empresa</h2>
         <div class="text-box">
-            <p>Lorem ipsum, dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reiciendis quas repudiandae distinctio tempore illum a dolorem, est exercitationem odio corrupti asperiores illo, quidem dignissimos dolor modi nulla, quo provident! consectetur adipisicing elit. Rerum dignissimos maxime esse praesentium atque libero quidem? Minima earum velit modi consequuntur, voluptatum distinctio doloremque cumque accusantium porro odit suscipit quaerat eius exercitationem doloribus delectus expedita officia illo, ut neque sit! Obcaecati beatae, eveniet sunt ipsum rem doloribus ipsa id aut.</p>
+            <p>"O nome da empresa vem de um antigo trabalho de curso, onde o nome foi criado para o meu projeto e posteriormente decidi fazer disso o nome da minha empresa que até hoje está liderando o mercado."</p>
             <div class="square-msg"></div>
         </div>
         <div class="profile">
-            <img src="./img/img23.jpg" alt="">
-            <p>Nome Sobrenome</p>
+            <img src="./img/pfp2.jpeg" alt="">
+            <p>Amanda Moura</p>
             <span>Fundadora da <a href="./index.php">Studio Ao Quadrado</a></span>
         </div>
     </div>

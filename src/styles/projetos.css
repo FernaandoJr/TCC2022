@@ -24,7 +24,7 @@
     justify-content: center;
   }
 
-.checkbox{
+.filter{
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     display: flex;
@@ -35,7 +35,7 @@
     height: auto;
 }
 
-.checkbox label{
+.filter li{
     margin: 0 60px 25px 0;
     padding: 10px;
     width: fit-content;
@@ -46,20 +46,13 @@
     border: var(--logo-light-blue-30) solid 3px;
 }
 
-.checkbox label:hover{
+.filter li:hover{
     background-color: var(--logo-light-blue-30);
 }
 
-.checkbox input:checked + label{
+.filter .active{
     background-color: var(--logo-light-blue-30);
 }
-
-.checkbox input{
-    display: none;
-}
-
-
-
 
 .galeria{
     display: flex;
@@ -73,4 +66,14 @@
     width: 400px;
    max-height: 400px;
     padding: 5px;
+}
+
+.galeria img:hover{
+    transform: scale(1.01);
+    transition: all ease .4s;
+}
+
+.galeria .itemBox.hide{
+    transition: all .4s;
+    display: none;
 }

@@ -36,28 +36,25 @@
             </div>
         </div>
     </div>
-    <div class="checkbox">
-        <input type="radio" name="btn" id="btn-todos" checked>
-        <label for="btn-todos">Todos</label>
-        <input type="radio" name="btn" id="btn-quartos">
-        <label for="btn-quartos">Quartos</label>
-        <input type="radio" name="btn" id="btn-banheiros">
-        <label for="btn-banheiros">Banheiros</label>
-        <input type="radio" name="btn" id="btn-sala_estar">
-        <label for="btn-sala_estar">Salas de estar</label>
-    </div>
+    <ul class="filter">
+        <li class="list active" data-filter="todos">Todos</li>
+        <li class="list" data-filter="quartos">Quartos</li>
+        <li class="list" data-filter="banheiros">Banheiros</li>
+        <li class="list" data-filter="salas_estar">Salas de estar</li>
+    </ul>
     <div class="galeria">
-        <img src="./img/img1.jpg" alt="" class="sala_estar">
-        <img src="./img/img2.jpg" alt="" class="sala_estar">
-        <img src="./img/img3.jpg" alt="" class="sala_estar">
-        <img src="./img/img4.jpg" alt="" class="sala_estar">
-        <img src="./img/img23.jpg" alt="" class="quarto">
-        <img src="./img/img6.jpg" alt="" class="sala_estar">
-        <img src="./img/img7.jpg" alt="" class="sala_estar">
-        <img src="./img/img8.jpg" alt="" class="sala_estar">
-        <img src="./img/img21.jpg" alt="" class="banheiro">
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img1.jpg" alt=""></div>
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img2.jpg" alt=""></div>
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img3.jpg" alt=""></div>
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img4.jpg" alt=""></div>
+        <div class="itemBox" data-item="quartos" loading="lazy"><img src="./img/img23.jpg" alt=""></div>
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img6.jpg" alt=""></div>
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img7.jpg" alt=""></div>
+        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img8.jpg" alt=""></div>
+        <div class="itemBox" data-item="banheiros" loading="lazy"><img src="./img/img21.jpg" alt=""></div>
     </div>
     <script src="./js/navbar.js"></script>
+    <script src="./js/img-filter.js"></script>
 </body>
 
 </html>

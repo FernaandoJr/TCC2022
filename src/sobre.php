@@ -40,22 +40,22 @@
         </div>
     </div>
     <div class="container-1 white">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque amet ipsam, ut, adipisci voluptate fuga, sapiente reiciendis ipsa nam ipsum labore voluptatem saepe maiores provident tempora. Omnis culpa odio commodi quia eaque non voluptatibus, animi sint enim, sed soluta laboriosam harum! Fuga ab hic perferendis numquam vel error, ratione provident!</p>
+        <p>Nós da Studio Ao Quadrado, acreditamos que a melhor maneira de um bom atendimento ao projeto é os laços que são criados com o cliente e a empresa, prezamos pela excelência e qualidade com os projetos.</p>
     </div>
     <div class="square white"></div>
     <div class="container-2 blue">
         <img src="./img/img7_169.png" alt="">
         <div class="text">
-            <h1>Lorem ipsum</h1>
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quo perspiciatis nostrum corrupti nobis, vitae recusandae cum accusamus? Voluptatum corrupti quaerat velit dolor, alias temporibus aperiam expedita aliquid deleniti harum. sit amet consectetur, adipisicing elit. At magni consectetur, est rem repellat porro illum non delectus assumenda velit reprehenderit molestiae unde optio laudantium. Dicta recusandae iure minima officiis?</p>
+            <h1>História</h1>
+            <p>Criada e fundada em 2020, estavamos em um ano difícil com uma pequena cartela de clientes devido à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção e qualidade dos projetos que foram sendo desenvolvidos.</p>
         </div>
     </div>
     <div class="square blue"></div>
     <div class="container-3 white">
 
         <div class="text">
-            <h1>Lorem ipsum</h1>
-            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quibusdam eos laborum quam, iste hic porro error saepe optio nisi, officia molestias vitae iusto reprehenderit sunt. Minima vitae velit ullam. consectetur, adipisicing elit. At magni consectetur, est rem repellat porro illum non delectus assumenda velit reprehenderit molestiae unde optio laudantium. Dicta recusandae iure minima officiis?</p>
+            <h1>Crescimento rápido</h1>
+            <p>Com a alta demanda de consultorias após a pandemia, conseguimos crescer e aumentar nossos esforços e aumentar a produção e consultoria de mais interiores por todo o Brasil.</p>
         </div>
         <img src="./img/img7_169.png" alt="">
     </div>
@@ -63,8 +63,8 @@
     <div class="container-4 blue">
         <img src="./img/img7_169.png" alt="">
         <div class="text">
-            <h1>Lorem ipsum</h1>
-            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos enim ratione nisi iure fugiat porro tempora blanditiis numquam quam exercitationem, quidem animi, modi mollitia, adipisci aliquam. Quidem dolorum voluptas sunt? consectetur, adipisicing elit. At magni consectetur, est rem repellat porro illum non delectus assumenda velit reprehenderit molestiae unde optio laudantium. Dicta recusandae iure minima officiis?</p>
+            <h1>Projetos maiores</h1>
+            <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com mais complexidade, focando e desenvolvendo formas de automatizar o processo de consultoria dos nossos clientes</p>
         </div>
     </div>
     <div class="container-5">

@@ -10,6 +10,7 @@
   --weight1: 200;
   --weight2: 400;
   --weight3: 600;
+  --logo-blue: #4d8ec9;
 }
 
 
@@ -36,7 +37,7 @@
 .info-container .card-1,
 .card-2,
 .card-3 {
-  border-top: #ff4246 5px solid;
+  border-top: var(--logo-blue) 5px solid;
   margin: 10px;
   width: 400px;
   background-color: white;

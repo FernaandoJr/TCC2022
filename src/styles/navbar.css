@@ -41,11 +41,11 @@
 }
 
 .in{
-    background-color: var(--logo-dark-blue-50);
+    background-color: var(--logo-dark-blue-30);
 }
 
 .nav__link:hover{
-    background-color: var(--logo-dark-blue-40);
+    background-color: var(--logo-dark-blue-20);
 }
 
 .nav__list{
@@ -62,7 +62,7 @@ header{
     position: fixed;
     z-index: 5;
     display: flex;
-    background-color: var(--logo-dark-blue-70);
+    background-color: var(--logo-dark-blue-50);
     justify-content: space-around;
     padding: .5rem 0;
     align-items: center;

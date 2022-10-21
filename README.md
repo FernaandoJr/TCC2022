@@ -1,4 +1,4 @@
-# TCC - HÍVENA DEL PINTOR
+# TCC - STUDIO AO QUADRADO
 
 Site de design de interiores.
 

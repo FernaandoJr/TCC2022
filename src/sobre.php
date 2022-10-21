@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/sobre.css">
     <link rel="stylesheet" href="./styles/blank.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Studio ao Quadrado</title>
 </head>
 
@@ -83,6 +84,45 @@
         <h2>Se interessou pela nossa empresa?</h2>
         <p>Conheça alguns de nossos <a href="./projetos.php"> projetos.</a></p>
     </div>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>Sobre Nós</h2>
+                <div class="content">
+                    <p>Criada e fundada em 2020, estavamos em um ano difícil com uma pequena cartela de clientes devido
+                        à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção
+                        e qualidade dos projetos que foram sendo desenvolvidos.</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img
+                                src="./img/icon/logo-instagram.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Endereço</h2>
+                <div class="content">
+                    <div class="place">
+                        <img class="icon" src="./img/icon/location-sharp.svg" alt="">
+                        <span class="text">Av. Brasil, Nova Capital</span>
+                    </div>
+                    <div class="phone">
+                        <img class="icon" src="./img/icon/call.svg" alt="">
+                        <span class="text">+55 19 98985-7713</span>
+                    </div>
+                    <div class="email">
+                        <img class="icon" src="./img/icon/mail-open.svg" alt="">
+                        <span class="text">exemplo@empresa.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="center">
+                <span class="credit">Criado por <a href="./equipe.php">Studio Ao Quadrado</a></span>
+                <span class="copyright">© 2021 Todos os direitos reservados</span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

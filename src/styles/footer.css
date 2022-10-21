@@ -3,7 +3,7 @@ footer {
   position: relative;
   bottom: 0px;
   width: 100%;
-  background-color: var(--logo-dark-blue-70);
+  background-color: var(--logo-dark-blue-50);
 }
 
 footer .main-content {
@@ -40,7 +40,7 @@ footer .main-content {
   content: "";
   height: 2px;
   width: 100%;
-  background-color: var(--logo-dark-blue-70);
+  background-color: var(--logo-dark-blue-50);
   top: -17px;
 }
 
@@ -58,8 +58,6 @@ footer .main-content {
   line-height: 40px;
 }
 
-.left .content .social a img:hover {
-}
 
 .left .content p {
   font-family: "Poppins", sans-serif;
@@ -74,8 +72,7 @@ footer .main-content {
   cursor: pointer;
 }
 
-.center .content .icon:hover {
-}
+
 .center .content .text {
   font-family: "Poppins", sans-serif;
   vertical-align: middle;
@@ -92,7 +89,7 @@ footer .main-content {
   text-align: center;
   padding: 5px;
   font-size: 15px;
-  background: var(--logo-dark-blue-70);
+  background: var(--logo-dark-blue-50);
 }
 
 .bottom .center span {

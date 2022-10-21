@@ -53,8 +53,3 @@ background-image: linear-gradient(to right top, #172b3c, #203c54, #294e6d, #3361
 titulo da ideia: Site de arquitetura e design de interiores | (Studio Ao Quadrado)
 
 Sobre a Ideia: Site de arquitetura para um cliente conhecido que precisa de uma plataforma online que faça a ponte entre o cliente e o vendedor, focado em arquitetura e design de interiores.
-
-
-
-
-

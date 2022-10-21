@@ -31,7 +31,7 @@
   max-height: 100%;
   max-width: 100%;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 .home-img-div {
@@ -40,7 +40,7 @@
   background-attachment: fixed;
   max-height: 100%;
   max-width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -96,6 +96,7 @@ img {
   transform: translate(-50%, -50%);
 }
 
+
 /* Home Button */
 .home-btn {
   padding: 1vh;
@@ -130,7 +131,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--logo-blue);
+  background-color: var(--logo-dark-blue-20);
   border-radius: 5rem;
   z-index: -2;
 }
@@ -142,7 +143,7 @@ img {
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: var(--logo-dark-blue-20);
+  background-color: var(--logo-dark-blue-30);
   transition: all 0.3s;
   border-radius: 5rem;
   z-index: -1;
@@ -154,4 +155,125 @@ img {
 
 .home-btn a:hover:before {
   width: 100%;
+}
+.home-sobrenos{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: var(--logo-light-blue-50);
+}
+
+.home-sobrenos img{
+  height: 450px;
+  aspect-ratio: 4/3;
+  margin-right: 25px;
+}
+.home-sobrenos img:hover{
+  transform: scale(1.005);
+  transition: all ease 0.3s;
+}
+
+.home-sobrenos-text{
+  width: 55%;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-sobrenos-text p{
+  margin-bottom: 30px;
+  width: 70%;
+  font-size: 18px;
+}
+.home-sobrenos-text h1{
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.home-btn-sobrenos {
+  background: linear-gradient(
+    45deg,
+    rgba(77, 142, 201, 1) 0%,
+    rgba(62, 114, 161, 1) 100%
+  );
+}
+
+.home-btn-sobrenos a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.home-btn-sobrenos {
+  cursor: pointer;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-radius: 12px;
+  border: 0px;
+  width: fit-content;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px var(--logo-dark-blue-10);
+}
+
+.home-btn-sobrenos:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-btn-sobrenos:active {
+  transform: scale(0.95);
+}
+
+.square{
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 50%;
+}
+
+.white{
+  background-color: white;
+}
+
+.blue{
+  background-color: var(--logo-light-blue-50);
+}
+
+
+.home-projetos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.home-projetos-text{
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-projetos-text h1{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.home-projetos-text p{
+  font-size: 18px;
 }

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./styles/blank.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/home-card/prj.css">
-    <link rel="stylesheet" href="./styles/home-card/sobre.css">
     <link rel="stylesheet" href="./styles/home-card/info.css">
     <title>Studio ao Quadrado</title>
 </head>
@@ -60,78 +59,81 @@
         <div class="card-1">
             <img src="./img/icon/cash.svg" alt="">
             <h2>Preço Justo</h2>
-            <p>Uma das funções do arquiteto é a especificação de material e quantitativos deles, o que com toda certeza evita erros no processo, fazendo você economizar muito mais ou no mínimo gastar o planejado.</p>
+            <p>Uma das funções do arquiteto é a especificação de material e quantitativos deles, o que com toda certeza
+                evita erros no processo, fazendo você economizar muito mais ou no mínimo gastar o planejado.</p>
         </div>
         <div class="card-2">
             <img src="./img/icon/calendar.svg" alt="">
             <h2>Prazo de entrega</h2>
-            <p>Um bom prazo de entrega é algo que condiz com o projeto, dependendo do projeto e complexidade que é necessário para executar o projeto e a obra. Focamos em fazer a realização de um projeto que realmente seja de uma qualidade boa e que atenda as espectativas e exigências do cliente.</p>
+            <p>Um bom prazo de entrega é algo que condiz com o projeto, dependendo do projeto e complexidade que é
+                necessário para executar o projeto e a obra. Focamos em fazer a realização de um projeto que realmente
+                seja de uma qualidade boa e que atenda as espectativas e exigências do cliente.</p>
         </div>
         <div class="card-3">
             <img src="./img/icon/clock.svg" alt="">
             <h2>Profissionalismo</h2>
-            <p>Priorizamos um bom atendimento, compromisso e fidelidade com o cliente, propomos ser extremamente profissionais garantindo a consultoria de alta qualidade, rapidez e entrega de prazos dentro do combinado.</p>
+            <p>Priorizamos um bom atendimento, compromisso e fidelidade com o cliente, propomos ser extremamente
+                profissionais garantindo a consultoria de alta qualidade, rapidez e entrega de prazos dentro do
+                combinado.</p>
         </div>
     </div>
-    <div class="blank3"></div>
-    <!-- CARD PROJETOS -->
-    <div class="projeto-background-div">
-        <h1 class="sobre-title">Conheça os nossos projetos</h1>
+    <div class="square white"></div>
+    <div class="home-sobrenos">
+        <div class="home-sobrenos-text">
+            <h1>Sobre nós</h1>
+            <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com
+                mais complexidade.</p>
+            <button class="home-btn-sobrenos"><a href="./sobre.php">Saiba mais</a></button>
+        </div>
+        <img src="./img/img9_169.png" alt="">
     </div>
-    <div class="slider-container">
-        <div id="slider">
-            <ul id="slideWrap">
-                <li><img src="./img/img1_169.png" alt=""></li>
-                <li><img src="./img/img2_169.png" alt=""></li>
-                <li><img src="./img/img3_169.png" alt=""></li>
-                <li><img src="./img/img5_169.png" alt=""></li>
-                <li><img src="./img/img7_169.png" alt=""></li>
-                <li><img src="./img/img8_169.png" alt=""></li>
-                <li><img src="./img/img9_169.png" alt=""></li>
-                <li><img src="./img/img23_169.png" alt=""></li>
-                <li><img src="./img/img24_169.png" alt=""></li>
-                <li><img src="./img/img12.jpg" alt=""></li>
-                <li><img src="./img/img13.jpg" alt=""></li>
-                <li><img src="./img/img14.jpg" alt=""></li>
-                <li><img src="./img/img15.jpg" alt=""></li>
-                <li><img src="./img/img16.jpg" alt=""></li>
-            </ul>
-            <div class="svg">
-                <img id="prev" src="./img/icon/next.svg" alt="">
-                <img id="next" href src="./img/icon/prev.svg" alt="">
+    <div class="square blue"></div>
+    <div class="blank7"></div>
+    <div class="home-projetos">
+        <div class="slider-container">
+            <div id="slider">
+                <ul id="slideWrap">
+                    <li><img src="./img/img1_169.png" alt=""></li>
+                    <li><img src="./img/img2_169.png" alt=""></li>
+                    <li><img src="./img/img3_169.png" alt=""></li>
+                    <li><img src="./img/img5_169.png" alt=""></li>
+                    <li><img src="./img/img7_169.png" alt=""></li>
+                    <li><img src="./img/img8_169.png" alt=""></li>
+                    <li><img src="./img/img9_169.png" alt=""></li>
+                    <li><img src="./img/img23_169.png" alt=""></li>
+                    <li><img src="./img/img24_169.png" alt=""></li>
+                    <li><img src="./img/img12.jpg" alt=""></li>
+                    <li><img src="./img/img13.jpg" alt=""></li>
+                    <li><img src="./img/img14.jpg" alt=""></li>
+                    <li><img src="./img/img15.jpg" alt=""></li>
+                    <li><img src="./img/img16.jpg" alt=""></li>
+                </ul>
+                <div class="svg">
+                    <img id="prev" src="./img/icon/next.svg" alt="">
+                    <img id="next" href src="./img/icon/prev.svg" alt="">
+                </div>
             </div>
         </div>
-    </div>
-    <script src="./js/img-slider.js"></script>
-
-    <div class="projeto-background-div">
-        <h1 class="sobre-title">Saiba um pouco mais sobre nós</h1>
-    </div>
-    <div class="home-sobre-card">
-        <div class="sobre-card-grid">
-            <div class="sobre-card-col1">
-                <h1>Sobre Nós</h1>
-                <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com mais complexidade.</p>
-                <a href="./sobre.php">
-                    <button class="btn">Sobre nós</button>
-                </a>
-            </div>
-            <div class="sobre-card-col2">
-                <img src="./img/img10.jpg" alt="">
-            </div>
+        <div class="home-projetos-text">
+            <h1>Nossos projetos</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sapiente consequuntur? Voluptatem amet et
+                totam voluptas hic iusto vitae ipsa quibusdam, rerum sit atque ut repellat necessitatibus laborum
+                dolorum. Animi?</p>
         </div>
     </div>
-    <div class="blank4"></div>
-    <div class="blank15"></div>
+    <div class="blank7"></div>
     <script src="./js/img-slider.js"></script>
     <footer>
         <div class="main-content">
             <div class="left box">
                 <h2>Sobre Nós</h2>
                 <div class="content">
-                    <p>Criada e fundada em 2020, estavamos em um ano difícil com uma pequena cartela de clientes devido à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção e qualidade dos projetos que foram sendo desenvolvidos.</p>
+                    <p>Criada e fundada em 2020, estavamos em um ano difícil com uma pequena cartela de clientes devido
+                        à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção
+                        e qualidade dos projetos que foram sendo desenvolvidos.</p>
                     <div class="social">
-                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img
+                                src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>

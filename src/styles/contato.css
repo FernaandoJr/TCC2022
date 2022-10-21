@@ -28,7 +28,7 @@
   background-attachment: fixed;
   max-height: 100%;
   max-width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -38,7 +38,7 @@
   max-height: 100%;
   max-width: 100%;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
 justify-content: center;
 align-items: center;
@@ -74,6 +74,7 @@ img {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 20px;
 }
 
 .contato-card {

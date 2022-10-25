@@ -63,7 +63,7 @@ session_start();
                 </div>
                 <div class="form-login">
 
-                    <form action="./php/login.php" method="post" class="formulario-grid">
+                    <form action="./php/action-login.php" method="post" class="formulario-grid">
                         <div class="login-title">
                             <p>Login</p>
                         </div>

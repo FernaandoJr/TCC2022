@@ -187,11 +187,11 @@ img {
 .home-sobrenos-text p{
   margin-bottom: 30px;
   width: 70%;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 .home-sobrenos-text h1{
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -271,9 +271,9 @@ img {
 }
 
 .home-projetos-text h1{
-  font-size: 25px;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 .home-projetos-text p{
-  font-size: 18px;
+  font-size: 1.1rem;
 }

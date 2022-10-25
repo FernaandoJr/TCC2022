@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 :root {
   --red: #ff4246;
   --cyan: hsl(180, 62%, 55%);
@@ -43,8 +45,16 @@
   width: 400px;
   background-color: white;
   padding: 15px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.19);
   border-radius: 12px;
-  box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.29);
+  transition: all 300ms ease;
+}
+
+.info-container .card-1:hover,
+.card-2:hover,
+.card-3:hover{
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  scale:1.05;
 }
 
 .info-container .card-1 h2,

@@ -1,0 +1,21 @@
+create database db;
+
+CREATE TABLE `db`.`resposta_form` (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome varchar(50) not null,
+  tel bigint not null,
+  email varchar(40) NOT NULL,
+  msg varchar(200) not null,
+  PRIMARY KEY (id));
+
+INSERT INTO resposta_form (nome, tel, email, msg)
+VALUES('Rayssa Valentina Sônia Drumond', '8429389164', 'rayssa-drumond83@pronta.com.br', 'Quero fazer um planejamento de design de interior em uma cozinha...'),
+('Nicole Sabrina Caroline Moura', '19982154881', 'nicole-moura94@inglesasset.com.br', 'Adoraria uma consultoria no meu banheiro...'),
+('Aparecida Pietra Pinto', '62992838196', 'aparecida_pinto@marramoncks.com.br', 'Quero reformar meu quarto e do meu filho...'),
+('Cristiane Marlene Rocha', '43991013514', 'cristiane.marlene.rocha@jonhdeere.com', 'Quero uma reforma e repaginada no na sala de estar da minha casa...'),
+('Kauê Filipe Alves', '65993721005', 'kaue_filipe_alves@raninho.com.br', 'Desejo mudar o quarto do meu filho...'),
+('Valentina Nicole da Costa', '65995018561', 'valentina.nicole.dacosta@gmail.br', 'Gostaria de uma consultoria para um primo meu...'),
+('Heloisa Kamilly da Rosa', '95983121408', 'heloisa_darosa@corpus.com.br', 'Quero mudar a minha sala e gostaria de uma consultoria e ajuda sobre...'),
+('Danilo Manuel Benedito Moraes', '27985969381', 'danilo_moraes@estevao.ind.br', 'Adoraria dar uma repaginada no meu banheiro e preciso de uma consultoria...'),
+('Geraldo Caio Nunes', '63991220420', 'geraldo.caio.nunes@email.tst', 'Quero ter uma consultoria sobre a mudança no meu quarto de visitas...'),
+('Diogo Erick da Cruz', '63992349973', 'diogo.erick.dacruz@sgstelecom.com.br', 'Gostaria de reformar o quarto da minha irmã...');

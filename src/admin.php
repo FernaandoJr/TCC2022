@@ -17,7 +17,9 @@
                 <li>
                     <a href="#">
                         <img src="./img/logo/logoA_white.svg" alt="">
-                        <span><h2>Studio Ao Quadrado</h2></span>
+                        <span>
+                            <h2>Studio Ao Quadrado</h2>
+                        </span>
                     </a>
                 </li>
                 <li>
@@ -50,6 +52,22 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/54c30c2b81.js" crossorigin="anonymous"></script>
-</body>
 
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle" onclick="AdminToggle();">
+            </div>
+            <div class="search">
+                    <lable>
+                        <input type="text" placeholder="Pesquisar">
+                    </lable>
+                </div>
+            <div class="user">
+                <img src="./img/pfp2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/admin.js"></script>
+</body>
 </html>

@@ -32,12 +32,17 @@
   max-width: 100%;
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .home-img-div {
   background: url(/src/img/img1_169.png) no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-attachment: fixed;
+  background-position: center;
   max-height: 100%;
   max-width: 100%;
   height: 100vh;
@@ -53,12 +58,8 @@ img {
 
 /* Home Text Title */
 .home-img-title {
-  max-width: 45%;
-  position: relative;
-  top: 20%;
-  left: 50%;
-  padding: 1vh;
-  transform: translateX(-50%);
+  margin: 10px;
+  max-width: 50%;
 }
 
 .home-img-title h1 {
@@ -70,12 +71,8 @@ img {
 
 /* Home Text Subtitle */
 .home-img-subtitle {
-  max-width: 35%;
-  padding: 1vh;
-  position: relative;
-  top: 22%;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 30px;
+  max-width: 45%;
 }
 
 .home-img-subtitle h1 {
@@ -86,26 +83,10 @@ img {
   text-align: center;
 }
 
-/* General Home Text Div */
-.home-general {
-  width: fit-content;
-  height: fit-content;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 
 /* Home Button */
 .home-btn {
-  padding: 1vh;
   max-width: 40%;
-  position: relative;
-  top: 25%;
-  max-width: 100%;
-  text-align: center;
-  height: 55px;
 }
 
 .home-btn a {
@@ -276,4 +257,85 @@ img {
 }
 .home-projetos-text p{
   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .home-img-title {
+    margin: 10px;
+    max-width: 85%;
+  }
+  
+  .home-img-title h1 {
+    font-size: 25px;
+  }
+  
+  /* Home Text Subtitle */
+  .home-img-subtitle {
+    margin-bottom: 30px;
+    max-width: 90%;
+  }
+  
+  .home-img-subtitle h1 {
+    font-size: 18px;
+  }
+  
+  .home-btn {
+    max-width: 60%;
+  }
+
+  .home-sobrenos{
+    flex-direction: column;
+    height: 650px;
+  }
+  
+  .home-sobrenos img{
+    height: 300px;
+    margin-right: 0;
+  }
+  
+  .home-sobrenos-text{
+    width: 90%;
+  }
+  
+  .home-sobrenos-text p{
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .home-sobrenos-text h1{
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .home-btn-sobrenos a{
+    font-size: 14px;
+  }
+  
+  .home-btn-sobrenos {
+    padding: 12px 20px;
+    margin-bottom: 40px;
+  }
+
+  .home-projetos{
+    flex-direction: column;
+    height: 650px;
+  }
+  
+  .home-projetos-text{
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .home-projetos-text h1{
+    font-size:20px;
+    margin-bottom: 15px;
+  }
+  .home-projetos-text p{
+    font-size: 14px;
+  }
+  
 }

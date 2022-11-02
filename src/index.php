@@ -35,20 +35,17 @@
     <script src="./js/navbar.js"></script>
     <div class="home-img-div">
         <div class="home-img-fade">
-            <div class="home-general">
-                <div class="home-img-title">
-                    <h1>Especializados em reformas e design de interiores residenciais</h1>
-                </div>
-                <div class="home-img-subtitle">
-                    <h1>Ambientes e decorações pensados para o bem-estar e conforto do
-                        cliente
-                    </h1>
-                </div>
-                <div class="home-btn">
-                    <a href="contato.php">Fale Conosco</a>
-                </div>
+            <div class="home-img-title">
+                <h1>Especializados em reformas e design de interiores residenciais</h1>
             </div>
-
+            <div class="home-img-subtitle">
+                <h1>Ambientes e decorações pensados para o bem-estar e conforto do
+                    cliente
+                </h1>
+            </div>
+            <div class="home-btn">
+                <a href="contato.php">Fale Conosco</a>
+            </div>
         </div>
     </div>
     <div class="blank5"></div>

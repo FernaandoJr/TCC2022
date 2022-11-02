@@ -78,3 +78,40 @@
   height: 34px;
   float: right;
 }
+
+@media screen and (max-width: 650px) {
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .info-container .card-1,
+.card-2,
+.card-3 {
+  margin: 0;
+  margin-bottom: 30px;
+  max-width: 80%;
+  height: fit-content;
+}
+.info-container .card-1:hover,
+.card-2:hover,
+.card-3:hover{
+  scale:1.01;
+}
+
+.info-container .card-1 h2,
+.card-1 h2,
+.card-2 h2,
+.card-3 h2 {
+  font-size: 18px;
+}
+.info-container .card-1 p,
+.card-2 p,
+.card-3 p {
+  margin: 0;
+  font-size: 15px;
+}
+.home-card-info-title p {
+  font-size: 20px;
+}
+}

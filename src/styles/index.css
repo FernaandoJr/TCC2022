@@ -257,6 +257,7 @@ img {
 }
 .home-projetos-text p{
   font-size: 1.1rem;
+  width: 100%;
 }
 
 @media screen and (max-width: 650px) {
@@ -289,12 +290,12 @@ img {
   }
   
   .home-sobrenos img{
-    height: 300px;
-    margin-right: 0;
+    height: 250px;
+    margin-right: 0px;
   }
   
   .home-sobrenos-text{
-    width: 90%;
+    width: calc(100% - 40px);
   }
   
   .home-sobrenos-text p{
@@ -322,8 +323,8 @@ img {
   }
   
   .home-projetos-text{
-    margin-top: 15px;
-    margin-left: 40px;
+    margin: 15px 20px 0px 20px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -338,4 +339,7 @@ img {
     font-size: 14px;
   }
   
+  .square{
+    left: 46.5%;
+  }
 }

@@ -19,3 +19,4 @@ VALUES('Rayssa Valentina Sônia Drumond', '8429389164', 'rayssa-drumond83@pronta
 ('Danilo Manuel Benedito Moraes', '27985969381', 'danilo_moraes@estevao.ind.br', 'Adoraria dar uma repaginada no meu banheiro e preciso de uma consultoria...'),
 ('Geraldo Caio Nunes', '63991220420', 'geraldo.caio.nunes@email.tst', 'Quero ter uma consultoria sobre a mudança no meu quarto de visitas...'),
 ('Diogo Erick da Cruz', '63992349973', 'diogo.erick.dacruz@sgstelecom.com.br', 'Gostaria de reformar o quarto da minha irmã...');
+

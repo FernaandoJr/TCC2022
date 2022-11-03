@@ -325,17 +325,13 @@ img {
   .home-projetos-text{
     margin: 15px 20px 0px 20px;
     max-width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
   }
   
-  .home-projetos-text h1{
+  .home-projetos .home-projetos-text h1{
     font-size:20px;
     margin-bottom: 15px;
   }
-  .home-projetos-text p{
+  .home-projetos .home-projetos-text p{
     font-size: 14px;
   }
   

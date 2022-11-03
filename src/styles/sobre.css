@@ -236,3 +236,96 @@ img {
 .sobre-final a:hover{
   text-decoration: underline;
 }
+
+@media screen and (max-width: 650px) {
+  .logo-sobre img {
+    height: 150px;
+  }
+  .container-1 p{
+    font-size: 15px;
+    margin: 25px;
+  }
+  .container-1{
+    height: 200px;
+  }
+  .container-2, .container-4{
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+  }
+  
+  .container-2 img, .container-4 img{
+    height: 240px;
+    aspect-ratio: 4/3;
+    margin: 40px 0 0 0;
+  }
+  .container-2 p, .container-4 p, .container-3 p{
+    margin-top: 30px;
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .container-2 h1, .container-4 h1, .container-3 h1{
+    margin-top: 30px;
+    width: auto;
+    font-size: 20px;
+  }
+  
+  .container-2 .text, .container-4 .text{
+    margin: 30px 0 0 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-3{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container-3 img{
+    height: 240px;
+  }
+
+  .container-3 .text{
+    width: 100%;
+    margin: 0;
+  }
+  .container-3 .text h1{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .container-3 .text p{
+    font-size: 14px;
+    width: 90%;
+    margin-left: 20px;
+  }
+ 
+  .container-5 h2{
+    font-size: 20px;
+  }
+  
+  .text-box p{
+    font-size: 16px;
+  }
+  
+  .text-box{
+    width: 80%;
+  }
+  
+
+.sobre-final h2{
+  font-size: 20px;
+}
+
+.sobre-final p{
+  font-size: 14px;
+}
+.sobre-final a{
+  text-decoration: none;
+  color: var(--logo-dark-blue-40);
+}
+.sobre-final a:hover{
+  text-decoration: underline;
+}
+
+}

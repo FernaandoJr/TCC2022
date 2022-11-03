@@ -130,8 +130,7 @@
                         à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção
                         e qualidade dos projetos que foram sendo desenvolvidos.</p>
                     <div class="social">
-                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img
-                                src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -139,15 +138,15 @@
                 <h2>Endereço</h2>
                 <div class="content">
                     <div class="place">
-                        <img class="icon" src="./img/icon/location-sharp.svg" alt="">
+                    <i class="fa-regular fa-map fa"></i>
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
-                        <img class="icon" src="./img/icon/call.svg" alt="">
+                        <i class="fa-regular fa-message fa"></i>
                         <span class="text">+55 19 98985-7713</span>
                     </div>
                     <div class="email">
-                        <img class="icon" src="./img/icon/mail-open.svg" alt="">
+                    <i class="fa-regular fa-envelope fa"></i>
                         <span class="text">exemplo@empresa.com</span>
                     </div>
                 </div>
@@ -160,6 +159,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/54c30c2b81.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

@@ -73,6 +73,9 @@ footer .main-content {
   cursor: pointer;
 }
 
+.fa::before{
+  font-size: 35px;
+}
 
 .center .content .text {
   font-family: "Poppins", sans-serif;

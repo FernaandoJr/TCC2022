@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/admin.css">
     <link rel="stylesheet" href="./styles/projetos.css">
     <link rel="icon" href="/src/img/logo/logoA_blue.svg" type="image/svg">
-    <title>Document</title>
+    <title>Projetos</title>
 </head>
 <body>
     <div class="dash-container">

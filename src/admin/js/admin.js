@@ -7,7 +7,3 @@ function AdminToggle(){
     navigation.classList.toggle('active')
     main.classList.toggle('active')
 }
-
-function MobileResize(){
-
-}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/admin.css">
     <link rel="stylesheet" href="./styles/pedidos.css">
     <link rel="icon" href="/src/img/logo/logoA_blue.svg" type="image/svg">
-    <title>Document</title>
+    <title>Pedidos</title>
 </head>
 
 <body>

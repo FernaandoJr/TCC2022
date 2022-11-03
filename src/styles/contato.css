@@ -61,114 +61,49 @@ img {
   height: fit-content;
 }
 
-.contato-form-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  width: 95%;
-  height: 70vh;
+.contato-form-title h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 15px 0 0 35px;
+    font-size: 35px;
+}
+
+.container-form-img{
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+.container-form-img img{
+  height: 550px;
+  margin-right: 40px;
+  border-radius: 12px;
+}
+
+.container-form-img img:hover{
+  transform: scale(1.01);
+  transition: all ease .3s;
+}
+
+.container-form-img form{
+  width: 100%;
+}
+
+.form{
+  display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 20px;
+  width: 55%;
 }
 
-.contato-card {
-  grid-area: 1 / 1 / 2 / 2;
-  max-width: 100%;
-  display: flex;
-  width: 95%;
-  align-items: center;
-  height: 70vh;
-  overflow: hidden;
-  border-radius: 20px;
-  background: #e0e0e0;
-  box-shadow: 5px 5px 20px #bebebe;
-  transition: all 300ms;
-}
-
-.contato-card:hover {
-  transform: scale(1.007);
-}
-
-.contato-card img {
-  max-width: 100%;
-  max-height: 100%;
-  width: 100%;
-  height: 100vh;
-}
-
-.contato-card-title {
-  width: 100%;
-}
-
-.contato-card-title p {
-  text-align: center;
-  font-size: 35px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-}
-
-.contato-form-text {
-  position: relative;
-  grid-area: 1 / 2 / 2 / 3;
-  width: 100%;
-  height: 100%;
-}
-
-.form-grid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: fit-content repeat(5, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 25px;
-}
-
-.nome-completo {
-  grid-area: 1 / 1 / 2 / 3;
-  width: 100%;
-  max-width: 100%;
-  height: fit-content;
-}
-
-.telefone {
-  grid-area: 2 / 1 / 3 / 2;
-  width: 100%;
-  height: fit-content;
-}
-
-.email {
-  grid-area: 2 / 2 / 3 / 3;
-  width: 100%;
-  height: fit-content;
-}
-
-.mensagem {
-  grid-area: 3 / 1 / 4 / 3;
-  width: 100%;
-  height: auto;
-}
-
-/* From uiverse.io by @alexruix */
 .input-group {
   position: relative;
 }
 
 .input-name {
   font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
   box-sizing: border-box;
   width: 100%;
-  max-width: 100%;
   border: solid 1.5px #9e9e9e;
   border-radius: 10px;
   background: none;
@@ -181,6 +116,7 @@ img {
 .input-tel {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  margin-bottom: 20px;
   width: 100%;
   max-width: 100%;
   border: solid 1.5px #9e9e9e;
@@ -195,6 +131,7 @@ img {
 .input-email {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  margin-bottom: 20px;
   width: 100%;
   max-width: 100%;
   border: solid 1.5px #9e9e9e;
@@ -210,6 +147,7 @@ img {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   width: 100%;
+  margin-bottom: 20px;
   min-height: 1vh;
   resize: none;
   max-width: 100%;

@@ -41,16 +41,15 @@
     </div>
     <script src="./js/navbar.js"></script>
     <div class="blank5"></div>
-    <div class="contato-card-title">
-        <p>Entre em contato conosco</p>
+    <div class="contato-form-title">
+        <h1>Entre em contato conosco</h1>
         <div class="blank3"></div>
     </div>
-    <div class="contato-form-grid">
-        <!-- ↓ COLUNA 1 ↓ -->
-        <div class="contato-card"><img src="./img/img3_169.png" alt="Imagem"></div>
-        <div class="contato-form-text">
-            <div class="form-grid">
-                <div class="nome-completo">
+    <div class="container-form-img">
+        <img src="/src/img/img6.jpg" alt="">
+        <div class="form">
+            <form action="" method="post">
+        <div class="nome-completo">
                     <form action="./php/add.php" method="post" autocomplete="off">
                         <div class="input-group">
                             <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50"
@@ -85,12 +84,9 @@
                     </span>
                     <span class="contato-btn-text">Enviar</span>
                 </button>
-            </div>
         </div>
-
+        </form>
     </div>
-    </form>
-
     <script src="./js/input.js"></script>
     <footer>
         <div class="main-content">

@@ -83,3 +83,22 @@
     transition: all .4s;
     display: none;
 }
+
+
+@media screen and (max-width: 650px) {
+    
+  .logo-projetos img {
+    height: 150px;
+  }
+  .filter{
+    font-size: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.galeria img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+}

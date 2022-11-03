@@ -42,6 +42,20 @@
   background-color: #fff;
 }
 
+.pedidos-container .parent-title{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.pedidos-container .parent-title{
+  font-size: 30px;
+}
+
+.parent-title .fa{
+  margin-right: 10px;
+}
+
 .pedidos-container .title p {
   font-size: 2rem;
   color: black;
@@ -91,7 +105,6 @@ table thead tr th{
   padding: 0 5px;
   font-size: 20px;
   border-bottom: 1px solid var(--logo-dark-blue-40);
-  border-top: 1px solid var(--logo-dark-blue-40);
 }
 
 td{

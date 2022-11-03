@@ -106,6 +106,7 @@
   display: block;
   line-height: 60px;
   white-space: nowrap;
+  font-weight: 300;
 }
 
 .main {

@@ -63,8 +63,10 @@
         </div>
         <div class="pedidos-container">
             <div class="title">
+                <div class="parent-title">
+                <i class="fa-regular fa-comments fa"></i>   
                 <p>Pedidos</p>
-
+                </div>
                 <div class="search">
                     <label>
                         <input type="text" placeholder="Pesquisar">

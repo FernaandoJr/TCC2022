@@ -24,3 +24,168 @@
 .navigation ul li:nth-child(4) {
   background-color: var(--logo-dark-blue-60);
 }
+
+.projetos-container {
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  margin: 50px;
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.projetos-container .title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+}
+
+.projetos-container .parent-title {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.projetos-container .parent-title {
+  font-size: 30px;
+}
+
+.parent-title .fa {
+  margin-right: 10px;
+}
+
+.projetos-container .title p {
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+}
+
+.search {
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search label {
+  position: relative;
+  width: 100%;
+}
+
+.search label input {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px 20px 5px 38px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 17px;
+}
+
+.search label .fa {
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  font-size: 17px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn {
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+}
+.add-btn:hover {
+  width: 120px;
+}
+.add-btn::before,
+.add-btn::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: var(--logo-blue);
+}
+.add-btn::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.icon-btn:focus {
+  outline: none;
+}
+.btn-txt {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+.add-icon::after,
+.add-icon::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  top: calc(50% - 10px);
+  background: var(--logo-blue);
+  overflow: hidden;
+}
+
+.green::before, .green::after {
+  background: green;
+}
+
+.red::before, .red::after {
+  background: red;
+}
+
+.add-icon::before {
+  left: 22px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.add-icon::after {
+  right: 22px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn:hover .add-icon::before {
+  left: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+.add-btn:hover .add-icon::after {
+  right: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}

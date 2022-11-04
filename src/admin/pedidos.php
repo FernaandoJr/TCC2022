@@ -62,6 +62,7 @@
             </div>
         </div>
         <div class="pedidos-container">
+            <div class="pedidos-parent">            
             <div class="title">
                 <div class="parent-title">
                 <i class="fa-regular fa-comments fa"></i>   
@@ -74,6 +75,8 @@
                     </label>
                 </div>
             </div>
+            </div>
+            <div class="table-container">
             <table>
                 <thead>
                     <tr>
@@ -122,7 +125,7 @@
                     </tr>
                 </tbody>
             </table>
-
+            </div>
         </div>
 
     </div>

@@ -52,7 +52,6 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/54c30c2b81.js" crossorigin="anonymous"></script>
-
     <div class="main">
         <div class="topbar">
             <div class="toggle" onclick="AdminToggle();">

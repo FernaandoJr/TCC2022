@@ -19,6 +19,8 @@
   --logo-light-blue-90: #edf4fa;
   --background-transparent: #111418c9;
   --background: #111418;
+  --grey: #d3d3d3;
+  --dark-grey: #c0c0c0;
 }
 
 .navigation ul li:nth-child(3) {
@@ -26,20 +28,26 @@
 }
 
 .pedidos-container {
-  background-color: rgb(255, 255, 255);
   height: 100%;
   margin: 50px;
   max-width: 100%;
   border-radius: 10px;
   overflow: hidden;
-  padding: 10px;
+  background-color: var(--grey);
+}
+
+.pedidos-parent{
+  background-color: var(--dark-grey);
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.1);
+  padding: 12px;
+  
 }
 
 .pedidos-container .title {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #fff;
 }
 
 .pedidos-container .parent-title{
@@ -110,4 +118,9 @@ table thead tr th{
 td{
   padding: 5px 5px;
   border-bottom: 1px solid var(--logo-dark-blue-40);
+}
+
+
+.table-container{
+  padding: 12px;
 }

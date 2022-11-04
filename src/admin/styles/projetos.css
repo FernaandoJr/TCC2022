@@ -19,6 +19,8 @@
   --logo-light-blue-90: #edf4fa;
   --background-transparent: #111418c9;
   --background: #111418;
+  --grey: #d3d3d3;
+  --dark-grey: #c0c0c0;
 }
 
 .navigation ul li:nth-child(4) {
@@ -28,7 +30,7 @@
 .projetos-parent{
   height: 50vh;
   margin: 50px;
-  background-color: #e5e5e5;
+  background-color: #d3d3d3;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -38,7 +40,7 @@ a{
 }
 
 .projetos-container {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--dark-grey);
   box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.1);
   height: fit-content;
   max-width: 100%;
@@ -51,7 +53,6 @@ a{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #fff;
 }
 
 .projetos-container .parent-title {

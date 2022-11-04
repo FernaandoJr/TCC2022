@@ -5,11 +5,6 @@ $PDO = db_connect();
 
 $sql = "SELECT * "
     . "FROM img";
-
-$sqlresposta = mysqli_query($conexao, $sql);
-$dadosrecebidos = mysqli_fetch_array($sqlresposta);
-$tipo = $dadosrecebidos['tipo'];
-
 $stmt = $PDO->prepare($sql);
 $stmt->execute();
 ?>
@@ -61,21 +56,7 @@ $stmt->execute();
     </ul>
     <div class="galeria">
         <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-            <?php
-            if ($tipo == "Banheiro") :
-            ?>
-                <div class="itemBox" data-item="banheiros" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
-            <?php
-            elseif ($tipo == "Quarto"):
-            ?>
-            <div class="itemBox" data-item="quartos" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>  
-            <?php
-            elseif ($tipo == "Sala de estar") :
-            ?>
-                <div class="itemBox" data-item="salas_estar" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
-            <?php
-            endif;
-            ?>
+                <div class="itemBox" data-item="<?php echo $img['tipo']?>" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
         <?php endwhile; ?>
     </div>
     <script src="./js/navbar.js"></script>

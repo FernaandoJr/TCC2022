@@ -117,7 +117,7 @@ header{
         position: fixed;
         top: 48px;
         right: -100%;
-        background-color:var(--logo-dark-blue-70);
+        background-color:var(--logo-dark-blue-50);
         color: white;
         width: 100%;
         height: fit-content;

@@ -1,3 +1,19 @@
+<?php
+require_once './php/init.php';
+// abre a conexão
+$PDO = db_connect();
+
+$sql = "SELECT * "
+    . "FROM img";
+
+$sqlresposta = mysqli_query($conexao, $sql);
+$dadosrecebidos = mysqli_fetch_array($sqlresposta);
+$tipo = $dadosrecebidos['tipo'];
+
+$stmt = $PDO->prepare($sql);
+$stmt->execute();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -44,15 +60,23 @@
         <li class="list" data-filter="salas_estar">Salas de estar</li>
     </ul>
     <div class="galeria">
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img1.jpg" alt=""></div>
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img2.jpg" alt=""></div>
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img3.jpg" alt=""></div>
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img4.jpg" alt=""></div>
-        <div class="itemBox" data-item="quartos" loading="lazy"><img src="./img/img23.jpg" alt=""></div>
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img6.jpg" alt=""></div>
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img7.jpg" alt=""></div>
-        <div class="itemBox" data-item="salas_estar" loading="lazy"><img src="./img/img8.jpg" alt=""></div>
-        <div class="itemBox" data-item="banheiros" loading="lazy"><img src="./img/img21.jpg" alt=""></div>
+        <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <?php
+            if ($tipo == "Banheiro") :
+            ?>
+                <div class="itemBox" data-item="banheiros" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
+            <?php
+            elseif ($tipo == "Quarto"):
+            ?>
+            <div class="itemBox" data-item="quartos" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>  
+            <?php
+            elseif ($tipo == "Sala de estar") :
+            ?>
+                <div class="itemBox" data-item="salas_estar" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
+            <?php
+            endif;
+            ?>
+        <?php endwhile; ?>
     </div>
     <script src="./js/navbar.js"></script>
     <script src="./js/img-filter.js"></script>
@@ -65,8 +89,7 @@
                         à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção
                         e qualidade dos projetos que foram sendo desenvolvidos.</p>
                     <div class="social">
-                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img
-                                src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>

@@ -28,11 +28,28 @@
 }
 
 .projetos-parent{
-  height: 50vh;
+  height: fit-content;
   margin: 50px;
   background-color: #d3d3d3;
   border-radius: 12px;
   overflow: hidden;
+}
+
+.imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.imgs img{
+  float: left;
+  width: 300px;
+  padding: 10px;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 a{

@@ -69,14 +69,15 @@
 
 .galeria img{
     float: left;
-    width: 400px;
-   max-height: 400px;
+    width: 350px;
     padding: 5px;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .galeria img:hover{
     transform: scale(1.01);
-    transition: all ease .4s;
+    transition: all ease .6s;
 }
 
 .galeria .itemBox.hide{

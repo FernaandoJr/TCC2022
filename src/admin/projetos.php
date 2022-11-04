@@ -1,3 +1,16 @@
+<?php
+require_once 'init.php';
+// abre a conexão
+$PDO = db_connect();
+
+$sql = "SELECT * "
+    . "FROM img";
+
+// seleciona os registros
+$stmt = $PDO->prepare($sql);
+$stmt->execute();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,7 +101,11 @@
 
                 </div>
                 <script src="./js/admin.js"></script>
-
+            </div>
+            <div class="imgs">
+            <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+            <?php echo "<img src=".$img['link'].">"?>
+            <?php endwhile; ?>
             </div>
         </div>
 </body>

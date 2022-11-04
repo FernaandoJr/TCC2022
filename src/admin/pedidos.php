@@ -1,3 +1,15 @@
+<?php
+require_once 'init.php';
+// abre a conexão
+$PDO = db_connect();
+
+$sql = "SELECT * "
+    . "FROM resposta_form ORDER BY id ASC";
+
+// seleciona os registros
+$stmt = $PDO->prepare($sql);
+$stmt->execute();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -78,56 +90,31 @@
             </div>
             <div class="table-container">
             <table>
+            
                 <thead>
                     <tr>
                         <th>Nome</th>
-                        <th>Tel</th>
+                        <th>Telefone</th>
                         <th>E-mail</th>
                         <th>Mensagem</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
+                <?php while ($resposta_form = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
                     <tr>
-                        <td>Rayssa Valentina Sônia Drumond</td>
-                        <td>8429389164</td>
-                        <td>rayssa-drumond83@pronta.com.br</td>
-                        <td>Quero fazer um planejamento de design de interior em uma cozinha...</td>
+                        <td><?php echo htmlspecialchars($resposta_form['nome']) ?></td>
+                        <td><?php echo htmlspecialchars($resposta_form['tel']) ?></td>
+                        <td><?php echo htmlspecialchars($resposta_form['email']) ?></td>
+                        <td><?php echo htmlspecialchars($resposta_form['msg']) ?></td>
+                        <td><a href="delete.php?id=<?php echo $resposta_form['id'] ?>">Excluir</a></td>
                     </tr>
-                    <tr>
-                        <td>Nicole Sabrina Caroline Moura</td>
-                        <td>19982154881</td>
-                        <td>aparecida_pinto@marramoncks.com.br</td>
-                        <td>Quero reformar meu quarto e do meu filho...</td>
-                    </tr>
-                    <tr>
-                        <td>oio1i</td>
-                        <td>oio1i</td>
-                        <td>oio1i</td>
-                        <td>oioi1</td>
-                    </tr>
-                    <tr>
-                        <td>oioi</td>
-                        <td>oi1oi</td>
-                        <td>oio1i</td>
-                        <td>oioi1</td>
-                    </tr>
-                    <tr>
-                        <td>oio1i</td>
-                        <td>oio1i</td>
-                        <td>oio1i</td>
-                        <td>oi1oi</td>
-                    </tr>
-                    <tr>
-                        <td>oioi</td>
-                        <td>oioi</td>
-                        <td>oioi</td>
-                        <td>oioi</td>
-                    </tr>
+                    <?php endwhile; ?>
                 </tbody>
             </table>
+            
             </div>
         </div>
-
     </div>
     <script src="./js/admin.js"></script>
 </body>

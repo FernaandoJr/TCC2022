@@ -2,7 +2,6 @@
 require_once 'init.php';
 
 // pega os dados do formuário
-$id = isset($_POST['id']) ? $_POST['id'] : null;
 $nome = htmlspecialchars(isset($_POST['nome']) ? $_POST['nome'] : null);
 $tel = htmlspecialchars(isset($_POST['tel']) ? $_POST['tel'] : null);
 $email = htmlspecialchars(isset($_POST['email']) ? $_POST['email'] : null);

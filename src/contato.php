@@ -48,9 +48,8 @@
     <div class="container-form-img">
         <img src="/src/img/img6.jpg" alt="">
         <div class="form">
-            <form action="" method="post">
+        <form action="./php/add.php" method="post" autocomplete="off">
         <div class="nome-completo">
-                    <form action="./php/add.php" method="post" autocomplete="off">
                         <div class="input-group">
                             <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50"
                                 class="input-name">

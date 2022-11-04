@@ -25,14 +25,26 @@
   background-color: var(--logo-dark-blue-60);
 }
 
+.projetos-parent{
+  height: 50vh;
+  margin: 50px;
+  background-color: #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
 .projetos-container {
   background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.1);
   height: fit-content;
-  margin: 50px;
   max-width: 100%;
   border-radius: 10px;
   overflow: hidden;
-  padding: 10px;
+  padding: 12px;
 }
 
 .projetos-container .title {

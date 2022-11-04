@@ -20,3 +20,8 @@ VALUES('Rayssa Valentina Sônia Drumond', '8429389164', 'rayssa-drumond83@pronta
 ('Geraldo Caio Nunes', '63991220420', 'geraldo.caio.nunes@email.tst', 'Quero ter uma consultoria sobre a mudança no meu quarto de visitas...'),
 ('Diogo Erick da Cruz', '63992349973', 'diogo.erick.dacruz@sgstelecom.com.br', 'Gostaria de reformar o quarto da minha irmã...');
 
+CREATE TABLE `db`.`img` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `link` VARCHAR(200) NOT NULL,
+  `tipo` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));

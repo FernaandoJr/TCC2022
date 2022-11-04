@@ -61,30 +61,36 @@
                 <img src="\src\img\pfp2.jpeg" alt="">
             </div>
         </div>
-        <div class="projetos-container">
-            <div class="title">
-                <div class="parent-title">
-                    <span><i class="fa fa-solid fa-folder-open"></i></span>
-                    <p>Projetos</p>
-                </div>
-                <div class="buttons">
-                    <div>
-                        <button class="icon-btn add-btn green">
-                            <div class="add-icon green"></div>
-                            <div class="btn-txt">Adicionar</div>
-                        </button>
-                        <button class="icon-btn add-btn red">
-                            <div class="btn-txt">Remover</div>
-                        </button>
-                        <div>
-                        </div>
-                        <div class="btn-remove"></div>
+        <div class="projetos-parent">
+            <div class="projetos-container">
+                <div class="title">
+                    <div class="parent-title">
+                        <span><i class="fa fa-solid fa-folder-open"></i></span>
+                        <p>Projetos</p>
                     </div>
+                    <div class="buttons">
+                        <div>
+                            <a href="./php/img-add.php">
+                                <button class="icon-btn add-btn green">
+                                    <div class="add-icon green"></div>
+                                    <div class="btn-txt">Adicionar</div>
+                                </button>
+                            </a>
+                            <a href="./php/img-remove.php">
+                                <button class="icon-btn add-btn red">
+                                    <div class="btn-txt">Remover</div>
+                                </button>
+                            </a>
+                            <div>
+                            </div>
+                            <div class="btn-remove"></div>
+                        </div>
+                    </div>
+
                 </div>
+                <script src="./js/admin.js"></script>
 
             </div>
-            <script src="./js/admin.js"></script>
-
         </div>
 </body>
 

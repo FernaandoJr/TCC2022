@@ -74,7 +74,7 @@ img {
   margin: 35px;
 }
 .container-form-img img{
-  height: 550px;
+  height: 650px;
   margin-right: 40px;
   border-radius: 12px;
 }
@@ -87,6 +87,7 @@ img {
 .container-form-img form{
   width: 100%;
 }
+
 
 .form{
   display: flex;
@@ -319,4 +320,36 @@ button:hover .circle .icon.arrow {
 
 button:hover .contato-btn-text {
   color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  .contato-logo img {
+    height: 150px;
+  }
+  .contato-form-title h1{
+      font-size: 20px;
+      margin: 15px 0 -25px 35px;
+  }
+  .container-form-img{
+    flex-direction: column;
+      margin: 20px;
+    
+  }
+  .container-form-img img{
+    object-fit: cover;
+    height: 280px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  
+  .container-form-img img:hover{
+    transform: scale(1.01);
+    transition: all ease .3s;
+  }
+  .form{
+    width: 100%;
+  }
+  .input-msg {
+    height: 20vh;
+  }
 }

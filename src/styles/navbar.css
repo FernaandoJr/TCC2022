@@ -31,23 +31,35 @@
 .nav__link{
     font-family: "Poppins", sans-serif;
     text-decoration: none;
-    padding: 10px;
     color: white;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 300;
-    border-radius: 5px;
     cursor: pointer;
     margin: 8px;
+    background: 
+    linear-gradient(to right, rgba(39, 71, 101, 1), rgba(39, 71, 101, 1)),
+    linear-gradient(to right, rgba(62, 114, 161, 1), rgba(113, 165, 212, 1), rgba(148, 187, 223, 1));
+  background-size: 100% 0.13em, 0 0.13em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
+
 
 .in{
-    background-color: var(--logo-dark-blue-30);
+    background: 
+    linear-gradient(to right, rgba(39, 71, 101, 1), rgba(39, 71, 101, 1)),
+    linear-gradient(to right, rgba(62, 114, 161, 1), rgba(113, 165, 212, 1), rgba(148, 187, 223, 1));
+  background-size: 0 0.13em, 100% 0.13em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
-.nav__link:hover{
-    background-color: var(--logo-dark-blue-20);
+.nav__link:hover,
+.nav__link:focus{
+    background-size: 0 0.13em, 100% 0.13em
 }
-
 .nav__list{
     list-style: none;
     display: flex;

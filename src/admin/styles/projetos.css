@@ -167,7 +167,7 @@ a{
 .icon-btn:focus {
   outline: none;
 }
-.btn-txt {
+.btn-add, .btn-delete {
   opacity: 0;
   transition: opacity 0.2s;
 }
@@ -176,7 +176,7 @@ a{
   width: 4px;
   border-radius: 2px;
 }
-.add-btn:hover .btn-txt {
+.add-btn:hover .btn-add, .add-btn:hover .btn-delete {
   opacity: 1;
 }
 .add-icon::after,
@@ -219,3 +219,86 @@ a{
   height: 4px;
   top: calc(50% - 2px);
 }
+
+.popup {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+}
+
+.popup .content {
+  aspect-ratio: 1;
+  width: 650px;
+  background: white;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  z-index: 15;
+  padding: 15px;
+}
+
+.popup .content p{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+
+.input-group {
+    position: relative;
+    margin: 15px 0px 15px 0px;
+    display: block;
+  }
+  
+.radio-group input[type=radio]{
+
+}
+
+  .input-link {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 10px;
+    background: none;
+    padding: 1rem;
+    color: #000000;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 300;
+  }
+  
+  .user-label {
+    position: absolute;
+    left: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #292929;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 300;
+  }
+  
+  .input-link:focus,
+  .input-link:valid {
+    outline: none;
+    border: 1.5px solid var(--logo-blue);
+  }
+  
+  .input-link:focus ~ label,
+  .input-link:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #ffffff;
+    padding: 0 0.2em;
+    left: 0.4%;
+    color: var(--logo-blue);
+  }
+  
+  

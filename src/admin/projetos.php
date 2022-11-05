@@ -26,6 +26,28 @@ $stmt->execute();
 </head>
 
 <body>
+    <div class="popup" id="popup">
+        <div class="content">
+            <p>Adicionar projeto</p>
+            <form action="" method="post">
+                <div class="input-group">
+                    <input type="text" required="" name="link" id="link" autocomplete="off" maxlength="200" class="input-link">
+                    <label class="user-label">Link da imagem</label>
+                </div>
+                <div class="input-group radio-group">
+                    <input type="radio" name="tipo" id="banheiro" value="banheiro">
+                    <label for="banheiro">Banheiro</label>
+                    <input type="radio" name="tipo" id="quarto" value="quarto">
+                    <label for="quarto">Quarto</label>
+                    <input type="radio" name="tipo" id="sala" value="sala">
+                    <label for="sala">Sala</label>
+                    <input type="radio" name="tipo" id="cozinha" value="cozinha">
+                    <label for="cozinha">Cozinha</label>
+                    </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/popup.js"></script>
     <div class="dash-container">
         <div class="navigation">
             <ul>
@@ -82,17 +104,13 @@ $stmt->execute();
                     </div>
                     <div class="buttons">
                         <div>
-                            <a href="./php/img-add.php">
-                                <button class="icon-btn add-btn green">
-                                    <div class="add-icon green"></div>
-                                    <div class="btn-txt">Adicionar</div>
-                                </button>
-                            </a>
-                            <a href="./php/img-remove.php">
-                                <button class="icon-btn add-btn red">
-                                    <div class="btn-txt">Remover</div>
-                                </button>
-                            </a>
+                            <button class="icon-btn add-btn green">
+                                <div class="add-icon green"></div>
+                                <div id="sergio" class="btn-add">Adicionar</div>
+                            </button>
+                            <button class="icon-btn add-btn red">
+                                <div class="btn-delete">Remover</div>
+                            </button>
                             <div>
                             </div>
                             <div class="btn-remove"></div>
@@ -103,9 +121,9 @@ $stmt->execute();
                 <script src="./js/admin.js"></script>
             </div>
             <div class="imgs">
-            <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-            <?php echo "<img src=".$img['link'].">"?>
-            <?php endwhile; ?>
+                <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+                    <?php echo "<img src=" . $img['link'] . ">" ?>
+                <?php endwhile; ?>
             </div>
         </div>
 </body>

@@ -29,21 +29,22 @@ $stmt->execute();
     <div class="popup" id="popup">
         <div class="content">
             <p>Adicionar projeto</p>
-            <form action="" method="post">
+            <form action="add.php" method="post">
                 <div class="input-group">
                     <input type="text" required="" name="link" id="link" autocomplete="off" maxlength="200" class="input-link">
                     <label class="user-label">Link da imagem</label>
                 </div>
                 <div class="input-group radio-group">
-                    <input type="radio" name="tipo" id="banheiro" value="banheiro">
+                    <input type="radio" name="tipo" id="banheiro" value="banheiros">
                     <label for="banheiro">Banheiro</label>
-                    <input type="radio" name="tipo" id="quarto" value="quarto">
+                    <input type="radio" name="tipo" id="quarto" value="quartos">
                     <label for="quarto">Quarto</label>
-                    <input type="radio" name="tipo" id="sala" value="sala">
+                    <input type="radio" name="tipo" id="sala" value="salas_estar">
                     <label for="sala">Sala</label>
                     <input type="radio" name="tipo" id="cozinha" value="cozinha">
                     <label for="cozinha">Cozinha</label>
                     </div>
+                    <input type="submit">
             </form>
         </div>
     </div>

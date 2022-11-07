@@ -29,7 +29,7 @@ $stmt->execute();
     <div class="popup" id="popup">
         <div class="content">
             <p>Adicionar projeto</p>
-            <form action="add.php" method="post">
+            <form action="add-img.php" method="post">
                 <div class="input-group">
                     <input type="text" required="" name="link" id="link" autocomplete="off" maxlength="200" class="input-link">
                     <label class="user-label">Link da imagem</label>

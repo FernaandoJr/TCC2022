@@ -93,6 +93,7 @@ $stmt->execute();
             
                 <thead>
                     <tr>
+                        <th></th>
                         <th>Nome</th>
                         <th>Telefone</th>
                         <th>E-mail</th>
@@ -107,7 +108,7 @@ $stmt->execute();
                         <td><?php echo htmlspecialchars($resposta_form['tel']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['email']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['msg']) ?></td>
-                        <td><a href="delete.php?id=<?php echo $resposta_form['id'] ?>">Excluir</a></td>
+                        <td><a href="delete-msg.php?id=<?php echo $resposta_form['id'] ?>">Excluir</a></td>
                     </tr>
                     <?php endwhile; ?>
                 </tbody>

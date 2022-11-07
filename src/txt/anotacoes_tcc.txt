@@ -58,3 +58,16 @@ Sobre a Ideia: Site de arquitetura para um cliente conhecido que precisa de uma 
 https://www.youtube.com/watch?v=gdA1G5h-D80&t=781s
 
 
+
+
+$id = isset($_GET['id']) ? $_GET['id'] : null;
+
+$PDO = db_connect();
+$sql = "DELETE FROM resposta_form WHERE id = :id";
+$stmt = $PDO->prepare($sql);
+$stmt->bindParam(':id', $id, PDO::PARAM_INT);
+if ($stmt->execute()) {
+    header('Location: pedidos.php');
+} 
+
+https://youtu.be/ufxyixJTfU4?t=659

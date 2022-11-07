@@ -3,6 +3,8 @@ require_once 'init.php';
 // abre a conexão
 $PDO = db_connect();
 
+$id = isset($_GET['id']) ? $_GET['id'] : null;
+
 $sql = "SELECT * "
     . "FROM resposta_form ORDER BY id ASC";
 
@@ -89,11 +91,13 @@ $stmt->execute();
             </div>
             </div>
             <div class="table-container">
+            <form method="POST" action="delete-msg.php">
             <table>
             
                 <thead>
                     <tr>
-                        <th></th>
+                        <th><button type="submit" name="delMsg">Excluir</button></th>
+                        <th>ID</th>
                         <th>Nome</th>
                         <th>Telefone</th>
                         <th>E-mail</th>
@@ -104,6 +108,8 @@ $stmt->execute();
                 <tbody>
                 <?php while ($resposta_form = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
                     <tr>
+                        <?php echo "<td><input type='checkbox' class='checkItem' value='" . $resposta_form['id'] . "' name='delete-id[]'></td>";?>
+                        <td><?php echo htmlspecialchars($resposta_form['id']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['nome']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['tel']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['email']) ?></td>
@@ -111,9 +117,10 @@ $stmt->execute();
                         <td><a href="delete-msg.php?id=<?php echo $resposta_form['id'] ?>">Excluir</a></td>
                     </tr>
                     <?php endwhile; ?>
+                    
                 </tbody>
             </table>
-            
+                    </form>
             </div>
         </div>
     </div>

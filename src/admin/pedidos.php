@@ -96,25 +96,21 @@ $stmt->execute();
             
                 <thead>
                     <tr>
-                        <th><button type="submit" name="delMsg">Excluir</button></th>
-                        <th>ID</th>
+                        <th><button type="submit" name="delMsg" class="btn-excluir">Excluir</button></th>
                         <th>Nome</th>
                         <th>Telefone</th>
                         <th>E-mail</th>
                         <th>Mensagem</th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                 <?php while ($resposta_form = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
                     <tr>
                         <?php echo "<td><input type='checkbox' class='checkItem' value='" . $resposta_form['id'] . "' name='delete-id[]'></td>";?>
-                        <td><?php echo htmlspecialchars($resposta_form['id']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['nome']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['tel']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['email']) ?></td>
                         <td><?php echo htmlspecialchars($resposta_form['msg']) ?></td>
-                        <td><a href="delete-msg.php?id=<?php echo $resposta_form['id'] ?>">Excluir</a></td>
                     </tr>
                     <?php endwhile; ?>
                     

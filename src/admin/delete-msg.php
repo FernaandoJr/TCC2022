@@ -5,5 +5,14 @@ require_once 'init.php';
 if (isset($_POST['delMsg'])) {
     $all_id = $_POST['delete-id'];
     $extract_id = implode(',' , $all_id);
-    echo $extract_id;
+
+$sql = "delete from resposta_form where id in($extract_id)";
+$sql_run = mysqli_query($conexao, $sql);
+
+if ($sql_run) {
+    header('Location: pedidos.php');
 }
+
+}
+
+

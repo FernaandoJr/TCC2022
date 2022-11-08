@@ -28,6 +28,7 @@ $stmt->execute();
 <body>
     <div class="popup" id="popup">
         <div class="content">
+            <div class="img"></div>
             <p>Adicionar projeto</p>
             <form action="add-img.php" method="post">
                 <div class="input-group">
@@ -35,16 +36,18 @@ $stmt->execute();
                     <label class="user-label">Link da imagem</label>
                 </div>
                 <div class="input-group radio-group">
-                    <input type="radio" name="tipo" id="banheiro" value="banheiros">
+                    <input type="radio" name="tipo" id="banheiro" value="banheiros" class="checkbox">
                     <label for="banheiro">Banheiro</label>
-                    <input type="radio" name="tipo" id="quarto" value="quartos">
+                    <input type="radio" name="tipo" id="quarto" value="quartos" class="checkbox">
                     <label for="quarto">Quarto</label>
-                    <input type="radio" name="tipo" id="sala" value="salas_estar">
+                    <input type="radio" name="tipo" id="sala" value="salas_estar" class="checkbox">
                     <label for="sala">Sala</label>
-                    <input type="radio" name="tipo" id="cozinha" value="cozinha">
+                    <input type="radio" name="tipo" id="cozinha" value="cozinha" class="checkbox">
                     <label for="cozinha">Cozinha</label>
-                    </div>
-                    <input type="submit">
+                </div>
+                <div class="btn-submit-div">
+                    <input type="submit" class="btn-submit">
+                </div>
             </form>
         </div>
     </div>
@@ -107,10 +110,10 @@ $stmt->execute();
                         <div>
                             <button class="icon-btn add-btn green">
                                 <div class="add-icon green"></div>
-                                <div id="sergio" class="btn-add">Adicionar</div>
+                                <div id="btn-add" class="btn-add">Adicionar</div>
                             </button>
                             <button class="icon-btn add-btn red">
-                                <div class="btn-delete">Remover</div>
+                                <div class="btn-delete" id="btn-delete">Remover</div>
                             </button>
                             <div>
                             </div>
@@ -122,9 +125,24 @@ $stmt->execute();
                 <script src="./js/admin.js"></script>
             </div>
             <div class="imgs">
-                <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-                    <?php echo "<img src=" . $img['link'] . ">" ?>
-                <?php endwhile; ?>
+                <form action="delete-img.php" method="post">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><button type="submit" name="delImg" class="btn-excluir">Excluir</button></th>
+                            <th>Imagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+                            <tr>
+                            <?php echo "<td><input type='checkbox' class='checkItem' value='" . $img['id'] . "' name='delete-id[]'></td>";?>
+                                <td><?php echo "<img src=" . $img['link'] . ">" ?></td>
+                            </tr>
+                        <?php endwhile; ?>
+                    </tbody>
+                </table>
+                </form>
             </div>
         </div>
 </body>

@@ -36,9 +36,9 @@ $stmt->execute();
                     <label class="user-label">Link da imagem</label>
                 </div>
                 <div class="input-group radio-group">
-                    <input type="radio" name="tipo" id="banheiro" value="banheiros" class="checkbox">
+                    <input type="radio" name="tipo" id="banheiro" value="banheiro" class="checkbox">
                     <label for="banheiro">Banheiro</label>
-                    <input type="radio" name="tipo" id="quarto" value="quartos" class="checkbox">
+                    <input type="radio" name="tipo" id="quarto" value="quarto" class="checkbox">
                     <label for="quarto">Quarto</label>
                     <input type="radio" name="tipo" id="sala" value="salas_estar" class="checkbox">
                     <label for="sala">Sala</label>

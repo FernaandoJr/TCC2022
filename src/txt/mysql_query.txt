@@ -8,8 +8,8 @@ CREATE TABLE `db`.`resposta_form` (
   msg varchar(200) not null,
   PRIMARY KEY (id));
 
-INSERT INTO resposta_form (nome, tel, email, msg)
-VALUES('Rayssa Valentina Sônia Drumond', '8429389164', 'rayssa-drumond83@pronta.com.br', 'Quero fazer um planejamento de design de interior em uma cozinha...'),
+INSERT INTO `db`.`resposta_form` (nome, tel, email, msg)
+VALUES('Rayssa Valentina Sônia Drumond', '8429389164', 'rayssa-drumond83@pronta.com.br', 'Quero fazer um planejamento de design de interior em uma cozinha...'), 
 ('Nicole Sabrina Caroline Moura', '19982154881', 'nicole-moura94@inglesasset.com.br', 'Adoraria uma consultoria no meu banheiro...'),
 ('Aparecida Pietra Pinto', '62992838196', 'aparecida_pinto@marramoncks.com.br', 'Quero reformar meu quarto e do meu filho...'),
 ('Cristiane Marlene Rocha', '43991013514', 'cristiane.marlene.rocha@jonhdeere.com', 'Quero uma reforma e repaginada no na sala de estar da minha casa...'),
@@ -25,3 +25,20 @@ CREATE TABLE `db`.`img` (
   `link` VARCHAR(200) NOT NULL,
   `tipo` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`));
+
+INSERT INTO `db`.`resposta_form` (link, tipo)
+VALUES('','banheiro'),
+('https://imgur.com/eI06tKY','quarto'),
+('https://imgur.com/eisEOgD','quarto'),
+('https://imgur.com/Pnq9RnR','quarto'),
+('https://imgur.com/9RG2mUr','quarto'),
+('https://imgur.com/pO1GcYc','quarto'),
+('https://imgur.com/6srPxVW','quarto'),
+('https://imgur.com/W2xPaGB','quarto'),
+('https://imgur.com/pn4fzVQ','quarto'),
+('https://imgur.com/4iJbLa7','quarto'),
+('https://imgur.com/eI06tKY','quarto'),
+('https://imgur.com/HBasA4M','salas_estar'),
+('https://imgur.com/jvkmP2R','salas_estar'),
+('https://imgur.com/bBWgcGt','salas_estar'),
+('','cozinha'),

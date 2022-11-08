@@ -71,3 +71,5 @@ if ($stmt->execute()) {
 } 
 
 https://youtu.be/ufxyixJTfU4?t=659
+
+https://imgur.com/a/C0putHg

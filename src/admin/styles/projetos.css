@@ -56,16 +56,21 @@ td{
 
 
 .imgs{
-  padding: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 10px;
 }
 
-
-.imgs img{
+.teste{
   float: left;
   width: 300px;
   padding: 10px;
   aspect-ratio: 1;
   object-fit: cover;
+  margin: 10px;
+  background-size: cover;
 }
 
 a{
@@ -356,8 +361,8 @@ a{
   opacity: 0;
   transform: rotate(45deg) translate(-50%, -50%);
   position: absolute;
-  top: 45%;
-  left: 21%;
+  top: 47%;
+  left: 18.5%;
   transition: .25s ease;
  }
  

@@ -50,8 +50,8 @@ $stmt->execute();
     </div>
     <ul class="filter">
         <li class="list active" data-filter="todos">Todos</li>
-        <li class="list" data-filter="quartos">Quartos</li>
-        <li class="list" data-filter="banheiros">Banheiros</li>
+        <li class="list" data-filter="quarto">Quartos</li>
+        <li class="list" data-filter="banheiro">Banheiros</li>
         <li class="list" data-filter="salas_estar">Salas de estar</li>
     </ul>
     <div class="galeria">

@@ -111,8 +111,9 @@ $stmt->execute();
                             <button class="icon-btn add-btn green">
                                 <div class="add-icon green"></div>
                                 <div id="btn-add" class="btn-add">Adicionar</div>
+                                <form action="delete-img.php" method="post">
                             </button>
-                            <button class="icon-btn add-btn red">
+                            <button type="submit" class="icon-btn add-btn red" name="delImg">
                                 <div class="btn-delete" id="btn-delete">Remover</div>
                             </button>
                             <div>
@@ -125,23 +126,12 @@ $stmt->execute();
                 <script src="./js/admin.js"></script>
             </div>
             <div class="imgs">
-                <form action="delete-img.php" method="post">
-                <table>
-                    <thead>
-                        <tr>
-                            <th><button type="submit" name="delImg" class="btn-excluir">Excluir</button></th>
-                            <th>Imagem</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-                            <tr>
-                            <?php echo "<td><input type='checkbox' class='checkItem' value='" . $img['id'] . "' name='delete-id[]'></td>";?>
-                                <td><?php echo "<img src=" . $img['link'] . ">" ?></td>
-                            </tr>
-                        <?php endwhile; ?>
-                    </tbody>
-                </table>
+                <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+                    <div class="teste" style="background-image: url('<?php echo $img['link'] ?>');">
+                        <?php echo "<td><input type='checkbox' class='checkbox' value='" . $img['id'] . "' name='delete-id[]'></td>"; ?>
+
+                    </div>
+                <?php endwhile; ?>
                 </form>
             </div>
         </div>

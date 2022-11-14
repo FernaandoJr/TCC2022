@@ -60,8 +60,11 @@
   font-size: 30px;
 }
 
-.parent-title .fa{
+.parent-title lord-icon{
   margin-right: 10px;
+  height: 35px;
+  width: 35px;
+
 }
 
 .pedidos-container .title p {

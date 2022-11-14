@@ -27,7 +27,7 @@ $stmt->execute();
 </head>
 
 <body>
-    <div class="dash-container">
+<div class="dash-container">
         <div class="navigation">
             <ul>
                 <li>
@@ -40,25 +40,25 @@ $stmt->execute();
                 </li>
                 <li>
                     <a href="./index.php">
-                        <span><i class="fa-solid fa-house"></i></span>
+                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Início</span>
                     </a>
                 </li>
                 <li>
                     <a href="./pedidos.php">
-                        <span><i class="fa-solid fa-comments"></i></span>
+                        <lord-icon src="https://cdn.lordicon.com/icxqolmx.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Pedidos</span>
                     </a>
                 </li>
                 <li>
                     <a href="./projetos.php">
-                        <span><i class="fa-solid fa-folder-open"></i></span>
+                        <lord-icon src="https://cdn.lordicon.com/fpmskzsv.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Projetos</span>
                     </a>
                 </li>
                 <li>
                     <a href="/src/index.php">
-                        <span><i class="fa-solid fa-right-to-bracket"></i></span>
+                    <lord-icon src="https://cdn.lordicon.com/zmkotitn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Sair</span>
                     </a>
                 </li>
@@ -79,7 +79,7 @@ $stmt->execute();
             <div class="pedidos-parent">            
             <div class="title">
                 <div class="parent-title">
-                <i class="fa-regular fa-comments fa"></i>   
+                <lord-icon src="https://cdn.lordicon.com/zchxlapl.json" trigger="hover"></lord-icon>
                 <p>Pedidos</p>
                 </div>
                 <div class="search">
@@ -121,6 +121,7 @@ $stmt->execute();
         </div>
     </div>
     <script src="./js/admin.js"></script>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
 </body>
 
 </html>

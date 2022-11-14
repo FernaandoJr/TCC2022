@@ -55,20 +55,21 @@
     <div class="blank3"></div>
     <div class="info-container">
         <div class="card-1">
-            <img src="./img/icon/cash.svg" alt="">
+            <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/jsoeastu.json" trigger="hover"></lord-icon>
             <h2>Preço Justo</h2>
             <p>Uma das funções do arquiteto é a especificação de material e quantitativos deles, o que com toda certeza
                 evita erros no processo, fazendo você economizar muito mais ou no mínimo gastar o planejado.</p>
         </div>
         <div class="card-2">
-            <img src="./img/icon/calendar.svg" alt="">
+        <lord-icon src="https://cdn.lordicon.com/qznlhdss.json" trigger="hover"></lord-icon>
             <h2>Prazo de entrega</h2>
             <p>Um bom prazo de entrega é algo que condiz com o projeto, dependendo do projeto e complexidade que é
                 necessário para executar o projeto e a obra. Focamos em fazer a realização de um projeto que realmente
                 seja de uma qualidade boa e que atenda as espectativas e exigências do cliente.</p>
         </div>
         <div class="card-3">
-            <img src="./img/icon/clock.svg" alt="">
+        <lord-icon src="https://cdn.lordicon.com/kulwmpzs.json" trigger="hover"></lord-icon>
             <h2>Profissionalismo</h2>
             <p>Priorizamos um bom atendimento, compromisso e fidelidade com o cliente, propomos ser extremamente
                 profissionais garantindo a consultoria de alta qualidade, rapidez e entrega de prazos dentro do
@@ -138,15 +139,15 @@
                 <h2>Endereço</h2>
                 <div class="content">
                     <div class="place">
-                    <i class="fa-regular fa-map fa"></i>
+                    <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
-                        <i class="fa-regular fa-message fa"></i>
+                    <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">+55 19 98985-7713</span>
                     </div>
                     <div class="email">
-                    <i class="fa-regular fa-envelope fa"></i>
+                    <lord-icon src="https://cdn.lordicon.com/ifqmqwui.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">exemplo@empresa.com</span>
                     </div>
                 </div>

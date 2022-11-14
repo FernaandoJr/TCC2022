@@ -77,6 +77,11 @@ footer .main-content {
   font-size: 35px;
 }
 
+lord-icon{
+  height: 40px;
+  width: 40px;
+}
+
 .center .content .text {
   font-family: "Poppins", sans-serif;
   vertical-align: middle;

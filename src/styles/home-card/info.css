@@ -71,11 +71,12 @@
   margin: 0;
   font-size: 15px;
 }
-.info-container .card-1 img,
-.card-2 img,
-.card-2 img,
-.card-3 img {
-  height: 34px;
+.info-container .card-1 lord-icon,
+.card-2 lord-icon,
+.card-2 lord-icon,
+.card-3 lord-icon {
+  height: 50px;
+  width: 50px;
   float: right;
 }
 
@@ -113,5 +114,10 @@
 }
 .home-card-info-title p {
   font-size: 20px;
+}
+
+.info-container lord-icon{
+  height: 35px;
+  width: 35px;
 }
 }

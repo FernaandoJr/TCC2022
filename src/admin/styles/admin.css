@@ -30,8 +30,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-.dash-container .navigation ul li img {
-  display: flex;
+.dash-container .navigation ul li lord-icon, .dash-container .navigation ul li img {
+
   align-items: center;
   height: 30px;
   min-width: 60px;

@@ -51,13 +51,15 @@
   z-index: 2;
 }
 
-.svg img {
+.svg lord-icon {
   cursor: pointer;
   height: 50px;
+  width: 50px;
 }
 #prev {
   margin-left: 5px;
   float: left;
+  transform: rotate(180deg);
 }
 #next {
   margin-right: 5px;

@@ -26,7 +26,7 @@
                 </li>
                 <li>
                     <a href="./index.php">
-                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/slduhdil.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Início</span>
                     </a>
                 </li>

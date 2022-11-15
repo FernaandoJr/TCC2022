@@ -46,7 +46,7 @@ $stmt->execute();
                 </li>
                 <li>
                     <a href="./pedidos.php">
-                        <lord-icon src="https://cdn.lordicon.com/icxqolmx.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/zchxlapl.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Pedidos</span>
                     </a>
                 </li>

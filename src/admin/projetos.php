@@ -77,7 +77,7 @@ $stmt->execute();
                 </li>
                 <li>
                     <a href="./projetos.php">
-                        <lord-icon src="https://cdn.lordicon.com/fpmskzsv.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/xhcrhqyw.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Projetos</span>
                     </a>
                 </li>

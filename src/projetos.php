@@ -52,7 +52,7 @@ $stmt->execute();
         <li class="list active" data-filter="todos">Todos</li>
         <li class="list" data-filter="quarto">Quartos</li>
         <li class="list" data-filter="banheiro">Banheiros</li>
-        <li class="list" data-filter="salas_estar">Salas de estar</li>
+        <li class="list" data-filter="sala_estar">Salas de estar</li>
     </ul>
     <div class="galeria">
         <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>

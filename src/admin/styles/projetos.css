@@ -342,6 +342,7 @@ a{
   
   
 .checkbox {
+  box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 40%);
   height: 1.2rem;
   width: 1.2rem;
   margin: 5px;

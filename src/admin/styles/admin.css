@@ -200,6 +200,16 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 760px) {
+  .dash-container .navigation{
+    width: 60px;
+  }
 
+  .main{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .main .topbar .toggle{
+    display: none;
+  }
 }

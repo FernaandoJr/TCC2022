@@ -10,7 +10,7 @@ $conexao = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die ('Não foi 
 
 // habilita todas as exibições de erros
 ini_set('display_errors', true);
-error_reporting(E_ALL);
+error_reporting(E_ERROR);
 date_default_timezone_set('America/Sao_Paulo');
 
 // inclui o arquivo de funçõees

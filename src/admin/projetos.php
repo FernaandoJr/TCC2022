@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
 require_once 'init.php';
 // abre a conexão
 $PDO = db_connect();
@@ -26,6 +29,16 @@ $stmt->execute();
 </head>
 
 <body>
+    <?php if (isset($_SESSION['delete-error'])) : ?>
+        <script src="./js/img-popup.js"></script>
+        <div class="popup_teste">
+            <div class="content-test" id="error">
+                <p>teste</p>
+            </div>
+        </div>
+    <?php endif;
+    unset($_SESSION['delete-error']);
+    ?>
     <div class="popup" id="popup">
         <div class="content">
             <div class="img"></div>
@@ -83,7 +96,7 @@ $stmt->execute();
                 </li>
                 <li>
                     <a href="/src/index.php">
-                    <lord-icon src="https://cdn.lordicon.com/zmkotitn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/zmkotitn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Sair</span>
                     </a>
                 </li>
@@ -103,29 +116,29 @@ $stmt->execute();
             <div class="projetos-container">
                 <div class="title">
                     <div class="parent-title">
-                    <lord-icon src="https://cdn.lordicon.com/xhcrhqyw.json" trigger="hover"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/xhcrhqyw.json" trigger="hover"></lord-icon>
                         <p>Projetos</p>
                     </div>
                     <div class="buttons">
-                        <div>
-                            <button class="icon-btn add-btn green">
-                                <div class="add-icon green"></div>
-                                <div id="btn-add" class="btn-add">Adicionar</div>
-                                <form action="delete-img.php" method="post">
-                            </button>
-                            <button type="submit" class="icon-btn add-btn red" name="delImg">
-                                <div class="btn-delete" id="btn-delete">Remover</div>
-                            </button>
-                            <div>
+                        <div class="circle">
+                            <div class="button-parent" id="btn-add">
+                                <lord-icon src="https://cdn.lordicon.com/wfadduyp.json" trigger="hover" colors="primary:#378805"></lord-icon>
                             </div>
-                            <div class="btn-remove"></div>
                         </div>
+                        <form action="delete-img.php" method="post">
+                            <div class="circle">
+                                <div class="button-parent">
+                                    <button type="submit" name="delImg">
+                                        <lord-icon src="https://cdn.lordicon.com/kfzfxczd.json" trigger="hover" colors="primary:#BA0001"></lord-icon>
+                                </div>
+                                </button>
+                            </div>
                     </div>
 
                 </div>
                 <script src="./js/admin.js"></script>
-                
-    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <script src="./js/dashboard.js"></script>
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
             </div>
             <div class="imgs">
                 <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>

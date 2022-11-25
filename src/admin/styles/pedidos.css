@@ -257,15 +257,15 @@ button{
     }
     
     table tr {
-      border-bottom: 3px solid #ddd;
+      border-bottom: 0px solid #ddd;
       display: block;
-      margin-bottom: .625em;
     }
     
     table td {
       border-bottom: 1px solid #ddd;
       display: block;
       font-size: .8em;
+      padding: 3px;
     }
     
     table td::before {
@@ -276,6 +276,13 @@ button{
     
     table td:last-child {
       border-bottom: 0;
+    }
+    table td:nth-child(4){
+      border-bottom: 0;
+    }
+
+    table td:first-child{
+      border-top: 2px solid #ddd;
     }
   }
   

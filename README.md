@@ -12,15 +12,15 @@ Site de arquitetura e design de interiores, utilizado no ano de 2022 como Térmi
 
 ## Autores
 
-Contribuintes do TCC:
+Contribuidores do TCC:
 
-* Carlos Henrique.<br>
+* Carlos Henrique<br>
 [@chenriq7](https://github.com/chenriq7) <br><br>
-* Fernando Divino de Moraes Júnior. <br>
+* Fernando Divino de Moraes Júnior <br>
 [@kingprobr](https://github.com/kingprobr) <br><br>
-* Jesua Isaque.<br>
+* Jesua Isaque<br>
 [@jesua07](https://github.com/jesua07) <br><br>
-* Murilo da Silva.<br>
+* Murilo da Silva<br>
 [@MuriloSilva1](https://github.com/MuriloSilva1) <br><br>
-* Rafael Cardoso.<br>
+* Rafael Cardoso<br>
 [@Rafa0101](https://github.com/Rafa0101)<br>

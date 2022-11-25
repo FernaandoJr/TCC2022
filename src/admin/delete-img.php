@@ -16,7 +16,7 @@ if (isset($_POST['delImg'])) {
         }
     } else {
         $_SESSION['delete-error'] = true;
-        header('Location: /src/admin/projetos.php');
+        header('Location: projetos.php');
         exit();
     }
 }

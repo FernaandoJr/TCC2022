@@ -15,9 +15,9 @@
 </head>
 
 <body>
-<header>
+    <header>
         <div class="logo">
-        <a href="./index.php"><img src="./img/logo/LogoA_white.svg" alt=""></a>
+            <a href="./index.php"><img src="./img/logo/LogoA_white.svg" alt=""></a>
         </div>
         <nav class="nav" id="nav-menu">
             <ul class="nav__list">
@@ -28,7 +28,7 @@
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
-        
+
     </header>
 
     <script src="./js/navbar.js"></script>
@@ -46,34 +46,30 @@
         <div class="blank3"></div>
     </div>
     <div class="container-form-img">
-        <img src="/src/img/img6.jpg" alt="">
+        <img src="https://i.imgur.com/kdMfSZT.jpeg" alt="">
         <div class="form">
-        <form action="./php/add.php" method="post" autocomplete="off">
-        <div class="nome-completo">
-                        <div class="input-group">
-                            <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50"
-                                class="input-name">
-                            <label class="user-label">Nome Completo</label>
-                        </div>
+            <form action="./php/add.php" method="post" autocomplete="off">
+                <div class="nome-completo">
+                    <div class="input-group">
+                        <input required="" type="text" name="nome" id="nome" autocomplete="off" maxlength="50" class="input-name">
+                        <label class="user-label">Nome Completo</label>
+                    </div>
                 </div>
                 <div class="telefone">
                     <div class="input-group">
-                        <input required="" type="text" name="tel" id="tel" autocomplete="off" maxlength="12"
-                            class="input-tel">
+                        <input required="" type="text" name="tel" id="tel" autocomplete="off" maxlength="12" class="input-tel">
                         <label class="user-label">Telefone</label>
                     </div>
                 </div>
                 <div class="email">
                     <div class="input-group">
-                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="40"
-                            class="input-email">
+                        <input required="" type="text" name="email" id="email" autocomplete="off" maxlength="40" class="input-email">
                         <label class="user-label">E-mail</label>
                     </div>
                 </div>
                 <div class="mensagem">
                     <div class="input-group">
-                        <textarea required="" type="text" name="msg" id="msg" autocomplete="off" maxlength="200"
-                            class="input-msg"></textarea>
+                        <textarea required="" type="text" name="msg" id="msg" autocomplete="off" maxlength="200" class="input-msg"></textarea>
                         <label class="user-label">Mensagem</label>
                     </div>
                 </div>
@@ -96,8 +92,7 @@
                         à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção
                         e qualidade dos projetos que foram sendo desenvolvidos.</p>
                     <div class="social">
-                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img
-                                src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -105,15 +100,15 @@
                 <h2>Endereço</h2>
                 <div class="content">
                     <div class="place">
-                        <img class="icon" src="./img/icon/location-sharp.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
-                        <img class="icon" src="./img/icon/call.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/ssvybplt.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">+55 19 98985-7713</span>
                     </div>
                     <div class="email">
-                        <img class="icon" src="./img/icon/mail-open.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/ifqmqwui.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">exemplo@empresa.com</span>
                     </div>
                 </div>
@@ -121,10 +116,11 @@
         </div>
         <div class="bottom">
             <div class="center">
-                <span class="credit">Criado por <a href="./equipe.php">Studio Ao Quadrado</a></span>
+                <span class="credit">Criado por <a href="#">Studio Ao Quadrado</a></span>
                 <span class="copyright">© 2021 Todos os direitos reservados</span>
             </div>
         </div>
+        <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     </footer>
 </body>
 

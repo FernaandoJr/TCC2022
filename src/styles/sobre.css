@@ -24,7 +24,7 @@
 }
 
 .sobre-img-div {
-  background: url(/src/img/img1_169.png) no-repeat;
+  background: url(https://i.imgur.com/MASLwNz.jpeg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   max-height: 100%;
@@ -55,6 +55,10 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+}
+
+.container-2 > img{
+  
 }
 
 .container-1{

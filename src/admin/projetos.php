@@ -13,15 +13,13 @@ $sql = "SELECT * "
 $stmt = $PDO->prepare($sql);
 $stmt->execute();
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="./styles/admin.css">
     <link rel="stylesheet" href="./styles/projetos.css">
     <link rel="icon" href="/src/img/logo/logoA_blue.svg" type="image/svg">
@@ -29,16 +27,6 @@ $stmt->execute();
 </head>
 
 <body>
-    <?php if (isset($_SESSION['delete-error'])) : ?>
-        <script src="./js/img-popup.js"></script>
-        <div class="popup_teste">
-            <div class="content-test" id="error">
-                <p>teste</p>
-            </div>
-        </div>
-    <?php endif;
-    unset($_SESSION['delete-error']);
-    ?>
     <div class="popup" id="popup">
         <div class="content">
             <div class="img"></div>
@@ -77,12 +65,6 @@ $stmt->execute();
                     </a>
                 </li>
                 <li>
-                    <a href="./index.php">
-                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
-                        <span>Início</span>
-                    </a>
-                </li>
-                <li>
                     <a href="./pedidos.php">
                         <lord-icon src="https://cdn.lordicon.com/icxqolmx.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Pedidos</span>
@@ -108,9 +90,6 @@ $stmt->execute();
         <div class="topbar">
             <div class="toggle" onclick="AdminToggle();">
             </div>
-            <div class="user">
-                <img src="\src\img\pfp2.jpeg" alt="">
-            </div>
         </div>
         <div class="projetos-parent">
             <div class="projetos-container">
@@ -134,7 +113,6 @@ $stmt->execute();
                                 </button>
                             </div>
                     </div>
-
                 </div>
                 <script src="./js/admin.js"></script>
                 <script src="./js/dashboard.js"></script>
@@ -144,7 +122,6 @@ $stmt->execute();
                 <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
                     <div class="teste" style="background-image: url('<?php echo $img['link'] ?>');">
                         <?php echo "<td><input type='checkbox' class='checkbox' value='" . $img['id'] . "' name='delete-id[]'></td>"; ?>
-
                     </div>
                 <?php endwhile; ?>
                 </form>

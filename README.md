@@ -4,7 +4,7 @@ Site de design de interiores.
 
 ## Descrição
 
-1° projeto grande com intuito de mantê-lo online para todos.
+Site de arquitetura e design de interiores, utilizado no ano de 2022 como Término de Conclusão de Curso (TCC) no curso de Desenvolvimento de Sistemas Integrado ao Ensino Médio (EMDES), sendo utilizado majoritariamente HTML, CSS, PHP, JavaScript.
 
 ## Parte Escrita
 

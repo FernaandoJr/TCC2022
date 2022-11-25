@@ -11,6 +11,8 @@ $sql_run = mysqli_query($conexao, $sql);
 
 if ($sql_run) {
     header('Location: pedidos.php');
+}else{
+    header('Location: pedidos.php');
 }
 
 }

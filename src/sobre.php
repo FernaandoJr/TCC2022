@@ -25,7 +25,7 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link in">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                 
+
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -45,7 +45,7 @@
     </div>
     <div class="square white"></div>
     <div class="container-2 blue">
-        <img src="./img/img7_169.png" alt="">
+        <img src="https://i.imgur.com/pDXDxOz.jpeg" alt="">
         <div class="text">
             <h1>História</h1>
             <p>Criada e fundada em 2020, estavamos em um ano difícil com uma pequena cartela de clientes devido à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção e qualidade dos projetos que foram sendo desenvolvidos.</p>
@@ -58,11 +58,11 @@
             <h1>Crescimento rápido</h1>
             <p>Com a alta demanda de consultorias após a pandemia, conseguimos crescer e aumentar nossos esforços e aumentar a produção e consultoria de mais interiores por todo o Brasil.</p>
         </div>
-        <img src="./img/img7_169.png" alt="">
+        <img src="https://i.imgur.com/1fYnGJx.jpeg" alt="">
     </div>
     <div class="square white"></div>
     <div class="container-4 blue">
-        <img src="./img/img7_169.png" alt="">
+        <img src="https://i.imgur.com/ayDRK85.jpeg" alt="">
         <div class="text">
             <h1>Projetos maiores</h1>
             <p>Com o crescimento da nossa empresa, estamos cada vez mais focando em projetos e interiores maiores e com mais complexidade, focando e desenvolvendo formas de automatizar o processo de consultoria dos nossos clientes.</p>
@@ -75,7 +75,7 @@
             <div class="square-msg"></div>
         </div>
         <div class="profile">
-            <img src="./img/pfp2.jpeg" alt="">
+            <img src="./img/perfil.jpeg" alt="">
             <p>Amanda Moura</p>
             <span>Fundadora da <a href="./index.php">Studio Ao Quadrado</a></span>
         </div>
@@ -93,8 +93,7 @@
                         à pandemia. Após a criação da empresa conseguimos aumentar a nossa cartela e aumentar a produção
                         e qualidade dos projetos que foram sendo desenvolvidos.</p>
                     <div class="social">
-                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img
-                                src="./img/icon/logo-instagram.svg" alt=""></a>
+                        <a href="https://www.instagram.com/arq.studioaoquadrado/" target="_blank"><img src="./img/icon/logo-instagram.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -102,15 +101,15 @@
                 <h2>Endereço</h2>
                 <div class="content">
                     <div class="place">
-                        <img class="icon" src="./img/icon/location-sharp.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
-                        <img class="icon" src="./img/icon/call.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/ssvybplt.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">+55 19 98985-7713</span>
                     </div>
                     <div class="email">
-                        <img class="icon" src="./img/icon/mail-open.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/ifqmqwui.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">exemplo@empresa.com</span>
                     </div>
                 </div>
@@ -118,10 +117,11 @@
         </div>
         <div class="bottom">
             <div class="center">
-                <span class="credit">Criado por <a href="./equipe.php">Studio Ao Quadrado</a></span>
+                <span class="credit">Criado por <a href="#">Studio Ao Quadrado</a></span>
                 <span class="copyright">© 2021 Todos os direitos reservados</span>
             </div>
         </div>
+        <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     </footer>
 </body>
 

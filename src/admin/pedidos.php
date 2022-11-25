@@ -27,7 +27,7 @@ $stmt->execute();
 </head>
 
 <body>
-<div class="dash-container">
+    <div class="dash-container">
         <div class="navigation">
             <ul>
                 <li>
@@ -36,12 +36,6 @@ $stmt->execute();
                         <span>
                             <h2>Studio Ao Quadrado</h2>
                         </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="./index.php">
-                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
-                        <span>Início</span>
                     </a>
                 </li>
                 <li>
@@ -58,7 +52,7 @@ $stmt->execute();
                 </li>
                 <li>
                     <a href="/src/index.php">
-                    <lord-icon src="https://cdn.lordicon.com/zmkotitn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/zmkotitn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span>Sair</span>
                     </a>
                 </li>
@@ -71,52 +65,46 @@ $stmt->execute();
         <div class="topbar">
             <div class="toggle" onclick="AdminToggle();">
             </div>
-            <div class="user">
-                <img src="\src\img\pfp2.jpeg" alt="">
-            </div>
+
         </div>
         <div class="pedidos-container">
-            <div class="pedidos-parent">            
-            <div class="title">
-                <div class="parent-title">
-                <lord-icon src="https://cdn.lordicon.com/zchxlapl.json" trigger="hover"></lord-icon>
-                <p>Pedidos</p>
+            <div class="pedidos-parent">
+                <div class="title">
+                    <div class="parent-title">
+                        <lord-icon src="https://cdn.lordicon.com/zchxlapl.json" trigger="hover"></lord-icon>
+                        <p>Pedidos</p>
+                    </div>
+                    <div class="btn-float">
+                        <form method="POST" action="delete-msg.php">
+                            <button type="submit" name="delMsg" class="btn-excluir">Excluir</button>
+                    </div>
                 </div>
-                <div class="search">
-                    <label>
-                        <input type="text" placeholder="Pesquisar">
-                        <i class="fa fa-solid fa-magnifying-glass"></i>
-                    </label>
-                </div>
-            </div>
             </div>
             <div class="table-container">
-            <form method="POST" action="delete-msg.php">
-            <table>
-            
-                <thead>
-                    <tr>
-                        <th><button type="submit" name="delMsg" class="btn-excluir">Excluir</button></th>
-                        <th>Nome</th>
-                        <th>Telefone</th>
-                        <th>E-mail</th>
-                        <th>Mensagem</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <?php while ($resposta_form = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-                    <tr>
-                        <?php echo "<td><input type='checkbox' class='checkItem' value='" . $resposta_form['id'] . "' name='delete-id[]'></td>";?>
-                        <td><?php echo htmlspecialchars($resposta_form['nome']) ?></td>
-                        <td><?php echo htmlspecialchars($resposta_form['tel']) ?></td>
-                        <td><?php echo htmlspecialchars($resposta_form['email']) ?></td>
-                        <td><?php echo htmlspecialchars($resposta_form['msg']) ?></td>
-                    </tr>
-                    <?php endwhile; ?>
-                    
-                </tbody>
-            </table>
-                    </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                            <th>E-mail</th>
+                            <th>Mensagem</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php while ($resposta_form = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
+                            <tr>
+                                <td><?php echo htmlspecialchars($resposta_form['nome']) ?></td>
+                                <td><?php echo htmlspecialchars($resposta_form['tel']) ?></td>
+                                <td><?php echo htmlspecialchars($resposta_form['email']) ?></td>
+                                <td><?php echo htmlspecialchars($resposta_form['msg']) ?></td>
+                                <?php echo "<td><input type='checkbox' class='checkItem' value='" . $resposta_form['id'] . "' name='delete-id[]'></td>"; ?>
+                            </tr>
+                        <?php endwhile; ?>
+
+                    </tbody>
+                </table>
+                </form>
             </div>
         </div>
     </div>

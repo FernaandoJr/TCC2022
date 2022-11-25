@@ -57,7 +57,7 @@ $stmt->execute();
     </ul>
     <div class="galeria">
         <?php while ($img = $stmt->fetch(PDO::FETCH_ASSOC)) : ?>
-                <div class="itemBox" data-item="<?php echo $img['tipo']?>" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
+            <div class="itemBox" data-item="<?php echo $img['tipo'] ?>" loading="lazy"><?php echo "<img src=" . $img['link'] . ">" ?></div>
         <?php endwhile; ?>
     </div>
     <script src="./js/navbar.js"></script>
@@ -79,15 +79,15 @@ $stmt->execute();
                 <h2>Endereço</h2>
                 <div class="content">
                     <div class="place">
-                        <img class="icon" src="./img/icon/location-sharp.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">Av. Brasil, Nova Capital</span>
                     </div>
                     <div class="phone">
-                        <img class="icon" src="./img/icon/call.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/ssvybplt.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">+55 19 98985-7713</span>
                     </div>
                     <div class="email">
-                        <img class="icon" src="./img/icon/mail-open.svg" alt="">
+                        <lord-icon src="https://cdn.lordicon.com/ifqmqwui.json" trigger="hover" colors="primary:#ffffff"></lord-icon>
                         <span class="text">exemplo@empresa.com</span>
                     </div>
                 </div>
@@ -95,10 +95,11 @@ $stmt->execute();
         </div>
         <div class="bottom">
             <div class="center">
-                <span class="credit">Criado por <a href="./equipe.php">Studio Ao Quadrado</a></span>
+                <span class="credit">Criado por <a href="#">Studio Ao Quadrado</a></span>
                 <span class="copyright">© 2021 Todos os direitos reservados</span>
             </div>
         </div>
+        <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     </footer>
 </body>
 

@@ -26,7 +26,7 @@
                 <li class="nav__item"><a href="./sobre.php" class="nav__link">Sobre</a></li>
                 <li class="nav__item"><a href="./projetos.php" class="nav__link">Projetos</a></li>
                 <li class="nav__item"><a href="./contato.php" class="nav__link">Contato</a></li>
-                <li class="nav__item"><a href="./admin/index.php" class="nav__link">Admin</a></li>
+                <li class="nav__item"><a href="./admin/pedidos.php" class="nav__link">Admin</a></li>
             </ul>
         </nav>
         <img src="./img/icon/menu.svg" alt="" class="header__menu" id="toggle-menu" onclick="changeImage()">
@@ -84,7 +84,7 @@
                 mais complexidade.</p>
             <button class="home-btn-sobrenos"><a href="./sobre.php">Saiba mais</a></button>
         </div>
-        <img src="./img/img9_169.png" alt="">
+        <img src="https://i.imgur.com/ciHJiBr.jpeg" alt="">
     </div>
     <div class="square blue"></div>
     <div class="blank7"></div>
@@ -92,20 +92,16 @@
         <div class="slider-container">
             <div id="slider">
                 <ul id="slideWrap">
-                    <li><img src="./img/img1_169.png" alt=""></li>
-                    <li><img src="./img/img2_169.png" alt=""></li>
-                    <li><img src="./img/img3_169.png" alt=""></li>
-                    <li><img src="./img/img5_169.png" alt=""></li>
-                    <li><img src="./img/img7_169.png" alt=""></li>
-                    <li><img src="./img/img8_169.png" alt=""></li>
-                    <li><img src="./img/img9_169.png" alt=""></li>
-                    <li><img src="./img/img23_169.png" alt=""></li>
-                    <li><img src="./img/img24_169.png" alt=""></li>
-                    <li><img src="./img/img12.jpg" alt=""></li>
-                    <li><img src="./img/img13.jpg" alt=""></li>
-                    <li><img src="./img/img14.jpg" alt=""></li>
-                    <li><img src="./img/img15.jpg" alt=""></li>
-                    <li><img src="./img/img16.jpg" alt=""></li>
+                    <li><img src="https://i.imgur.com/p0M7vZC.jpeg" alt=""></li>
+                    <li><img src="https://i.imgur.com/TGxXQTK.png" alt=""></li>
+                    <li><img src="https://i.imgur.com/p0M7vZC.jpeg" alt=""></li>
+                    <li><img src="https://i.imgur.com/jIPQRAc.png" alt=""></li>
+                    <li><img src="https://i.imgur.com/TGxXQTK.png" alt=""></li>
+                    <li><img src="https://i.imgur.com/DKG9HXO.jpeg" alt=""></li>
+                    <li><img src="https://i.imgur.com/KD9ZfkE.jpeg" alt=""></li>
+                    <li><img src="https://i.imgur.com/KpqRhI1.jpeg" alt=""></li>
+                    <li><img src="https://i.imgur.com/UhlZ5bi.jpeg" alt=""></li>
+                    <li><img src="https://i.imgur.com/bQwUOhJ.jpeg" alt=""></li>
                 </ul>
                 <div class="svg">
                     <lord-icon id="prev" src="https://cdn.lordicon.com/zmkotitn.json" trigger="click" colors="primary:#ffffff" state="hover-2"></lord-icon>
@@ -115,9 +111,9 @@
         </div>
         <div class="home-projetos-text">
             <h1>Nossos projetos</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sapiente consequuntur? Voluptatem amet et
-                totam voluptas hic iusto vitae ipsa quibusdam, rerum sit atque ut repellat necessitatibus laborum
-                dolorum. Animi?</p>
+            <p>Temos projetos dos mais variados tipos de cômodos, somos especializados em reformas residenciais e garantimos profissionalismo, competência e agilidade
+                no processo de reformar o seu novo cômodo e trazer um ar mais novo e vivo em sua casa.
+            </p>
         </div>
     </div>
     <div class="blank7"></div>
@@ -155,10 +151,11 @@
         </div>
         <div class="bottom">
             <div class="center">
-                <span class="credit">Criado por <a href="./equipe.php">Studio Ao Quadrado</a></span>
+                <span class="credit">Criado por <a href="#">Studio Ao Quadrado</a></span>
                 <span class="copyright">© 2021 Todos os direitos reservados</span>
             </div>
         </div>
+        <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     </footer>
     <script src="https://kit.fontawesome.com/54c30c2b81.js" crossorigin="anonymous"></script>
 

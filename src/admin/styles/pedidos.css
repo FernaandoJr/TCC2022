@@ -23,7 +23,7 @@
   --dark-grey: #c0c0c0;
 }
 
-.navigation ul li:nth-child(3) {
+.navigation ul li:nth-child(2) {
   background-color: var(--logo-dark-blue-60);
 }
 
@@ -46,8 +46,8 @@
 
 .pedidos-container .title {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+  justify-content: space-between;
 }
 
 .pedidos-container .parent-title{
@@ -138,7 +138,6 @@ td{
 
 .btn-excluir {
   cursor: pointer;
-  margin: 10px 10px 10px 0;
   padding: 8px 16px;
   text-align: center;
   text-transform: uppercase;
@@ -151,6 +150,15 @@ td{
   width: fit-content;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px var(--logo-dark-blue-10);
+}
+
+.btn-float{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  position: relative;
 }
 
 .btn-excluir:hover {
@@ -216,3 +224,76 @@ td{
   opacity: 100%;
  }
  
+
+ @media screen and (max-width: 950px) {
+  
+  .pedidos-container{
+    margin: 15px;
+  }
+
+  .pedidos-container .title p {
+    font-size: 1.3rem;
+  }
+
+
+  @media screen and (max-width: 830px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+    }
+    
+    table td::before {
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+
+}
+
+
+@media screen and (max-width: 1100px) {
+  .dash-container .navigation{
+    width: 60px;
+  }
+
+  .main{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  
+  .main .topbar{
+    display: none;
+  }
+}
